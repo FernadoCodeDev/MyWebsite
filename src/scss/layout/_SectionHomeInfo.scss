@@ -1,0 +1,158 @@
+.HomeInfo {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  margin: 2rem;
+  justify-content: center;
+  align-items: center;
+
+  @include tablet {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .Image {
+    width: 100%;
+    height: auto;
+  }
+
+  .Me {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+    h2 {
+      text-align: center;
+      color: $BlackBlue;
+      font-size: 2rem;
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 0;
+
+      @include desktop {
+        font-size: 3rem;
+      }
+    }
+
+    h1 {
+      color: $Blue;
+      font-size: 4rem;
+      font-weight: bold;
+      font-family: $Fuente_Principal;
+      margin: 1rem 0 0.5rem 0;
+      line-height: 0.5;
+      @include tablet {
+        font-size: 5rem;
+      }
+
+      @include desktop {
+        font-size: 7.5rem;
+      }
+    }
+
+    p {
+      text-align: center;
+      color: $negro;
+      font-size: 1rem;
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 0rem;
+
+      @include desktop {
+        font-size: 2rem;
+      }
+    }
+
+    .Profileicons {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1rem;
+      justify-content: center;
+      align-items: center;
+      margin: 1rem 1rem 0rem 1rem;
+
+      a {
+        grid-column: span 3;
+        .CVbutton {
+          justify-content: center;
+          width: 95%;
+          text-align: center;
+          font-family: Arial, Helvetica, sans-serif;
+          font-weight: bold;
+          color: $blanco;
+          background-color: $Blue;
+          border-radius: 2vh;
+          border: none;
+          padding: 1rem;
+          margin-bottom: 1rem;
+          transition: 1s;
+          cursor: pointer;
+          &:hover {
+            background-color: darken($Blue, 20%);
+          }
+        }
+      }
+      .GitHub {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        svg {
+          width: 50px; /* Ajusta el tamaño si es necesario */
+          height: 50px; /* Ajusta el tamaño si es necesario */
+          margin: 0 auto;
+          display: block;
+          fill: transparent; /* Color inicial del relleno */
+          stroke: #000000; /* Color inicial de la línea */
+          cursor: pointer;
+          transition: fill 1s ease, stroke 1s ease; /* Aplica la transición a 'fill' y 'stroke' */
+          &:hover {
+            fill: #000; /* Color de relleno al pasar el mouse */
+            stroke: #000000; /* Color de la línea al pasar el mouse */
+          }
+        }
+
+        h2 {
+          text-align: center;
+          color: $BlackBlue;
+          font-size: 1rem;
+          font-family: Arial, Helvetica, sans-serif;
+          margin: 0;
+    
+          @include desktop {
+            font-size: 2rem;
+          }
+        }
+      }
+
+      .Linkedin {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        svg {
+          width: 50px; /* Ajusta el tamaño si es necesario */
+          height: 50px; /* Ajusta el tamaño si es necesario */
+          margin: 0 auto;
+          display: block;
+          fill: black; /* Color inicial del relleno */
+          cursor: pointer;
+          transition: fill 1s ease, stroke 1s ease; /* Aplica la transición a 'fill' y 'stroke' */
+          &:hover {
+            fill: #0077b5; /* Color de relleno al pasar el mouse */
+          }
+        }
+
+        h2 {
+          text-align: center;
+          color: $BlackBlue;
+          font-size: 1rem;
+          font-family: Arial, Helvetica, sans-serif;
+          margin: 0;
+          @include desktop {
+            font-size: 2rem;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+$Fuente_Principal: "bytebounce";
+
+@font-face {
+  font-family: "bytebounce";
+  src: url(/src/Font/bytebounce.medium.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
+
+// Tamaño de Media Queries
+$telefono: 480px;
+$tablet: 768px;
+$laptop: 1200px;
+$desktop: 1680px;
+
+// Colores
+$negro: #000000;
+$Blue: #1138cc;
+$BlackBlue: #00131d;
+$Orange: #ff5c00; 
+$blanco: #FFFFFF;
+
+// Fuentes
+$delgada: 300;
+$regular : 400;
+$bold: 700;
+$black: 900

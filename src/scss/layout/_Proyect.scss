@@ -1,0 +1,146 @@
+.Projects {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  h1 {
+    text-align: center;
+    color: $Blue;
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: $Fuente_Principal;
+    margin: 1rem 0 0 0;
+
+    @include laptop {
+      font-size: 8rem;
+    }
+  }
+
+  h3 {
+    text-align: center;
+    color: $negro;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: $Fuente_Principal;
+    margin: 0;
+
+    @include laptop {
+      font-size: 5rem;
+    }
+  }
+
+  p {
+    text-align: center;
+    color: $negro;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 1rem;
+
+    @include laptop {
+      font-size: 1.8rem;
+    }
+  }
+
+  .ProyectColumn {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+
+    @include tablet {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    @include laptop {
+      grid-template-columns: repeat(3, 1fr);
+    }
+
+    .Project {
+      width: 95%;
+      margin: 0.5rem;
+      border: rgb(90, 90, 90) solid 2px;
+
+      .ImageContainer {
+        position: relative;
+        overflow: hidden;
+        height: 300px;
+
+        img {
+          width: 100%;
+          height: 100%; // Cambia a 100% para llenar el contenedor
+          border-bottom: rgb(90, 90, 90) solid 4px;
+          transition: opacity 1s ease; // Transición suave entre imágenes
+          position: absolute; // Posicionar ambas imágenes en el mismo lugar
+          cursor: pointer;
+          top: 0;
+          left: 0;
+        }
+
+        .HoverImage {
+          opacity: 0; // Oculta la imagen de hover inicialmente
+        }
+
+        &:hover .MainImage {
+          opacity: 0; // Oculta la imagen principal en hover
+        }
+
+        &:hover .HoverImage {
+          opacity: 1; // Muestra la imagen de hover en hover
+        }
+      }
+
+      p {
+        text-align: center;
+        color: black;
+      }
+
+      .GridButton {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+        margin: 0.5rem;
+
+        div {
+          background-color: black;
+          margin: 0.5rem;
+          padding: 0.1rem;
+          border: none;
+          color: $blanco;
+          border-radius: 2vh;
+          transition: 1s;
+          font-family: Arial, Helvetica, sans-serif;
+          svg {
+            width: 75px;
+            height: 75px;
+            margin: 0 auto;
+            display: block;
+          }
+
+          p {
+            text-align: center;
+            color: $blanco;
+          }
+        }
+        a {
+          grid-column: span 2;
+          .SeeProject {
+            background-color: white;
+            border: black solid 2px;
+            border-radius: 1vh;
+            color: black;
+            padding: 1rem;
+            transition: 1s;
+            width: 100%;
+            font-family: Arial, Helvetica, sans-serif;
+            cursor: pointer;
+            &:hover {
+              background-color: black;
+              border: white solid 2px;
+              color: white;
+            }
+          }
+        }
+      }
+    }
+  }
+}

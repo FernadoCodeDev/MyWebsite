@@ -1,0 +1,109 @@
+h1 {
+  text-align: center;
+  color: $Blue;
+  font-size: 3rem;
+  font-weight: bold;
+  font-family: $Fuente_Principal;
+  margin: 0;
+
+  @include tablet {
+    font-size: 5rem;
+  }
+
+  @include laptop {
+    font-size: 6rem;
+  }
+}
+
+p {
+  text-align: center;
+  color: black;
+  font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 1rem;
+  @include laptop {
+    font-size: 2rem;
+  }
+}
+
+.about {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  margin: 0;
+  justify-content: center;
+  align-items: flex-start;
+
+  h1 {
+    text-align: center;
+    color: $Blue;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: $Fuente_Principal;
+    margin: 0;
+    @include tablet {
+      font-size: 5rem;
+    }
+
+    @include laptop {
+      font-size: 10rem;
+    }
+  }
+
+  .Technology {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+
+    @include laptop {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    .Frontend, .Backend, .Learning, .Tools {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      background-color: $BlackBlue;
+      border-radius: 2vh;
+      padding: 1rem;
+      margin: 1rem;
+
+      h1 {
+        color: white;
+        font-size: 3rem;
+        font-weight: bold;
+        font-family: $Fuente_Principal;
+        margin: 1rem 0;
+        grid-column: span 2;
+      }
+
+      h3 {
+        color: white;
+        font-size: 1rem;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      .SVG {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        svg {
+          width: 75px;
+          height: 75px;
+          margin: 0 auto;
+          //display: block;
+          cursor: pointer;
+          transition: 1s transform; /* Aplica la transición a 'fill' y 'stroke' */
+          &:hover {
+            transform: scale(1.1);
+          }
+
+          @include tablet {
+            width: 150px;
+            height: 150px;
+          }
+        }
+      }
+    }
+  }
+}
