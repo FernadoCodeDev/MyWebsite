@@ -37,7 +37,6 @@
                 <a href="#HomeInfo">Inicio</a>
                 <a href="#about">Sobre mí</a>
                 <a href="#Projects">Proyectos</a>
-                <a href="#contact">Contacto</a>
             </nav>
 
         </div>
