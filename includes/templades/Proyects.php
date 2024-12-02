@@ -11,9 +11,7 @@
                 <img src="src/Image/KeysHomes2.webp" alt="image Project Hover" class="HoverImage" />
             </div>
             <p>
-                En este proyecto, he trabajado en el desarrollo de una plataforma para una empresa de bienes raíces llamada KeysHomes. Comencé a utilizar PHP para el backend, implementando la validación de formularios y gestionando la base de datos con MySQL. Este proyecto me ha permitido profundizar en el manejo de datos y en la creación de una experiencia de usuario más fluida y eficiente.
-            </p>
-
+            KeysHomes es una plataforma web desarrollada para una empresa de bienes raíces, enfocada en atraer clientes y optimizar la gestión de propiedades. El sistema permite crear, editar y eliminar publicaciones mediante un backend en PHP conectado a una base de datos MySQL, asegurando una gestión eficiente y fluida. Con un diseño responsive y escalable, el proyecto está preparado para adaptarse a negocios similares, como zapaterías o tiendas de hogar, y admite futuras expansiones como la integración de pasarelas de pago para ventas en línea.            </p>
             <div class="GridButton">
                 <div>
                     <svg fill="#fff" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="800px"
