@@ -101,11 +101,11 @@
         <!--Proyect 2-->
         <div class="Project">
             <div class="ImageContainer">
-                <img src="src/Image/Page under construction.webp" alt="image Project" class="MainImage" />
-                <img src="src/Image/New Proyect.webp" alt="image Project Hover" class="HoverImage" />
+                <img src="src/Image/CosmicPizza.png" alt="image Project" class="MainImage" />
+                <img src="src/Image/CosmicPizzaB.png" alt="image Project Hover" class="HoverImage" />
             </div>
             <p>
-                Este proyectos, que aún está en desarrollo, estoy implementando la creación de una API (Application Programming Interface) utilizando la estructura del Model View Controller (MVC). Este proyecto incluye la validación de usuarios y contraseñas, aplicando tecnologías como PHP, JavaScript y MySQL. Siempre busco mejorar en cada proyecto, asegurándome de que las soluciones sean escalables y seguras, y que ofrezcan una experiencia de usuario óptima.
+                Cosmic Pizza es un sitio web diseñado para satisfacer la alta demanda de reservas en una pizzería, ofreciendo a los clientes la posibilidad de registrarse, seleccionar mesa y fecha de forma sencilla. Implementé un sistema escalable basado en una arquitectura Model View Controller (MVC) con una API que permite a la empresa gestionar su contenido, como promociones, sabores de pizza, complementos y postres. Con un diseño responsive adaptable a cualquier dispositivo, este proyecto no solo mejora la experiencia del usuario, sino que también optimiza la gestión operativa, siendo adaptable a negocios como restaurantes, cines o clínicas.
             </p>
 
             <div class="GridButton">
@@ -184,7 +184,9 @@
                     </svg>
                 </div>
 
-                <button class="SeeProject">Proyecto en Desarrollo</button>
+                <a href="https://github.com/FernadoCodeDev/CosmicPizza">
+                    <button class="SeeProject">Ver Proyecto</button>
+                </a>
             </div>
         </div>
 
