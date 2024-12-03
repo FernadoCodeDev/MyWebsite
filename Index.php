@@ -49,7 +49,7 @@
 
         <div class="Me">
             <h2>Fernando Mejía</h2>
-            <h1>Front end developer/></h1>
+            <h1>Frontend and backend developer/></h1>
             <p>
                 Soy un desarrollador frontend comprometido con crear experiencias web atractivas y funcionales. Con una sólida comprensión de tecnologías modernas, estoy enfocado en mejorar y aprender constantemente para adaptarme a los retos que enfrente cada proyecto. Mi meta es ofrecer soluciones eficientes y trabajar con equipos que compartan la visión de mejorar el rendimiento y la experiencia de usuario en cada desarrollo.
             </p>
