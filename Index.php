@@ -60,7 +60,7 @@
                 </a>
 
                 <div class="GitHub">
-                    <a href="https://github.com/FernadoCodeDev">
+                    <a href="github.com/FernadoCodeDev">
                         <svg>
                             <path
                                 class="cls-1"
@@ -71,7 +71,7 @@
                 </div>
 
                 <div class="Linkedin">
-                    <a href="https://www.linkedin.com/in/fernando-mej%C3%ADa-717a1a335">
+                    <a href="linkedin.com/in/fernando-mejía">
                         <svg
                             version="1.1"
                             id="Layer_1"
