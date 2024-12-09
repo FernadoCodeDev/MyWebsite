@@ -55,7 +55,7 @@
             </p>
 
             <div class="Profileicons">
-                <a href="/src/Downloads/CV Fernando Mejia.pdf" download>
+                <a href="/src/Downloads/CV Fernando Mejia .pdf" download>
                     <button class="CVbutton">Descarga mi CV</button>
                 </a>
 
