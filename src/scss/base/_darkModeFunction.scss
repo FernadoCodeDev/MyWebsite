@@ -159,10 +159,12 @@ body {
 
         .GridButton {
           div {
-            background-color: $black;
-            color: $negro;
             p {
               color: $blanco;
+            }
+
+            .JsonColor {
+              fill: #fff;
             }
           }
 

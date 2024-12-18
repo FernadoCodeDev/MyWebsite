@@ -101,19 +101,23 @@
         margin: 0.5rem;
 
         div {
-          background-color: black;
           margin: 0.5rem;
-          padding: 0.1rem;
-          border: none;
-          color: $blanco;
+          padding: 0.5rem;
+          border: gray solid 2px;
           border-radius: 2vh;
-          transition: 1s;
-          font-family: Arial, Helvetica, sans-serif;
-          svg {
+          svg  {
             width: 75px;
             height: 75px;
             margin: 0 auto;
             display: block;
+          }
+
+          .JsonColor {
+            width: 75px;
+            height: 75px;
+            margin: 0 auto;
+            display: block;
+            fill: #000;
           }
 
           p {
