@@ -1,7 +1,7 @@
 {
-  "name": "galaxy-gallery",
+  "name": "web-site",
   "version": "1.0.0",
-  "description": "Galaxy Gallery",
+  "description": "Web site",
   "main": "gulpfile.js",
   "scripts": {
     "dev": "gulp"

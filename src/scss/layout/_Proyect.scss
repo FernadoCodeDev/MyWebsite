@@ -32,13 +32,14 @@
 
   p {
     text-align: center;
-    color: $negro;
+    color: black;
     font-size: 1rem;
     font-family: Arial, Helvetica, sans-serif;
     margin: 1rem;
 
     @include laptop {
       font-size: 1.8rem;
+      max-width: 1200px;
     }
   }
 
