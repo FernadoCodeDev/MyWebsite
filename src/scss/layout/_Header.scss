@@ -19,8 +19,8 @@ html {
       justify-content: start; 
     }
 
-    // Estilo para el logo
-    .ImageLoco {
+
+    .ImageLogo {
       display: flex;
       justify-content: center;
       align-items: center;
@@ -47,8 +47,8 @@ html {
       justify-content: center;
       align-items: center;
       margin-top: 1.5rem;
-      filter: invert(100%);
       cursor: pointer;
+      filter: invert(100%);
 
       @include tablet {
         display: none;

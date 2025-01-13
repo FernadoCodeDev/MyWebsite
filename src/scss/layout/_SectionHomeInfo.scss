@@ -62,7 +62,7 @@
 
     .Profileicons {
       display: grid;
-      grid-template-columns: repeat(2, 1fr);
+      grid-template-columns: repeat(3, 1fr);
       gap: 1rem;
       justify-content: center;
       align-items: center;
@@ -91,56 +91,50 @@
       }
       .GitHub {
         svg {
-          width: 50px; /* Ajusta el tamaño si es necesario */
-          height: 50px; /* Ajusta el tamaño si es necesario */
-          margin: 0 auto;
-          display: block;
-          fill: transparent; /* Color inicial del relleno */
-          stroke: #000000; /* Color inicial de la línea */
+          width: 50px; 
+          height: 50px;
+          fill: transparent;
+          stroke: #000000; 
           cursor: pointer;
-          transition: fill 1s ease, stroke 1s ease; /* Aplica la transición a 'fill' y 'stroke' */
+          transition: fill 1s ease, stroke 1s ease; 
           &:hover {
-            fill: #000; /* Color de relleno al pasar el mouse */
-            stroke: #000000; /* Color de la línea al pasar el mouse */
-          }
-        }
-
-        h2 {
-          text-align: center;
-          color: $BlackBlue;
-          font-size: 1rem;
-          font-family: Arial, Helvetica, sans-serif;
-          margin: 0;
-    
-          @include desktop {
-            font-size: 2rem;
+            fill: #000; 
+            stroke: #000000;
           }
         }
       }
 
       .Linkedin {
         svg {
-          width: 50px; /* Ajusta el tamaño si es necesario */
-          height: 50px; /* Ajusta el tamaño si es necesario */
-          margin: 0 auto;
-          display: block;
-          fill: black; /* Color inicial del relleno */
+          width: 50px; 
+          height: 50px; 
+          fill: black; 
           cursor: pointer;
-          transition: fill 1s ease, stroke 1s ease; /* Aplica la transición a 'fill' y 'stroke' */
+          transition: fill 1s ease, stroke 1s ease; 
           &:hover {
-            fill: #0077b5; /* Color de relleno al pasar el mouse */
+            fill: #0077b5; 
           }
         }
+      }
 
-        h2 {
-          text-align: center;
-          color: $BlackBlue;
-          font-size: 1rem;
-          font-family: Arial, Helvetica, sans-serif;
-          margin: 0;
-          @include desktop {
-            font-size: 2rem;
-          }
+      .Gmail {
+        svg {
+          width: 50px; 
+          height: 50px; 
+          cursor: pointer;
+          transition: fill 1s ease, stroke 1s ease; 
+        }
+      }
+      
+      h2 {
+        text-align: center;
+        color: $BlackBlue;
+        font-size: 1rem;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+  
+        @include desktop {
+          font-size: 2rem;
         }
       }
     }

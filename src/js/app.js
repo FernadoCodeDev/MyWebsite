@@ -4,6 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
   navegacionResponsive(); 
   checkScreenSize();
   eventListeners();
+  ReadMore();
 });
 
 function eventListeners() {
@@ -53,3 +54,20 @@ const darkMode = () => {
     document.body.classList.toggle('DarkMode-function');
   });
 };
+
+const ReadMore = () => {
+  document.querySelectorAll('.toggle').forEach(button => {
+    button.addEventListener('click', () => {
+      const description = button.previousElementSibling;
+  
+      if (description.classList.contains('expanded')) {
+        description.classList.remove('expanded');
+        button.textContent = 'Leer más';
+      } else {
+        description.classList.add('expanded');
+        button.textContent = 'Ocultar';
+      }
+    });
+  });
+  
+}

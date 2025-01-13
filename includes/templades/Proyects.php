@@ -10,9 +10,10 @@
                 <img src="src/Image/CosmicPizza.png" alt="image Project" class="MainImage" />
                 <img src="src/Image/CosmicPizzaB.png" alt="image Project Hover" class="HoverImage" />
             </div>
-            <p>
+            <p class="description">
                 Cosmic Pizza es un sitio web diseñado para satisfacer la alta demanda de reservas en una pizzería, ofreciendo a los clientes la posibilidad de registrarse, seleccionar mesa y fecha de forma sencilla. Implementé un sistema escalable basado en una arquitectura Model View Controller (MVC) con una API que permite a la empresa gestionar su contenido, como promociones, sabores de pizza, complementos y postres. Con un diseño responsive adaptable a cualquier dispositivo, este proyecto no solo mejora la experiencia del usuario, sino que también optimiza la gestión operativa, siendo adaptable a negocios como restaurantes, cines o clínicas.
             </p>
+            <button class="toggle">Leer más</button>
 
             <div class="GridButton">
                 <div>
@@ -132,8 +133,10 @@
                 <img src="src/Image/KeysHomes.webp" alt="image Project" class="MainImage" />
                 <img src="src/Image/KeysHomes2.webp" alt="image Project Hover" class="HoverImage" />
             </div>
-            <p>
-                KeysHomes es una plataforma web desarrollada para una empresa de bienes raíces, enfocada en atraer clientes y optimizar la gestión de propiedades. El sistema permite crear, editar y eliminar publicaciones mediante un backend en PHP conectado a una base de datos MySQL, asegurando una gestión eficiente y fluida. Con un diseño responsive y escalable, el proyecto está preparado para adaptarse a negocios similares, como zapaterías o tiendas de hogar, y admite futuras expansiones como la integración de pasarelas de pago para ventas en línea. </p>
+            <p class="description">
+                KeysHomes es una plataforma web desarrollada para una empresa de bienes raíces, enfocada en atraer clientes y optimizar la gestión de propiedades. El sistema permite crear, editar y eliminar publicaciones mediante un backend en PHP conectado a una base de datos MySQL, asegurando una gestión eficiente y fluida. Con un diseño responsive y escalable, el proyecto está preparado para adaptarse a negocios similares, como zapaterías o tiendas de hogar, y admite futuras expansiones como la integración de pasarelas de pago para ventas en línea. 
+            </p>
+            <button class="toggle">Leer más</button>
             <div class="GridButton">
                 <div>
                     <svg width="800px" height="800px" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMinYMin meet">
