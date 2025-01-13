@@ -42,142 +42,279 @@
       max-width: 1200px;
     }
   }
+}
 
-  .ProyectColumn {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    justify-content: center;
+.ProyectColumn {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  justify-content: center;
 
-    @include tablet {
-      grid-template-columns: repeat(2, 1fr);
-    }
+  @include tablet {
+    grid-template-columns: repeat(2, 1fr);
+  }
 
-    @include laptop {
-      grid-template-columns: repeat(3, 1fr);
-    }
+  @include laptop {
+    grid-template-columns: repeat(3, 1fr);
+  }
 
-    .Project {
-      width: 95%;
-      margin: 0.5rem;
-      border: rgb(90, 90, 90) solid 2px;
+  .Project {
+    width: 95%;
+    margin: 0.5rem;
+    border: rgb(90, 90, 90) solid 2px;
 
-      .ImageContainer {
-        position: relative;
-        overflow: hidden;
-        height: 300px;
+    .ImageContainer {
+      position: relative;
+      overflow: hidden;
+      height: 300px;
 
-        img {
-          width: 100%;
-          height: 100%; 
-          border-bottom: rgb(90, 90, 90) solid 4px;
-          transition: opacity 1s ease; 
-          position: absolute; 
-          cursor: pointer;
-          top: 0;
-          left: 0;
-        }
-
-        .HoverImage {
-          opacity: 0; // Oculta la imagen de hover inicialmente
-        }
-
-        &:hover .MainImage {
-          opacity: 0; // Oculta la imagen principal en hover
-        }
-
-        &:hover .HoverImage {
-          opacity: 1; // Muestra la imagen de hover en hover
-        }
-      }
-
-      /* Read more/Hide function */
-      .description {
-        text-align: start;
-        color: black;
-        display: block; 
-        max-height: 9em; 
-        overflow: hidden;
-        text-overflow: ellipsis;
-        transition: max-height 0.5s ease; 
-      }
-      
-      .description.expanded {
-        max-height: 1000px; 
-        transition: max-height 0.5s ease;
-      }
-      
-      .toggle {
-        background-color: #007bff;
-        color: white;
-        border: none;
-        padding: 0.5rem 1rem;
+      img {
+        width: 100%;
+        height: 100%;
+        border-bottom: rgb(90, 90, 90) solid 4px;
+        transition: opacity 1s ease;
+        position: absolute;
         cursor: pointer;
-        border-radius: 1vh;
-        margin-top: 0.2rem;
-        font-size: 1rem;
-        font-family: Arial, Helvetica, sans-serif;
-        transition: 1s;
-        margin-left: 0.5rem;
-      }
-      
-      .toggle:hover {
-        background-color: #0056b3;
+        top: 0;
+        left: 0;
       }
 
-      .GridButton {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        justify-content: center;
+      .HoverImage {
+        opacity: 0; // Oculta la imagen de hover inicialmente
+      }
+
+      &:hover .MainImage {
+        opacity: 0; // Oculta la imagen principal en hover
+      }
+
+      &:hover .HoverImage {
+        opacity: 1; // Muestra la imagen de hover en hover
+      }
+    }
+
+    /* Read more/Hide function */
+    .description {
+      text-align: start;
+      color: black;
+      display: block;
+      max-height: 9em;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      transition: max-height 0.5s ease;
+    }
+
+    .description.expanded {
+      max-height: 1000px;
+      transition: max-height 0.5s ease;
+    }
+
+    .toggle {
+      background-color: #007bff;
+      color: white;
+      border: none;
+      padding: 0.5rem 1rem;
+      cursor: pointer;
+      border-radius: 1vh;
+      margin-top: 0.2rem;
+      font-size: 1rem;
+      font-family: Arial, Helvetica, sans-serif;
+      transition: 1s;
+      margin-left: 0.5rem;
+    }
+
+    .toggle:hover {
+      background-color: #0056b3;
+    }
+
+    .TechnologiesUsed {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      justify-content: center;
+      @include tablet {
+        grid-template-columns: repeat(4, 1fr);
+      }
+
+      div {
+        margin: 0.2rem;
+        padding: 0.2rem;
+        svg {
+          width: 75px;
+          height: 75px;
+          margin: 0 auto;
+          display: block;
+        }
+
+        .JsonColor {
+          width: 75px;
+          height: 75px;
+          margin: 0 auto;
+          display: block;
+          fill: #000;
+        }
+
+        p {
+          text-align: center;
+          color: $blanco;
+        }
+      }
+      a {
+        grid-column: span 2;
         @include tablet {
-          grid-template-columns: repeat(4, 1fr);
-        }
-
-        div {
-          margin: 0.2rem;
-          padding: 0.2rem;
-          svg {
-            width: 75px;
-            height: 75px;
-            margin: 0 auto;
-            display: block;
-          }
-
-          .JsonColor {
-            width: 75px;
-            height: 75px;
-            margin: 0 auto;
-            display: block;
-            fill: #000;
-          }
-
-          p {
-            text-align: center;
-            color: $blanco;
-          }
-        }
-        a {
-          grid-column: span 2;
-          @include tablet {
-            grid-column: span 4;
-          }
-          .SeeProject {
-            background-color: white;
-            border: black solid 2px;
-            border-radius: 1vh;
-            color: black;
-            padding: 1rem;
-            transition: 1s;
-            width: 100%;
-            font-family: Arial, Helvetica, sans-serif;
-            cursor: pointer;
-            &:hover {
-              background-color: black;
-              border: white solid 2px;
-              color: white;
-            }
-          }
+          grid-column: span 4;
         }
       }
+    }
+
+    // Button
+    .buttonContainer {
+      display: block;
+      text-decoration: none;
+    }
+
+    .button {
+      display: flex;
+    }
+
+    .box {
+      width: 100%;
+      height: 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 15px;
+      font-weight: 400;
+      color: #fff;
+      transition: all 1s;
+      position: relative;
+      background: orange; 
+      overflow: hidden;
+      cursor: pointer;
+    }
+
+    .box.empty {
+      background: transparent; /* Hace invisibles las cajas vacías */
+      pointer-events: none; /* No permite interactuar con las cajas vacías */
+    }
+
+    .box:before {
+      content: " ";
+      position: absolute;
+      top: 0;
+      background: #0f0f0f;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transform: translateY(100%);
+      transition: transform 0.4s;
+    }
+
+    .box:nth-child(1)::before {
+      transform: translateY(-100%);
+      content: "PR";
+    }
+
+    .box:nth-child(2)::before {
+      content: "R";
+    }
+
+    .box:nth-child(3)::before {
+      transform: translateY(-100%);
+      content: "O";
+    }
+
+    .box:nth-child(4)::before {
+      content: "Y";
+    }
+
+    .box:nth-child(5)::before {
+      transform: translateY(-100%);
+      content: "E";
+    }
+
+    .box:nth-child(6)::before {
+      content: "C";
+    }
+
+    .box:nth-child(7)::before {
+      transform: translateY(-100%);
+      content: "T";
+    }
+
+    .box:nth-child(8)::before {
+      transform: translateY(-100%);
+      content: "O";
+    }
+
+
+    .button:hover .box:before {
+      transform: translateY(0);
     }
   }
+}
+
+/*
+
+.buttonContainer .box:nth-child(2)::before {
+      transform: translateY(-100%);
+      content: "O";
+    }
+
+*/
+
+/* From Uiverse.io by mrhyddenn */
+.button {
+  display: flex;
+}
+
+.box {
+  width: 35px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  font-weight: 700;
+  color: #fff;
+  transition: all 0.8s;
+  cursor: pointer;
+  position: relative;
+  background: rgb(58, 165, 253);
+  overflow: hidden;
+}
+
+.box:before {
+  content: "W";
+  position: absolute;
+  top: 0;
+  background: #0f0f0f;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translateY(100%);
+  transition: transform 0.4s;
+}
+
+.box:nth-child(2)::before {
+  transform: translateY(-100%);
+  content: "O";
+}
+
+.box:nth-child(3)::before {
+  content: "R";
+}
+
+.box:nth-child(4)::before {
+  transform: translateY(-100%);
+  content: "L";
+}
+
+.box:nth-child(5)::before {
+  content: "D";
+}
+
+.button:hover .box:before {
+  transform: translateY(0);
 }

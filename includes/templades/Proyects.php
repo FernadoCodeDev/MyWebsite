@@ -15,7 +15,7 @@
             </p>
             <button class="toggle">Leer más</button>
 
-            <div class="GridButton">
+            <div class="TechnologiesUsed">
                 <div>
                     <svg width="800px" height="800px" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMinYMin meet">
                         <path d="M0 0h256v256H0V0z" fill="#F7DF1E" />
@@ -122,10 +122,16 @@
                     </svg>
                 </div>
 
-                <a href="https://github.com/FernadoCodeDev/CosmicPizza">
-                    <button class="SeeProject">Ver Proyecto</button>
-                </a>
             </div>
+            <a href="https://github.com/FernadoCodeDev/CosmicPizza" class="buttonContainer">
+                <div class="button">
+                    <div class="box">H</div>
+                    <div class="box">O</div>
+                    <div class="box">V</div>
+                    <div class="box">E</div>
+                    <div class="box">R</div>
+                </div>
+            </a>
         </div>
 
         <div class="Project">
@@ -134,10 +140,10 @@
                 <img src="src/Image/KeysHomes2.webp" alt="image Project Hover" class="HoverImage" />
             </div>
             <p class="description">
-                KeysHomes es una plataforma web desarrollada para una empresa de bienes raíces, enfocada en atraer clientes y optimizar la gestión de propiedades. El sistema permite crear, editar y eliminar publicaciones mediante un backend en PHP conectado a una base de datos MySQL, asegurando una gestión eficiente y fluida. Con un diseño responsive y escalable, el proyecto está preparado para adaptarse a negocios similares, como zapaterías o tiendas de hogar, y admite futuras expansiones como la integración de pasarelas de pago para ventas en línea. 
+                KeysHomes es una plataforma web desarrollada para una empresa de bienes raíces, enfocada en atraer clientes y optimizar la gestión de propiedades. El sistema permite crear, editar y eliminar publicaciones mediante un backend en PHP conectado a una base de datos MySQL, asegurando una gestión eficiente y fluida. Con un diseño responsive y escalable, el proyecto está preparado para adaptarse a negocios similares, como zapaterías o tiendas de hogar, y admite futuras expansiones como la integración de pasarelas de pago para ventas en línea.
             </p>
             <button class="toggle">Leer más</button>
-            <div class="GridButton">
+            <div class="TechnologiesUsed">
                 <div>
                     <svg width="800px" height="800px" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMinYMin meet">
                         <path d="M0 0h256v256H0V0z" fill="#F7DF1E" />
@@ -204,12 +210,21 @@
                     </svg>
                 </div>
 
-                <a href="http://keyshome.atwebpages.com">
-                    <button class="SeeProject">Ver Proyecto</button>
-                </a>
-            </div>
-        </div>
 
+            </div>
+            <a href="http://keyshome.atwebpages.com" class="buttonContainer">
+                <div class="button">
+                    <div class="box">V</div>
+                    <div class="box">E</div>
+                    <div class="box">R</div>
+                    <div class="box empty"></div> 
+                    <div class="box empty"></div> 
+                    <div class="box empty"></div> 
+                    <div class="box empty"></div> <!-- Caja vacía para espaciado -->
+                    <div class="box empty"></div> <!-- Caja vacía para espaciado -->
+                </div>
+            </a>
+        </div>
     </div>
 
 </section>
