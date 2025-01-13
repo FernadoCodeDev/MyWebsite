@@ -4,7 +4,6 @@ document.addEventListener('DOMContentLoaded', function() {
   navegacionResponsive(); 
   checkScreenSize();
   eventListeners();
-  RemoveAlert();
 });
 
 function eventListeners() {
@@ -54,14 +53,3 @@ const darkMode = () => {
     document.body.classList.toggle('DarkMode-function');
   });
 };
-
-
-const RemoveAlert = () => {
-  setTimeout(function() {
-    const mensaje = document.getElementById('alert');
-    if (mensaje) {
-        mensaje.style.display = 'none'; // Ocultar el mensaje
-    }
-}, 10000); // 10 segundos
-
-}

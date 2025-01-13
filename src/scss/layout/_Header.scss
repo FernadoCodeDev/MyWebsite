@@ -14,16 +14,15 @@ html {
     justify-content: center;
     align-items: center;
 
-    // Punto de ruptura tablet
     @include tablet {
       grid-template-columns: repeat(2, 1fr);
-      justify-content: start; // Alinea los elementos al inicio en tablet
+      justify-content: start; 
     }
 
     // Estilo para el logo
     .ImageLoco {
       display: flex;
-      justify-content: center; // Centra la imagen en mobile
+      justify-content: center;
       align-items: center;
       margin: 1rem 1rem 2rem 1rem;
 

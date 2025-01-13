@@ -1,0 +1,41 @@
+footer {
+  background-color: $negro;
+  width: 100%;
+  height: 15rem;
+
+  .FooterIcons {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 1rem;
+    padding: 0.5rem;
+
+    .GitHub {
+      svg {
+        width: 50px; 
+        height: 50px; 
+        fill: transparent; /* Color inicial del relleno */
+        stroke: #fff; /* Color inicial de la línea */
+        cursor: pointer;
+        transition: fill 1s ease, stroke 1s ease; /* Aplica la transición a 'fill' y 'stroke' */
+        &:hover {
+          fill: #fff; /* Color de relleno al pasar el mouse */
+          stroke: #fff; /* Color de la línea al pasar el mouse */
+        }
+      }
+    }
+
+    .Linkedin {
+      svg {
+        width: 50px;
+        height: 50px;
+        fill: #fff; 
+        cursor: pointer;
+        transition: fill 1s ease, stroke 1s ease; /* Aplica la transición a 'fill' y 'stroke' */
+        &:hover {
+          fill: #0077b5; /* Color de relleno al pasar el mouse */
+        }
+      }
+    }
+  }
+}

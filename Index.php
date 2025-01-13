@@ -104,6 +104,12 @@
     include './includes/templades/Proyects.php';
     ?>
 
+<?php
+    include './includes/templades/footer.php';
+    ?>
+
+
+
     <script src="build/js/bundle.min.js"></script>
 </body>
 
