@@ -125,11 +125,15 @@
             </div>
             <a href="https://github.com/FernadoCodeDev/CosmicPizza" class="buttonContainer">
                 <div class="button">
-                    <div class="box">H</div>
-                    <div class="box">O</div>
+                    <div class="box"></div>
+                    <div class="box"></div>
+                    <div class="box"></div>
                     <div class="box">V</div>
                     <div class="box">E</div>
                     <div class="box">R</div>
+                    <div class="box"></div>
+                    <div class="box"></div>
+                    <div class="box"></div>
                 </div>
             </a>
         </div>
@@ -214,14 +218,15 @@
             </div>
             <a href="http://keyshome.atwebpages.com" class="buttonContainer">
                 <div class="button">
+                    <div class="box"></div>
+                    <div class="box"></div>
+                    <div class="box"></div>
                     <div class="box">V</div>
                     <div class="box">E</div>
                     <div class="box">R</div>
-                    <div class="box empty"></div> 
-                    <div class="box empty"></div> 
-                    <div class="box empty"></div> 
-                    <div class="box empty"></div> <!-- Caja vacía para espaciado -->
-                    <div class="box empty"></div> <!-- Caja vacía para espaciado -->
+                    <div class="box"></div>
+                    <div class="box"></div>
+                    <div class="box"></div>
                 </div>
             </a>
         </div>
