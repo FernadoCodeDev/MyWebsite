@@ -122,6 +122,10 @@
     ?>
 
     <?php
+    include './includes/templades/Paginator.php';
+    ?>
+
+    <?php
     include './includes/templades/footer.php';
     ?>
 
