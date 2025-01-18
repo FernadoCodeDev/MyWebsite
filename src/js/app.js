@@ -1,45 +1,43 @@
 document.addEventListener('DOMContentLoaded', function() {
-  // Inicializamos ambas funciones al cargar la página
   darkMode(); 
   navegacionResponsive(); 
-  checkScreenSize();
-  eventListeners();
+  checkScreenSize(); 
+  eventListeners(); 
   ReadMore();
+  startPaginator(); 
 });
 
+// Event Listeners
 function eventListeners() {
   const mobileMenu = document.querySelector('.mobile-menu');
   mobileMenu.addEventListener('click', navegacionResponsive);
-
-  // Listener para el redimensionamiento de la pantalla
   window.addEventListener('resize', checkScreenSize);
 }
 
+// Navegación Responsive
 function navegacionResponsive() {
   const navegacion = document.querySelector('.navegacion');
-  navegacion.classList.toggle('mostrar'); // Aquí cambia el menú de estado
+  navegacion.classList.toggle('mostrar'); // Mostrar u ocultar menú
 }
 
+// Verificar tamaño de pantalla
 function checkScreenSize() {
   const navegacion = document.querySelector('.navegacion');
-  
-  // Si la pantalla es más grande que 768px, eliminamos la clase 'mostrar'
   if (window.innerWidth >= 768) {
     navegacion.classList.remove('mostrar');
   }
 }
 
+// Modo oscuro
 const darkMode = () => {
-  const preference = window.matchMedia('(dark)');
-  
-  // Comprobar preferencia inicial del modo oscuro
+  const preference = window.matchMedia('()'); //(prefers-color-scheme: dark) Leer preferencias
+
   if (preference.matches) {
     document.body.classList.add('DarkMode-function');
   } else {
     document.body.classList.remove('DarkMode-function');
   }
 
-  // Detectar cambios en la preferencia de modo oscuro
   preference.addEventListener('change', function() {
     if (preference.matches) {
       document.body.classList.add('DarkMode-function');
@@ -48,18 +46,17 @@ const darkMode = () => {
     }
   });
 
-  // Evento para cambiar modo oscuro manualmente
   const botonDarkMode = document.querySelector('.DarkMode');
   botonDarkMode.addEventListener('click', function() {
     document.body.classList.toggle('DarkMode-function');
   });
 };
 
+// Leer más
 const ReadMore = () => {
   document.querySelectorAll('.toggle').forEach(button => {
     button.addEventListener('click', () => {
       const description = button.previousElementSibling;
-  
       if (description.classList.contains('expanded')) {
         description.classList.remove('expanded');
         button.textContent = 'Leer más';
@@ -69,4 +66,56 @@ const ReadMore = () => {
       }
     });
   });
-}
+};
+
+// Paginador
+let step = 1; // Estado inicial
+
+// Lista de colores para cada boton del paginador
+const sectionColors = [
+  '#FF7F50',  // Coral - Frontend
+  '#001F3F',  // NavyBlue - Backend
+  '#228B22',  // ForestGreen - Base de datos
+  '#FFC107',  // SunflowerYellow - Aprendiendo
+  '#708090',  // SteelGray - Herramientas
+  '#D2691E'   // Terracotta - Prácticas de desarrollo
+];
+
+const startPaginator = () => {
+  PaginatorSection();
+  TabsPaginator();
+};
+
+const PaginatorSection = () => {
+  const Paginatorstages = document.querySelectorAll('.SectionPage');
+  Paginatorstages.forEach(Paginatorstage => {
+    Paginatorstage.classList.remove('ShowPage');
+  });
+
+  const CurrentStage = document.querySelector(`#page-${step}`);
+  CurrentStage.classList.add('ShowPage');
+
+  const PreviousStage = document.querySelector('.CurrentStage');
+  if (PreviousStage) {
+    PreviousStage.classList.remove('CurrentStage');
+    PreviousStage.style.borderColor = '';
+    PreviousStage.style.setProperty('--current-bg-color', '');
+  }
+
+  const Step = document.querySelector(`[data-page="${step}"]`);
+  Step.classList.add('CurrentStage');
+
+  const currentColor = sectionColors[step - 1];
+  Step.style.borderColor = currentColor;
+  Step.style.setProperty('--current-bg-color', currentColor);
+};
+
+const TabsPaginator = () => {
+  const buttons = document.querySelectorAll('.TabsPaginator button');
+  buttons.forEach(bt => {
+    bt.addEventListener('click', function(e) {
+      step = parseInt(e.target.dataset.page);
+      PaginatorSection();
+    });
+  });
+};

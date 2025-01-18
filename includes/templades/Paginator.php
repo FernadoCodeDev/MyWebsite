@@ -706,13 +706,13 @@
                 <h3>DIseño Responsivo</h3>
             </div>
 
-            <div class="SVG">
-
-                <h3>Model-View-Controller (MVC)</h3>
+            <div class="SVG ">
+                    <img src="/src/Icon SVG/Core Development Practices/MVC.png" alt="MVC.png">
+                <h3>MVC (Model-View-Controller)</h3>
             </div>
 
             <div class="SVG">
-
+            <img src="/src/Icon SVG/Core Development Practices/crud.png" alt="crud.png">
                 <h3>CRUD (Create, Read, Update, Delete)</h3>
             </div>
 
@@ -742,44 +742,3 @@
     </div>
 
 </div>
-
-<script>
-    let step = 1;
-
-    document.addEventListener('DOMContentLoaded', function() {
-        startPaginator();
-    });
-
-    const startPaginator = () => {
-        PaginatorSection();
-        TabsPaginator();
-    }
-
-    const PaginatorSection = () => {
-        const Paginatorstages = document.querySelectorAll('.SectionPage');
-        Paginatorstages.forEach(Paginatorstage => {
-            Paginatorstage.classList.remove('ShowPage');
-        });
-
-        const CurrentStage = document.querySelector(`#page-${step}`);
-        CurrentStage.classList.add('ShowPage');
-
-        const PreviousStage = document.querySelector('.CurrentStage');
-        if (PreviousStage) {
-            PreviousStage.classList.remove('CurrentStage');
-        }
-
-        const Step = document.querySelector(`[data-page="${step}"]`);
-        Step.classList.add('CurrentStage');
-    }
-
-    const TabsPaginator = () => {
-        const buttons = document.querySelectorAll('.TabsPaginator button');
-        buttons.forEach(bt => {
-            bt.addEventListener('click', function(e) {
-                step = parseInt(e.target.dataset.page);
-                PaginatorSection();
-            });
-        });
-    }
-</script>

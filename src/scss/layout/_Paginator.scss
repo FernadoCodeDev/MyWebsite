@@ -54,9 +54,9 @@
     }
 
     &.CurrentStage {
-      border: $Coral solid 2px;
+     
       &::before {
-        background-color: $Coral; /* Color del punto interno */
+        background-color: var(--current-bg-color);
       }
     }
   }
@@ -109,11 +109,11 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    svg {
+    svg, img {
       width: 75px;
       height: 75px;
       margin: 0 auto;
-      //display: block;
+      
       cursor: pointer;
       transition: 1s transform; /* Aplica la transición a 'fill' y 'stroke' */
       &:hover {
@@ -124,6 +124,10 @@
         width: 150px;
         height: 150px;
       }
+    }
+
+    img {
+      filter: invert(100%);
     }
   }
 }

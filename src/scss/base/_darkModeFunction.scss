@@ -102,35 +102,8 @@ body {
     }
   }
 
-  //About
-  h1 {
-    color: $Orange;
-    font-family: $Fuente_Principal;
-  }
-
-  p {
-    color: $blanco;
-  }
-
-  .about {
-    h1 {
-      color: $blanco;
-      font-family: $Fuente_Principal;
-    }
-
-    .Technology {
-      .DivBlackBlue {
-        background-color: $negro;
-
-        h1 {
-          color: white;
-        }
-
-        h3 {
-          color: white;
-        }
-      }
-    }
+  .ContainerStage {
+    background-color: $negro;
   }
 
   //Proyect
