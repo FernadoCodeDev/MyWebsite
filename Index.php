@@ -32,7 +32,7 @@
 
             <nav class="navegacion">
                 <a href="#HomeInfo">Inicio</a>
-                <a href="#about">Sobre mí</a>
+                <a href="#Paginator">Sobre mí</a>
                 <a href="#Projects">Proyectos</a>
             </nav>
 
@@ -114,16 +114,14 @@
     </section>
 
     <?php
-    include './includes/templades/about.php';
+    include './includes/templades/Paginator.php';
     ?>
 
     <?php
     include './includes/templades/Proyects.php';
     ?>
 
-    <?php
-    include './includes/templades/Paginator.php';
-    ?>
+    
 
     <?php
     include './includes/templades/footer.php';
