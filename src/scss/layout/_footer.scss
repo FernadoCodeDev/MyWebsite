@@ -14,13 +14,13 @@ footer {
       svg {
         width: 50px; 
         height: 50px; 
-        fill: transparent; /* Color inicial del relleno */
-        stroke: #fff; /* Color inicial de la línea */
+        fill: transparent; 
+        stroke: #fff; 
         cursor: pointer;
-        transition: fill 1s ease, stroke 1s ease; /* Aplica la transición a 'fill' y 'stroke' */
+        transition: fill 1s ease, stroke 1s ease; 
         &:hover {
-          fill: #fff; /* Color de relleno al pasar el mouse */
-          stroke: #fff; /* Color de la línea al pasar el mouse */
+          fill: #fff;
+          stroke: #fff;
         }
       }
     }
