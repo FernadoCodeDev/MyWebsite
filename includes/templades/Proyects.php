@@ -4,7 +4,6 @@
     <p>Con cada experiencia que tengo, me enfoco en implementar algo nuevo y relevante, abordando problemas y funciones que se utilizan en la vida real. Busco que cada desarrollo cumpla con necesidades específicas, asegurando que mis soluciones sean prácticas y efectivas.</p>
 
     <div class="ProyectColumn">
-
         <div class="Project">
             <div class="ImageContainer">
                 <img src="src/Image/CosmicPizza.png" alt="image Project" class="MainImage" />
@@ -123,7 +122,7 @@
                 </div>
 
             </div>
-            <a href="https://github.com/FernadoCodeDev/CosmicPizza" class="buttonContainer">
+            <a href="https://github.com/FernadoCodeDev/Cosmic-Pizza" class="buttonContainer">
                 <div class="button">
                     <div class="box"></div>
                     <div class="box"></div>
