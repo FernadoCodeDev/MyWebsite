@@ -703,7 +703,7 @@
                     </g>
 
                 </svg>
-                <h3>DIseño Responsivo</h3>
+                <h3>Diseño Responsivo</h3>
             </div>
 
             <div class="SVG ">

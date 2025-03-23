@@ -3,6 +3,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 1rem;
 
   h1 {
     text-align: center;
@@ -48,7 +49,8 @@
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   justify-content: center;
-
+  gap: 1rem;
+  max-width: 90rem;
   @include tablet {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -58,7 +60,7 @@
   }
 
   .Project {
-    width: 95%;
+    width: 100%;
     margin: 0.5rem;
     border: rgb(90, 90, 90) solid 2px;
 
@@ -70,7 +72,6 @@
       img {
         width: 100%;
         height: 100%;
-        border-bottom: rgb(90, 90, 90) solid 4px;
         transition: opacity 1s ease;
         position: absolute;
         cursor: pointer;
@@ -79,15 +80,15 @@
       }
 
       .HoverImage {
-        opacity: 0; // Oculta la imagen de hover inicialmente
+        opacity: 0; // Hide the hover image initially
       }
 
       &:hover .MainImage {
-        opacity: 0; // Oculta la imagen principal en hover
+        opacity: 0; // Hide main image on hover
       }
 
       &:hover .HoverImage {
-        opacity: 1; // Muestra la imagen de hover en hover
+        opacity: 1; // Displays the image from hover to hover
       }
     }
 
