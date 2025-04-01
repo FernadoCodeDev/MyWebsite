@@ -23,7 +23,7 @@ const Header = () => {
         <div className="order-3 col-span-2 mx-auto md:col-span-1 md:order-2 md:w-auto md:h-20 md:bg-white/20 md:bg-backdrop-blur-[2px]">
           <MobileMenu
             textColor="text-white transition-all duration-700 ease-out"
-            hoverColor="hover:text-orange-300"
+            hoverColor="hover:text-sky-400"
             bgColor="bg-backdrop-blur-[2px] last-of-type:rounded-b-3xl bg-white/20 md:bg-transparent"
             invertColor="invert-0"
           />
