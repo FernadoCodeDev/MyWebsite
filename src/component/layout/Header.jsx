@@ -1,16 +1,15 @@
 import React from "react";
 import MobileMenu from "../ui/MobileMenu";
 import DarkMode from "../ui/DarkMode";
+import Modal from "../ui/Modal";
+import TypingEffect from "../ui/TypingEffect ";
+
 import Logo from "../../assets/img/Logo.webp";
 import Background from "../../assets/img/Background.webp";
 import ContributionSnake from "../../assets/video/ContributionSnake.gif";
-import TypingEffect from "../ui/TypingEffect ";
-
 import Linkedin from "../../assets/svg/Linkedin";
 import GitHub from "../../assets/svg/GitHub";
-import CV from "../../assets/svg/CV";
 import Gmail from "../../assets/svg/Gmail";
-
 
 const Header = () => {
   return (
@@ -77,14 +76,7 @@ const Header = () => {
                 </button>
               </a>
 
-              <a href="/src/Downloads/CV - Fernando Mejía.pdf" download>
-                <button class="group w-16 hover:w-full h-20 hover:bg-blue-700 relative bg-blue-600 rounded text-neutral-50 duration-700 before:duration-700 before:hover:500 font-bold flex justify-start gap-2 items-center p-2 pr-6 before:absolute before:-z-10 before:left-8 before:hover:left-40 before:w-6 before:h-6 before:bg-sky-700 before:hover:bg-sky-600 before:rotate-45">
-                  <CV />
-                  <span class="origin-center text-lg md:text-xl inline-flex duration-100 group-hover:duration-300 group-hover:delay-500 opacity-0 group-hover:opacity-100 border-l-2 px-1 transform scale-x-0 group-hover:scale-x-100 transition-all">
-                    Descargar CV
-                  </span>
-                </button>
-              </a>
+              <Modal />
 
               <a href="mailto:fernando.e.mejia.e@gmail.com">
                 <button class="group w-16 hover:w-full h-20 hover:bg-amber-400 relative bg-amber-300 rounded text-neutral-50 duration-700 before:duration-700 before:hover:500 font-bold flex justify-start gap-2 items-center p-2 pr-6 before:absolute before:-z-10 before:left-8 before:hover:left-40 before:w-6 before:h-6  before:rotate-45">
