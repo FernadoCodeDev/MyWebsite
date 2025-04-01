@@ -1,7 +1,7 @@
 import React from "react";
-import FirstSection from "./FirstSection";
-import SecondSection from "./SecondSection";
-import ThirdSection from "./ThirdSection";
+import FirstSection from "../sections/FirstSection";
+import SecondSection from "../sections/SecondSection";
+import ThirdSection from "../sections/ThirdSection";
 
 const Main = () => {
   return (

@@ -2,7 +2,7 @@ import React from "react";
 
 const ThirdSection = () => {
   return (
-    <div className="relative flex flex-col gap-8 items-center min-h-screen p-4 text-black lg:text-2xl bg-white dark:text-white dark:bg-neutral-900">
+    <div className="relative flex flex-col items-center min-h-screen gap-8 p-4 text-black bg-white lg:text-2xl dark:text-white dark:bg-neutral-900">
       <div className="m-auto flex flex-col gap-4 max-w-[80rem]">
 
       </div>
