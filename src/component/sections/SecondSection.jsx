@@ -1,6 +1,13 @@
 import React from "react";
 import useScrollAnimation from "../hooks/ScrollAnimation";
+import Paginator from "../Pagination/Paginator";
 import Page1 from "../Pagination/page1";
+import Page2 from "../Pagination/page2";
+import Page3 from "../Pagination/page3";
+import Page4 from "../Pagination/page4";
+import Page5 from "../Pagination/page5";
+import Page6 from "../Pagination/page6";
+
 
 const SecondSection = () => {
   const isVisible = useScrollAnimation("second-section");
@@ -20,61 +27,7 @@ const SecondSection = () => {
           Lorem ipsum dolor sit amet consectetur adipisicing elit.
         </h3>
 
-        <div id="Paginator" className="flex flex-col gap-4">
-          <nav class="grid m-auto grid-cols-3 md:grid-cols-6 gap-3">
-            <button
-               className="
-               border-2 border-gray-500 hover:border-gray-600 bg-transparent rounded-full w-12 h-12 relative cursor-pointer transition-all duration-700 ease-out
-               before:content-[''] before:absolute before:top-1/2 before:left-1/2 before:w-8 before:h-8 before:rounded-full before:-translate-x-1/2 before:-translate-y-1/2 before:bg-gray-500 before:hover:bg-gray-600 before:transition-all before:duration-700 before:ease-out
-               "
-              type="button"
-              data-page="1"
-            ></button>
-            <button
-              className="
-              border-2 border-gray-500 hover:border-gray-600 bg-transparent rounded-full w-12 h-12 relative cursor-pointer transition-all duration-700 ease-out
-              before:content-[''] before:absolute before:top-1/2 before:left-1/2 before:w-8 before:h-8 before:rounded-full before:-translate-x-1/2 before:-translate-y-1/2 before:bg-gray-500 before:hover:bg-gray-600 before:transition-all before:duration-700 before:ease-out
-              "
-              type="button"
-              d
-              ata-page="2"
-            ></button>
-            <button
-               className="
-               border-2 border-gray-500 hover:border-gray-600 bg-transparent rounded-full w-12 h-12 relative cursor-pointer transition-all duration-700 ease-out
-               before:content-[''] before:absolute before:top-1/2 before:left-1/2 before:w-8 before:h-8 before:rounded-full before:-translate-x-1/2 before:-translate-y-1/2 before:bg-gray-500 before:hover:bg-gray-600 before:transition-all before:duration-700 before:ease-out
-               "
-              type="button"
-              data-page="3"
-            ></button>
-            <button
-              className="
-              border-2 border-gray-500 hover:border-gray-600 bg-transparent rounded-full w-12 h-12 relative cursor-pointer transition-all duration-700 ease-out
-              before:content-[''] before:absolute before:top-1/2 before:left-1/2 before:w-8 before:h-8 before:rounded-full before:-translate-x-1/2 before:-translate-y-1/2 before:bg-gray-500 before:hover:bg-gray-600 before:transition-all before:duration-700 before:ease-out
-              "
-              type="button"
-              data-page="4"
-            ></button>
-            <button
-               className="
-               border-2 border-gray-500 hover:border-gray-600 bg-transparent rounded-full w-12 h-12 relative cursor-pointer transition-all duration-700 ease-out
-               before:content-[''] before:absolute before:top-1/2 before:left-1/2 before:w-8 before:h-8 before:rounded-full before:-translate-x-1/2 before:-translate-y-1/2 before:bg-gray-500 before:hover:bg-gray-600 before:transition-all before:duration-700 before:ease-out
-               "
-              type="button"
-              data-page="5"
-            ></button>
-            <button
-              className="
-              border-2 border-gray-500 hover:border-gray-600 bg-transparent rounded-full w-12 h-12 relative cursor-pointer transition-all duration-700 ease-out
-              before:content-[''] before:absolute before:top-1/2 before:left-1/2 before:w-8 before:h-8 before:rounded-full before:-translate-x-1/2 before:-translate-y-1/2 before:bg-gray-500 before:hover:bg-gray-600 before:transition-all before:duration-700 before:ease-out
-              "
-              type="button"
-              data-page="6"
-            ></button>
-          </nav>
-
-          <Page1 />
-        </div>
+        <Paginator pages={[Page1, Page2, Page3, Page4, Page5, Page6]} />;
       </div>
     </div>
   );
