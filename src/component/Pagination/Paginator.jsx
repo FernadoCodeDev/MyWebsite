@@ -1,12 +1,12 @@
 import { useState } from "react";
 
 const sectionColors = [
-  "bg-orange-600", 
-  "bg-sky-950", 
-  "bg-emerald-700",
-  "bg-amber-400", 
-  "bg-slate-800", 
-  "bg-amber-900", 
+  "orange-600",
+  "sky-950",
+  "emerald-700",
+  "amber-400",
+  "slate-800",
+  "amber-900",
 ];
 
 const Paginator = ({ pages }) => {
@@ -19,21 +19,27 @@ const Paginator = ({ pages }) => {
           <button
             key={index}
             className={
-              `border-2 border-gray-500 hover:border-gray-600 bg-transparent rounded-full w-12 h-12 relative cursor-pointer transition-all duration-700 ease-out
-               before:content-[''] before:absolute before:top-1/2 before:left-1/2 before:w-8 before:h-8 before:rounded-full before:-translate-x-1/2 before:-translate-y-1/2 before:bg-gray-500 before:hover:bg-gray-600 before:transition-all before:duration-700 before:ease-out` +
-              (currentStep === index + 1 ? ` ${color} ` : "")
+              ` border-2 border-gray-500 hover:border-gray-600 bg-transparent rounded-full w-12 h-12 relative cursor-pointer transition-all duration-700 ease-out ` +
+              (currentStep === index + 1 ? ` border-0 bg-${color}` : "border-gray-500")
             }
             type="button"
             onClick={() => setCurrentStep(index + 1)}
           >
-            
+            <span
+              className={`absolute top-1/2 left-1/2 w-8 h-8 rounded-full -translate-x-1/2 -translate-y-1/2 transition-all duration-700 ease-out ${
+                currentStep === index + 1 ? ` bg-${color} ` : "bg-gray-500 hover:bg-gray-600"
+              }`}
+            ></span>
           </button>
         ))}
       </nav>
 
       <div>
         {pages.map((PageComponent, index) => (
-          <div key={index} className={currentStep === index + 1 ? "block" : "hidden"}>
+          <div
+            key={index}
+            className={currentStep === index + 1 ? "block" : "hidden"}
+          >
             <PageComponent />
           </div>
         ))}
