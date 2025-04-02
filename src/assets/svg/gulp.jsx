@@ -1,7 +1,7 @@
 import React from "react";
 const gulp = (props) => (
   <svg
-    fill="#000000"
+    fill="#fff"
     viewBox="-6.5 0 24 24"
     xmlns="http://www.w3.org/2000/svg"
     {...props}
