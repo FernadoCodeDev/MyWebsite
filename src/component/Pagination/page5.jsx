@@ -32,7 +32,7 @@ const page5 = () => {
         </div>
 
         <div class="bg-slate-100 relative group dark:bg-neutral-800 shadow-xl dark:shadow-neutral-700/40 p-4 text-center flex flex-col justify-center items-center gap-4">
-          <div className="flex flex-col items-center justify-center w-20 h-20 p-3 rounded-full bg-neutral-800">
+          <div className="flex flex-col items-center justify-center w-20 h-20 p-3 rounded-full bg-neutral-700">
             <SVGgitHub />
           </div>
           <h1 className="font-bold">GitHub</h1>
