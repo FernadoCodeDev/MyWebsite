@@ -1,5 +1,6 @@
 import React from "react";
 import SVGastro from "../../assets/svg/astro";
+import SVGdocker from "../../assets/svg/docker"
 
 const page4 = () => {
   return (
@@ -12,6 +13,22 @@ const page4 = () => {
             <SVGastro />
           </div>
           <h1 className="font-bold">Astro</h1>
+
+          <div className="hidden transition-all duration-700 ease-out group-hover:flex">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
+              corporis doloremque magnam amet excepturi a, natus aut ratione
+              fugit mollitia repudiandae sit fugiat, molestias eos non at
+              eligendi dicta id.
+            </p>
+          </div>
+        </div>
+
+        <div class="bg-slate-100 relative group dark:bg-neutral-800 shadow-xl dark:shadow-neutral-700/40 p-4 text-center flex flex-col justify-center items-center gap-4">
+          <div className="flex flex-col items-center justify-center w-20 h-20 p-3 bg-blue-300 rounded-full">
+            <SVGdocker />
+          </div>
+          <h1 className="font-bold">Docker</h1>
 
           <div className="hidden transition-all duration-700 ease-out group-hover:flex">
             <p>

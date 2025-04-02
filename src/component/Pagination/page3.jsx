@@ -10,7 +10,7 @@ const page3 = () => {
 
       <div className="grid grid-cols-2 gap-4 md:grid-cols-3 ">
         <div class="bg-slate-100 relative group dark:bg-neutral-800 shadow-xl dark:shadow-neutral-700/40 p-4 text-center flex flex-col justify-center items-center gap-4">
-          <div className="flex flex-col items-center justify-center w-20 h-20 p-3 bg-orange-300 rounded-full">
+          <div className="flex flex-col items-center justify-center w-20 h-20 p-4 bg-orange-300 rounded-full">
             <SVGmysql />
           </div>
           <h1 className="font-bold">MySQL</h1>
@@ -26,7 +26,7 @@ const page3 = () => {
         </div>
 
         <div class="bg-slate-100 relative group dark:bg-neutral-800 shadow-xl dark:shadow-neutral-700/40 p-4 text-center flex flex-col justify-center items-center gap-4">
-          <div className="flex flex-col items-center justify-center w-20 h-20 p-3 bg-sky-300 rounded-full">
+          <div className="flex flex-col items-center justify-center w-20 h-20 p-3 rounded-full bg-sky-300">
             <SVGsqlite />
           </div>
           <h1 className="font-bold">SQlite</h1>
