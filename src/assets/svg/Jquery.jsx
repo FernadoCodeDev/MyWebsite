@@ -1,7 +1,7 @@
 import React from "react";
 const jQuery = (props) => (
   <svg
-    fill="#000000"
+    fill="#fff"
     xmlns="http://www.w3.org/2000/svg"
     xmlnsXlink="http://www.w3.org/1999/xlink"
     viewBox="0 0 512 512"
