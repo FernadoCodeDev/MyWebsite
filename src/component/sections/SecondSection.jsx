@@ -27,7 +27,7 @@ const SecondSection = () => {
           Lorem ipsum dolor sit amet consectetur adipisicing elit.
         </h3>
 
-        <Paginator pages={[Page1, Page2, Page3, Page4, Page5, Page6]} />;
+        <Paginator pages={[Page1, Page2, Page3, Page4, Page5, Page6]} />
       </div>
     </div>
   );

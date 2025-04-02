@@ -34,8 +34,8 @@ const python = (props) => (
           y2={22.7407}
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#000000" />
-          <stop offset={1} stopColor="#000000" />
+          <stop stopColor="#fff" />
+          <stop offset={1} stopColor="#fff" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_87_8204"
@@ -45,8 +45,8 @@ const python = (props) => (
           y2={30}
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#121212" />
-          <stop offset={1} stopColor="#121212" />
+          <stop stopColor="#fff" />
+          <stop offset={1} stopColor="#fff" />
         </linearGradient>
       </defs>
     </g>

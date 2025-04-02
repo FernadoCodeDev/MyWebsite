@@ -1,12 +1,12 @@
 import { useState } from "react";
 
 const sectionColors = [
-  "bg-orange-600", // Frontend
-  "bg-sky-950", // Backend
-  "bg-emerald-700", // Base de datos
-  "bg-amber-400", // Aprendiendo
-  "bg-slate-800", // Herramientas
-  "bg-amber-900", // Prácticas de desarrollo
+  "bg-orange-600", 
+  "bg-sky-950", 
+  "bg-emerald-700",
+  "bg-amber-400", 
+  "bg-slate-800", 
+  "bg-amber-900", 
 ];
 
 const Paginator = ({ pages }) => {
