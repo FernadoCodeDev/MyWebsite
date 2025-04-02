@@ -1,5 +1,7 @@
 import React from "react";
-import SVGhtml from "../../assets/svg/html";
+import SVGmysql from "../../assets/svg/mysql";
+import SVGsqlite from "../../assets/svg/sqlite";
+import SVGpostgresql from "../../assets/svg/postgresql";
 
 const page3 = () => {
   return (
@@ -9,9 +11,41 @@ const page3 = () => {
       <div className="grid grid-cols-2 gap-4 md:grid-cols-3 ">
         <div class="bg-slate-100 relative group dark:bg-neutral-800 shadow-xl dark:shadow-neutral-700/40 p-4 text-center flex flex-col justify-center items-center gap-4">
           <div className="flex flex-col items-center justify-center w-20 h-20 p-3 bg-orange-300 rounded-full">
-            <SVGhtml />
+            <SVGmysql />
           </div>
-          <h1 className="font-bold">HTML</h1>
+          <h1 className="font-bold">MySQL</h1>
+
+          <div className="hidden transition-all duration-700 ease-out group-hover:flex">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
+              corporis doloremque magnam amet excepturi a, natus aut ratione
+              fugit mollitia repudiandae sit fugiat, molestias eos non at
+              eligendi dicta id.
+            </p>
+          </div>
+        </div>
+
+        <div class="bg-slate-100 relative group dark:bg-neutral-800 shadow-xl dark:shadow-neutral-700/40 p-4 text-center flex flex-col justify-center items-center gap-4">
+          <div className="flex flex-col items-center justify-center w-20 h-20 p-3 bg-sky-300 rounded-full">
+            <SVGsqlite />
+          </div>
+          <h1 className="font-bold">SQlite</h1>
+
+          <div className="hidden transition-all duration-700 ease-out group-hover:flex">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
+              corporis doloremque magnam amet excepturi a, natus aut ratione
+              fugit mollitia repudiandae sit fugiat, molestias eos non at
+              eligendi dicta id.
+            </p>
+          </div>
+        </div>
+
+        <div class="bg-slate-100 relative group dark:bg-neutral-800 shadow-xl dark:shadow-neutral-700/40 p-4 text-center flex flex-col justify-center items-center gap-4">
+          <div className="flex flex-col items-center justify-center w-20 h-20 p-3 bg-blue-300 rounded-full">
+            <SVGpostgresql />
+          </div>
+          <h1 className="font-bold">OostgreSQL</h1>
 
           <div className="hidden transition-all duration-700 ease-out group-hover:flex">
             <p>
