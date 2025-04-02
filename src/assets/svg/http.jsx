@@ -1,7 +1,7 @@
 import React from "react";
 const http = (props) => (
   <svg
-    fill="#000000"
+    fill="#fff"
     viewBox="0 0 32 32"
     id="icon"
     xmlns="http://www.w3.org/2000/svg"
@@ -29,8 +29,6 @@ const http = (props) => (
         id="_Transparent_Rectangle_"
         data-name="<Transparent Rectangle>"
         className="cls-1"
-        width={32}
-        height={32}
       />
     </g>
   </svg>
