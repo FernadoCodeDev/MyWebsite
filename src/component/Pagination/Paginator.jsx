@@ -20,7 +20,7 @@ const Paginator = ({ pages }) => {
             key={index}
             className={
               ` border-2 border-gray-500 hover:border-gray-600 bg-transparent rounded-full w-12 h-12 relative cursor-pointer transition-all duration-700 ease-out ` +
-              (currentStep === index + 1 ? ` border-0 bg-${color}` : "border-gray-500")
+              (currentStep === index + 1 ? `border-${color}` : "border-gray-500")
             }
             type="button"
             onClick={() => setCurrentStep(index + 1)}
