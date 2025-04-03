@@ -45,7 +45,7 @@ const page3 = () => {
           <div className="flex flex-col items-center justify-center w-20 h-20 p-3 bg-blue-300 rounded-full">
             <SVGpostgresql />
           </div>
-          <h1 className="font-bold">OostgreSQL</h1>
+          <h1 className="font-bold">PostgreSQL</h1>
 
           <div className="hidden transition-all duration-700 ease-out group-hover:flex">
             <p>
