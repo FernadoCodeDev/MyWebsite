@@ -1,8 +1,9 @@
 import React from "react";
 import Github2SVG from "../../assets/svg/Github2";
 import WebSVG from "../../assets/svg/web";
-
-import aa from "../../assets/img/LandingMine.webp";
+import LandingMine from "../../assets/img/LandingMine.webp";
+import CosmicPizza from "../../assets/img/CosmicPizza.webp";
+import KeysHomes from "../../assets/img/KeysHomes.webp";
 
 const ThirdSection = () => {
   return (
@@ -11,9 +12,9 @@ const ThirdSection = () => {
         <div class="md:col-span-2 rounded-2xl bg-slate-100 dark:bg-neutral-800 p-2">
           <div class="mt-10 h-40 rounded-l-2xl rounded-br-2xl rounded-bl-2xl bg-white dark:bg-neutral-950 relative flex flex-col">
             <img
-              src={aa}
-              alt={aa}
-              className="absolute w-8 h-auto -top-7 left-5 "
+              src={LandingMine}
+              alt={LandingMine}
+              className="absolute w-8 h-auto dark:invert -top-7 left-5 "
             />
 
             <div class="w-1/3 h-12 bg-white dark:bg-neutral-950 rounded-2xl absolute transform -top-7 right-5 skew-x-[-40deg]"></div>
@@ -64,24 +65,16 @@ const ThirdSection = () => {
         <div class=" rounded-2xl bg-slate-100 dark:bg-neutral-800 p-2">
           <div class="mt-10 h-40 rounded-l-2xl rounded-br-2xl rounded-bl-2xl bg-white dark:bg-neutral-950 relative flex flex-col">
             <img
-              src={aa}
-              alt={aa}
-              className="absolute w-8 h-auto -top-7 left-5 "
+              src={CosmicPizza}
+              alt={CosmicPizza}
+              className="absolute w-8 h-auto dark:invert -top-7 left-5 "
             />
 
             <div class="w-1/3 h-12 bg-white dark:bg-neutral-950 rounded-2xl absolute transform -top-7 right-5 skew-x-[-40deg]"></div>
             <div class="w-1/4 h-12 bg-white dark:bg-neutral-950 rounded-tr-2xl absolute transform -top-7 right-0 ">
               <div class="p-1 w-full h-12 absolute z-50 flex flex-row justify-around">
                 <a
-                  href="https://landingmine.netlify.app/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="w-8 h-8"
-                >
-                  <WebSVG />
-                </a>
-                <a
-                  href="https://github.com/FernadoCodeDev/LandingMine"
+                  href="https://github.com/FernadoCodeDev/Cosmic-Pizza"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-8 h-8"
@@ -117,16 +110,16 @@ const ThirdSection = () => {
         <div class="rounded-2xl bg-slate-100 dark:bg-neutral-800 p-2">
           <div class="mt-10 h-40 rounded-l-2xl rounded-br-2xl rounded-bl-2xl bg-white dark:bg-neutral-950 relative flex flex-col">
             <img
-              src={aa}
-              alt={aa}
-              className="absolute w-8 h-auto -top-7 left-5 "
+              src={KeysHomes}
+              alt={KeysHomes}
+              className="absolute w-5 h-auto dark:invert -top-7 left-5 "
             />
 
             <div class="w-1/3 h-12 bg-white dark:bg-neutral-950 rounded-2xl absolute transform -top-7 right-5 skew-x-[-40deg]"></div>
             <div class="w-1/4 h-12 bg-white dark:bg-neutral-950 rounded-tr-2xl absolute transform -top-7 right-0 ">
               <div class="p-1 w-full h-12 absolute z-50 flex flex-row justify-around">
                 <a
-                  href="https://landingmine.netlify.app/"
+                  href="http://keyshome.atwebpages.com/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-8 h-8"
@@ -134,7 +127,7 @@ const ThirdSection = () => {
                   <WebSVG />
                 </a>
                 <a
-                  href="https://github.com/FernadoCodeDev/LandingMine"
+                  href="https://github.com/FernadoCodeDev/KeysHomes"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-8 h-8"
