@@ -26,7 +26,7 @@ const MobileMenu = ({
   };
 
   return (
-    <div className={`p-2`}>
+    <div className={`p-2 h-full flex flex-col items-center`}>
       {isMobile && (
         <img
           src={MobileMenuIcon}
@@ -37,27 +37,27 @@ const MobileMenu = ({
       )}
 
       <nav
-        className={`w-full text-center transition-all duration-500 ease-in-out overflow-hidden 
+        className={`m-auto w-full text-center transition-all duration-500 ease-in-out overflow-hidden 
         ${menuOpen ? "max-h-[200px] opacity-100" : "max-h-0 opacity-0"} 
         ${isMobile ? "flex flex-col" : "flex flex-row max-h-none opacity-100"}`}
       >
         <a
           href="/#"
-          className={`p-2 text-[1rem] md:text-[2rem] font-bold ${bgColor} ${textColor} ${hoverColor}`}
+          className={`p-2 text-base md:text-2xl font-bold ${bgColor} ${textColor} ${hoverColor}`}
         >
-          Home
+          Sobre mí
         </a>
         <a
           href="/#"
-          className={`p-2 text-[1rem] md:text-[2rem] font-bold ${bgColor} ${textColor} ${hoverColor}`}
+          className={`p-2 text-base md:text-2xl font-bold ${bgColor} ${textColor} ${hoverColor}`}
         >
-          Contact
+          Tecnologías 
         </a>
         <a
           href="/#"
-          className={`p-2 text-[1rem] md:text-[2rem] font-bold ${bgColor} ${textColor} ${hoverColor}`}
+          className={`p-2 text-base md:text-2xl font-bold ${bgColor} ${textColor} ${hoverColor}`}
         >
-          Us
+          Proyectos
         </a>
       </nav>
     </div>

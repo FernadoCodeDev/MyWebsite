@@ -20,7 +20,7 @@ const Header = () => {
       ></div>
 
       <div className="relative grid items-center h-auto grid-cols-2 gap-2 p-4 md:grid-cols-3">
-        <div className="order-3 col-span-2 mx-auto md:col-span-1 md:order-2 md:w-auto md:h-20 md:bg-white/20 md:bg-backdrop-blur-[2px]">
+        <div className="order-3 col-span-2 m-auto md:col-span-1 md:order-2 md:w-auto md:h-20 md:bg-white/20 md:bg-backdrop-blur-[2px]">
           <MobileMenu
             textColor="text-white transition-all duration-700 ease-out"
             hoverColor="hover:text-sky-400"
