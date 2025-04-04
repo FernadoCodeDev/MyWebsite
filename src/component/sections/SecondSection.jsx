@@ -22,10 +22,10 @@ const SecondSection = () => {
         }`}
         id="Skills"
       >
-        <h1 className="text-2xl font-bold text-center md:text-4xl">Lorem</h1>
+        <h1 className="text-2xl font-bold text-center md:text-4xl">Tecnologías que domino y sigo perfeccionando</h1>
 
-        <h3 className="text-xl font-bold text-center md:text-2xl">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        <h3 className="m-auto text-base text-center md:text-2xl max-w-[40rem]">
+        Mi experiencia y enfoque trabajando con Front-end, Back-end, bases de datos, herramientas, prácticas de desarrollo y tecnologías que actualmente estoy aprendiendo.
         </h3>
 
         <Paginator pages={[Page1, Page2, Page3, Page4, Page5, Page6]} />

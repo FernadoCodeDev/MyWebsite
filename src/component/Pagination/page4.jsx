@@ -1,11 +1,13 @@
 import React from "react";
 import SVGastro from "../../assets/svg/astro";
-import SVGdocker from "../../assets/svg/docker"
+import SVGdocker from "../../assets/svg/docker";
 
 const page4 = () => {
   return (
     <div id="page-4" className="grid grid-cols-1 gap-4">
-      <h2 className="text-2xl font-bold text-center md:text-4xl">Aprendiendo</h2>
+      <h2 className="text-2xl font-bold text-center md:text-4xl">
+        Aprendiendo
+      </h2>
 
       <div className="grid grid-cols-2 gap-4 md:grid-cols-3 ">
         <div class="bg-slate-100 relative group dark:bg-neutral-800 shadow-xl dark:shadow-neutral-700/40 p-4 text-center flex flex-col justify-center items-center gap-4">
@@ -15,11 +17,14 @@ const page4 = () => {
           <h1 className="font-bold">Astro</h1>
 
           <div className="hidden transition-all duration-700 ease-out group-hover:flex">
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
-              corporis doloremque magnam amet excepturi a, natus aut ratione
-              fugit mollitia repudiandae sit fugiat, molestias eos non at
-              eligendi dicta id.
+            <p className="text-base md:text-lg">
+              Decidí aprender Astro porque el desarrollo web moderno necesita
+              velocidad, rendimiento y eficiencia. Me atrajo su enfoque en
+              enviar solo lo necesario al navegador, optimizando al máximo cada
+              carga. Estoy explorando cómo integrar frameworks, componentes y
+              contenido de forma más ligera y modular, para llevar mis proyectos
+              a otro nivel. Con Astro, quiero construir sitios rápidos, modernos
+              y listos para cualquier dispositivo.
             </p>
           </div>
         </div>
@@ -31,15 +36,17 @@ const page4 = () => {
           <h1 className="font-bold">Docker</h1>
 
           <div className="hidden transition-all duration-700 ease-out group-hover:flex">
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
-              corporis doloremque magnam amet excepturi a, natus aut ratione
-              fugit mollitia repudiandae sit fugiat, molestias eos non at
-              eligendi dicta id.
+            <p className="text-base md:text-lg">
+              Aprender Docker es clave para cualquier desarrollador que busque
+              profesionalizar su flujo de trabajo. Me interesa por su capacidad
+              de crear entornos consistentes y replicables, sin importar dónde
+              se ejecute el proyecto. Estoy aprendiendo a contenerizar
+              aplicaciones, manejar imágenes y desplegar con confianza. Con
+              Docker, quiero asegurar que cada proyecto que desarrolle pueda
+              escalar, migrar y funcionar igual en cualquier entorno.
             </p>
           </div>
         </div>
-
       </div>
     </div>
   );

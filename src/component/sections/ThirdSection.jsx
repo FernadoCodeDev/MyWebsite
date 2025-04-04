@@ -2,6 +2,15 @@ import React from "react";
 import useScrollAnimation from "../hooks/ScrollAnimation";
 import Github2SVG from "../../assets/svg/Github2";
 import WebSVG from "../../assets/svg/web";
+import SVGRect from "../../assets/svg/svgreact";
+import SVGTailwind from "../../assets/svg/Tailwind";
+import SVGresponsive from "../../assets/svg/responsive";
+import SVGJS from "../../assets/svg/js";
+import SVGphp from "../../assets/svg/php";
+import SVGmysql from "../../assets/svg/mysql";
+import MVC from "../../assets/img/MVC.webp";
+import SVGSass from "../../assets/svg/sass";
+
 import LandingMine from "../../assets/img/LandingMine.webp";
 import CosmicPizza from "../../assets/img/CosmicPizza.webp";
 import KeysHomes from "../../assets/img/KeysHomes.webp";
@@ -22,6 +31,14 @@ const ThirdSection = () => {
         }`}
         id="Project"
       >
+        <h1 className="text-2xl font-bold text-center md:text-4xl md:col-span-2">
+          Mis Proyectos
+        </h1>
+
+        <h3 className="text-xl font-bold text-center md:text-2xl md:col-span-2">
+          Creando, Aprendiendo y Evolucionando
+        </h3>
+
         <div class="md:col-span-2 rounded-2xl bg-slate-100 dark:bg-neutral-800 p-2">
           <div class="mt-10 h-auto rounded-l-2xl rounded-br-2xl rounded-bl-2xl bg-blue-950 relative flex flex-col">
             <img
@@ -69,25 +86,34 @@ const ThirdSection = () => {
               Landing Mine
             </span>
 
-            <div class="flex justify-between mt-5">
-              <div class="flex-1 text-center p-2 ">
-                <span class="block  font-bold text-sm">text</span>
-                <span class="text-xs">text</span>
+            <div class="grid grid-cols-2 w-full justify-center mt-5">
+              <div class="grid grid-cols-2 gap-4 m-auto items-center justify-center p-4">
+                <div className="flex flex-col items-center justify-center w-12 h-12 p-1 rounded-full md:w-20 md:h-20 bg-sky-300">
+                  <SVGRect />
+                </div>
+
+                <div className="flex flex-col items-center justify-center w-12 h-12 p-1 rounded-full md:w-20 md:h-20 bg-cyan-300">
+                  <SVGTailwind />
+                </div>
+
+                <div className="flex flex-col items-center justify-center w-12 h-12 p-3 rounded-full md:w-20 md:h-20 bg-sky-300">
+                  <SVGresponsive />
+                </div>
               </div>
-              <div class="flex-1 text-center p-2  border-l border-r border-black dark:border-white">
-                <span class="block  font-bold text-sm">text</span>
-                <span class="text-xs">text</span>
-              </div>
-              <div class="flex-1 text-center p-2 ">
-                <span class="block  font-bold text-sm">text</span>
-                <span class="text-xs">text</span>
+
+              <div class="flex-1 text-center p-2  border-l border-black dark:border-white">
+                <h1 class="block text-base md:text-xl">
+                  Colección de landing pages con diversas temáticas, diseñadas
+                  para crear interfaces modernas, atractivas y altamente
+                  eficientes. con un total de 18 landing Pages.
+                </h1>
               </div>
             </div>
           </div>
         </div>
 
         <div class="rounded-2xl bg-slate-100 dark:bg-neutral-800 p-2">
-          <div class="mt-10 h-auto rounded-l-2xl rounded-br-2xl rounded-bl-2xl bg-[#0f2925] relative flex flex-col">
+          <div class="mt-10 h-auto rounded-l-2xl roun border-r border-blackded-br-2xl rounded-bl-2xl bg-[#0f2925] relative flex flex-col">
             <img
               src={CosmicPizza}
               alt={CosmicPizza}
@@ -120,18 +146,32 @@ const ThirdSection = () => {
               Cosmic Pizza
             </span>
 
-            <div class="flex justify-between mt-5">
-              <div class="flex-1 text-center p-2 ">
-                <span class="block  font-bold text-sm">text</span>
-                <span class="text-xs">text</span>
+            <div class="grid grid-cols-2 w-full justify-center mt-5">
+              <div class="grid grid-cols-2 gap-4 m-auto items-center justify-center p-4 ">
+                <div className="flex flex-col items-center justify-center w-12 h-12 p-1 bg-yellow-300 rounded-full md:w-20 md:h-20">
+                  <SVGJS />
+                </div>
+
+                <div className="flex flex-col items-center justify-center w-12 h-12 p-1 bg-indigo-300 rounded-full md:w-20 md:h-20">
+                  <SVGphp />
+                </div>
+
+                <div className="flex flex-col items-center justify-center w-12 h-12 p-2 bg-orange-300 rounded-full md:p-4 md:w-20 md:h-20">
+                  <SVGmysql />
+                </div>
+
+                <div className="flex flex-col items-center justify-center w-12 h-12 p-2 rounded-full md:p-4 md:w-20 md:h-20 bg-slate-800">
+                  <img src={MVC} alt="MVC" className="invert" />
+                </div>
               </div>
-              <div class="flex-1 text-center p-2  border-l border-r border-black dark:border-white">
-                <span class="block  font-bold text-sm">text</span>
-                <span class="text-xs">text</span>
-              </div>
-              <div class="flex-1 text-center p-2 ">
-                <span class="block  font-bold text-sm">text</span>
-                <span class="text-xs">text</span>
+
+              <div class="flex-1 text-center p-2 border-l border-black dark:border-white">
+                <h1 class="block text-base md:text-xl">
+                  Plataforma web diseñada para una pizzería, integrando un
+                  sistema de reservaciones que mejora la experiencia del usuario
+                  y la gestión del negocio. Un proyecto que combina diseño
+                  intuitivo con funcionalidad práctica.
+                </h1>
               </div>
             </div>
           </div>
@@ -179,18 +219,32 @@ const ThirdSection = () => {
               Keys Homes
             </span>
 
-            <div class="flex justify-between mt-5">
-              <div class="flex-1 text-center p-2 ">
-                <span class="block  font-bold text-sm">text</span>
-                <span class="text-xs">text</span>
+            <div class="grid grid-cols-2 w-full justify-center mt-5">
+              <div class="grid grid-cols-2 gap-4 m-auto items-center justify-center p-4   dark:border-white">
+                <div className="flex flex-col items-center justify-center w-12 h-12 p-1 bg-yellow-300 rounded-full md:w-20 md:h-20">
+                  <SVGJS />
+                </div>
+
+                <div className="flex flex-col items-center justify-center w-12 h-12 p-2 bg-pink-300 rounded-full md:w-20 md:h-20">
+                  <SVGSass />
+                </div>
+
+                <div className="flex flex-col items-center justify-center w-12 h-12 p-1 bg-indigo-300 rounded-full md:w-20 md:h-20">
+                  <SVGphp />
+                </div>
+
+                <div className="flex flex-col items-center justify-center w-12 h-12 p-2 bg-orange-300 rounded-full md:p-4 md:w-20 md:h-20">
+                  <SVGmysql />
+                </div>
               </div>
-              <div class="flex-1 text-center p-2  border-l border-r border-black dark:border-white">
-                <span class="block  font-bold text-sm">text</span>
-                <span class="text-xs">text</span>
-              </div>
-              <div class="flex-1 text-center p-2 ">
-                <span class="block  font-bold text-sm">text</span>
-                <span class="text-xs">text</span>
+
+              <div class="flex-1 text-center p-2 border-l border-black dark:border-white">
+                <h1 class="block text-base md:text-xl">
+                  Plataforma web enfocada en bienes raíces, diseñada para
+                  ofrecer una experiencia fluida y organizada en la búsqueda y
+                  gestión de propiedades. Un desafío donde la estructura y la
+                  optimización han sido clave para su desarrollo.
+                </h1>
               </div>
             </div>
           </div>

@@ -15,22 +15,22 @@ const FirstSection = () => {
         }`}
         id="Me"
       >
-
         <div className="order-2 p-4 md:order-1">
           <img src={ImgFirstSection} alt="ImgFirstSection" />
         </div>
         <div className="flex flex-col justify-center order-1 gap-4 md:order-2">
           <h1 className="text-2xl font-bold text-center md:text-4xl md:text-start">
-            Lorem
+            Construyendo soluciones que combinan lógica, diseño y propósito
           </h1>
-          <h1 className="text-xl font-bold text-center md:text-2xl">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          </h1>
-          <p className="">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat
-            fugit nihil hic suscipit beatae, fuga perspiciatis temporibus
-            commodi possimus ullam nisi, impedit odio animi aut quaerat, esse
-            fugiat aliquid tempora.
+          <h3 className="text-xl font-bold text-center md:text-2xl">
+            Desarrollo con enfoque humano, técnico y eficiente.
+          </h3>
+          <p className="text-base md:text-lg">
+            Me apasiona crear experiencias digitales que funcionen bien y se
+            vean bien. Con formación en frontend y backend, me adapto con
+            facilidad a los retos de cada proyecto. Creo en la mejora constante,
+            el código claro y en trabajar con personas que valoren tanto el
+            detalle como el impacto de lo que construimos.
           </p>
         </div>
       </div>

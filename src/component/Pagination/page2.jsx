@@ -17,11 +17,14 @@ const page2 = () => {
           <h1 className="font-bold">PHP</h1>
 
           <div className="hidden transition-all duration-700 ease-out group-hover:flex">
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
-              corporis doloremque magnam amet excepturi a, natus aut ratione
-              fugit mollitia repudiandae sit fugiat, molestias eos non at
-              eligendi dicta id.
+            <p className="text-base md:text-lg">
+              Fue el primer lenguaje Back-End que aprendí, y con él construí la
+              base de proyectos como Keys Homes y Cosmic Pizza. Sé cómo proteger
+              datos, hashear contraseñas, manejar formularios, validar entradas,
+              y estructurar todo usando arquitectura MVC. PHP me permitió
+              entender a fondo cómo fluye la lógica en el servidor, y hoy lo uso
+              con total confianza para que cada proyecto funcione de forma
+              segura y eficiente.
             </p>
           </div>
         </div>
@@ -33,11 +36,13 @@ const page2 = () => {
           <h1 className="font-bold">Laravel</h1>
 
           <div className="hidden transition-all duration-700 ease-out group-hover:flex">
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
-              corporis doloremque magnam amet excepturi a, natus aut ratione
-              fugit mollitia repudiandae sit fugiat, molestias eos non at
-              eligendi dicta id.
+            <p className="text-base md:text-lg">
+              Al conocer PHP, tenía claro que debía dominar su mejor aliado:
+              Laravel. Con este framework optimizo y organizo el Back-End con
+              autenticación, enrutamiento, validación, control de sesiones y
+              mucho más. Laravel me permite escribir código limpio, escalable y
+              bien estructurado. Con él aseguro que cada parte del sistema
+              funcione al 200%.
             </p>
           </div>
         </div>
@@ -49,11 +54,14 @@ const page2 = () => {
           <h1 className="font-bold">Python</h1>
 
           <div className="hidden transition-all duration-700 ease-out group-hover:flex">
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
-              corporis doloremque magnam amet excepturi a, natus aut ratione
-              fugit mollitia repudiandae sit fugiat, molestias eos non at
-              eligendi dicta id.
+            <p className="text-base md:text-lg">
+              Me atrajo su claridad, y me quedé por su versatilidad. Python me
+              ha servido tanto para desarrollo web como para automatización y
+              análisis de datos. Su sintaxis legible y su potencia me permiten
+              resolver problemas de forma directa y elegante. Si algo se puede
+              hacer con Python, conmigo va de un{" "}
+              <span className="font-bold">print("Dicho y Hecho")</span> a la
+              acción real sin rodeos.
             </p>
           </div>
         </div>
@@ -65,15 +73,16 @@ const page2 = () => {
           <h1 className="font-bold">Node.js</h1>
 
           <div className="hidden transition-all duration-700 ease-out group-hover:flex">
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
-              corporis doloremque magnam amet excepturi a, natus aut ratione
-              fugit mollitia repudiandae sit fugiat, molestias eos non at
-              eligendi dicta id.
+            <p className="text-base md:text-lg">
+              Al trabajar con JavaScript, sabía que tenía que dominar también su
+              entorno en el servidor. Con Node.js puedo construir APIs robustas,
+              mejorar la capa del servidor y trabajar con arquitecturas como
+              MVC. Me permite crear todo el flujo de datos de una aplicación
+              moderna, desde el cliente hasta la base, con eficiencia y control
+              total.
             </p>
           </div>
         </div>
-
       </div>
     </div>
   );
