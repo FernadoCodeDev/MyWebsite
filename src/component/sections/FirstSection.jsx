@@ -13,6 +13,7 @@ const FirstSection = () => {
         className={`m-auto grid grid-cols-1 md:grid-cols-2 gap-4 max-w-[80rem] transition-all duration-1000 ease-in ${
           isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
         }`}
+        id="Me"
       >
 
         <div className="order-2 p-4 md:order-1">

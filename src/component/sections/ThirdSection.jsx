@@ -20,6 +20,7 @@ const ThirdSection = () => {
         className={`w-full m-auto grid grid-cols-1 md:grid-cols-2 gap-4 max-w-[80rem] transition-all duration-1000 ease-in ${
           isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
         }`}
+        id="Project"
       >
         <div class="md:col-span-2 rounded-2xl bg-slate-100 dark:bg-neutral-800 p-2">
           <div class="mt-10 h-auto rounded-l-2xl rounded-br-2xl rounded-bl-2xl bg-blue-950 relative flex flex-col">
