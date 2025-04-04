@@ -15,7 +15,7 @@ const page1 = () => {
     <div id="page-1" className="grid grid-cols-1 gap-4">
       <h2 className="text-2xl font-bold text-center md:text-4xl">Front-End</h2>
 
-      <div className="grid grid-cols-2 gap-4 md:grid-cols-3 ">
+      <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
         <div class="bg-slate-100 relative group dark:bg-neutral-800 shadow-xl dark:shadow-neutral-700/40 p-4 text-center flex flex-col justify-center items-center gap-4">
           <div className="flex flex-col items-center justify-center w-20 h-20 p-3 bg-orange-300 rounded-full">
             <SVGhtml />
