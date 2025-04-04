@@ -113,7 +113,7 @@ const ThirdSection = () => {
         </div>
 
         <div class="rounded-2xl bg-slate-100 dark:bg-neutral-800 p-2">
-          <div class="mt-10 h-auto rounded-l-2xl roun border-r border-blackded-br-2xl rounded-bl-2xl bg-[#0f2925] relative flex flex-col">
+          <div class="mt-10 h-auto rounded-l-2x rounded-bl-2xl bg-[#0f2925] relative flex flex-col">
             <img
               src={CosmicPizza}
               alt={CosmicPizza}
