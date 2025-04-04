@@ -7,7 +7,7 @@ import CosmicPizza from "../../assets/img/CosmicPizza.webp";
 import KeysHomes from "../../assets/img/KeysHomes.webp";
 import KeysHomesB from "../../assets/img/KeysHomesB.webp";
 import CosmicPizzaB from "../../assets/img/CosmicPizzaB.webp";
-import LandingMineVideo from "../../assets/video/ContributionSnake.gif";
+import LandingMineVideo from "../../assets/video/LandingMineVideo.mp4";
 
 const ThirdSection = () => {
   const isVisible = useScrollAnimation("second-section");
@@ -22,17 +22,26 @@ const ThirdSection = () => {
         }`}
       >
         <div class="md:col-span-2 rounded-2xl bg-slate-100 dark:bg-neutral-800 p-2">
-          <div class="mt-10 h-auto rounded-l-2xl rounded-br-2xl rounded-bl-2xl bg-neutral-950 relative flex flex-col">
+          <div class="mt-10 h-auto rounded-l-2xl rounded-br-2xl rounded-bl-2xl bg-blue-950 relative flex flex-col">
             <img
               src={LandingMine}
               alt={LandingMine}
               className="absolute w-8 h-auto dark:invert -top-7 left-5 "
             />
 
-            <img src={KeysHomesB} alt="KeysHomesB" className="z-20 w-full h-auto p-2 rounded-2xl" />
+            <video
+              className="z-20 w-full h-auto p-4 rounded-2xl"
+              loop
+              autoPlay
+              muted
+              playsInline
+            >
+              <source src={LandingMineVideo} type="video/mp4" />
+              Tu navegador no soporta el elemento de video.
+            </video>
 
-            <div class="w-1/3 h-11 bg-neutral-950 z-30 rounded-2xl absolute transform -top-7 right-5 skew-x-[-40deg]"></div>
-            <div class="w-1/4 h-11 bg-neutral-950 z-30 rounded-tr-2xl absolute transform -top-7 right-0 ">
+            <div class="w-1/3 h-11 bg-blue-950 z-10 rounded-2xl absolute transform -top-7 right-5 skew-x-[-40deg]"></div>
+            <div class="w-1/4 h-11 bg-blue-950 z-10 rounded-tr-2xl absolute transform -top-7 right-0 ">
               <div class="p-1 w-full h-12 absolute  flex flex-row justify-around">
                 <a
                   href="https://landingmine.netlify.app/"
@@ -84,12 +93,15 @@ const ThirdSection = () => {
               className="absolute w-5 h-auto dark:invert -top-7 left-5 "
             />
 
-            <img src={CosmicPizzaB} alt="KeysHomesB" className="z-20 w-full h-auto rounded-2xl" />
+            <img
+              src={CosmicPizzaB}
+              alt="KeysHomesB"
+              className="z-20 w-full h-auto rounded-2xl"
+            />
 
             <div class="w-1/3 h-11 bg-[#090f1f] z-30 rounded-2xl absolute transform -top-7 right-5 skew-x-[-40deg]"></div>
             <div class="w-1/4 h-11 bg-[#090f1f] z-30 rounded-tr-2xl absolute transform -top-7 right-0 ">
               <div class="p-1 w-full h-12 absolute  flex flex-row justify-around">
-             
                 <a
                   href="https://github.com/FernadoCodeDev/Cosmic-Pizza"
                   target="_blank"
@@ -104,7 +116,7 @@ const ThirdSection = () => {
 
           <div class="mt-4 p-2">
             <span class="block text-center font-extrabold text-2xl tracking-wide">
-            Cosmic Pizza
+              Cosmic Pizza
             </span>
 
             <div class="flex justify-between mt-5">
@@ -132,7 +144,11 @@ const ThirdSection = () => {
               className="absolute w-5 h-auto dark:invert -top-7 left-5 "
             />
 
-            <img src={KeysHomesB} alt="KeysHomesB" className="z-20 w-full h-auto rounded-2xl" />
+            <img
+              src={KeysHomesB}
+              alt="KeysHomesB"
+              className="z-20 w-full h-auto rounded-2xl"
+            />
 
             <div class="w-1/3 h-11 bg-[#0f2925] z-30 rounded-2xl absolute transform -top-7 right-5 skew-x-[-40deg]"></div>
             <div class="w-1/4 h-11 bg-[#0f2925] z-30 rounded-tr-2xl absolute transform -top-7 right-0 ">
