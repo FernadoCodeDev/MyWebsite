@@ -16,14 +16,15 @@ const page1 = () => {
       <h2 className="text-2xl font-bold text-center md:text-4xl">Front-End</h2>
 
       <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
-        <div class="bg-slate-100 relative group dark:bg-neutral-800 shadow-xl dark:shadow-neutral-700/40 p-4 text-center flex flex-col justify-center items-center gap-4">
-          <div className="flex flex-col items-center justify-center w-20 h-20 p-3 bg-orange-300 rounded-full">
+        <div class="h-auto bg-slate-100 relative group dark:bg-neutral-800 shadow-xl dark:shadow-neutral-700/40 p-4 text-center flex flex-col justify-center items-center gap-4">
+          <div class="flex flex-col items-center justify-center w-20 h-20 p-3 bg-orange-300 rounded-full">
             <SVGhtml />
           </div>
-          <h1 className="font-bold">HTML</h1>
 
-          <div className="hidden transition-all duration-700 ease-out group-hover:flex">
-            <p className="text-base md:text-lg">
+          <h1 class="font-bold">HTML</h1>
+
+          <div class="overflow-hidden max-h-0 transition-all duration-700 ease-in-out group-hover:max-h-[500px]">
+            <p class="text-base md:text-lg">
               Es la base de todo, y me aseguro de usarlo con propósito. No se
               trata solo de estructurar una página, sino de construirla con
               inteligencia. Uso cada etiqueta con intención, como un arquitecto
@@ -33,14 +34,14 @@ const page1 = () => {
           </div>
         </div>
 
-        <div class="bg-slate-100 relative group dark:bg-neutral-800 shadow-xl dark:shadow-neutral-700/40  p-4 text-center flex flex-col justify-center items-center gap-4">
+        <div class="h-auto bg-slate-100 relative group dark:bg-neutral-800 shadow-xl dark:shadow-neutral-700/40  p-4 text-center flex flex-col justify-center items-center gap-4">
           <div className="flex flex-col items-center justify-center w-20 h-20 p-4 bg-indigo-300 rounded-full">
             <SVGcss />
           </div>
 
           <h3 className="font-bold">CSS</h3>
 
-          <div className="hidden transition-all duration-700 ease-out group-hover:flex">
+          <div className="overflow-hidden max-h-0 transition-all duration-700 ease-in-out group-hover:max-h-[500px]">
             <p className="text-base md:text-lg">
               Es lo que da vida al diseño, y con él puedo crear cualquier estilo
               que un proyecto necesite. Desde un botón sutil hasta una interfaz
@@ -51,14 +52,14 @@ const page1 = () => {
           </div>
         </div>
 
-        <div class="bg-slate-100 relative group dark:bg-neutral-800 shadow-xl dark:shadow-neutral-700/40  p-4 text-center flex flex-col justify-center items-center gap-4">
+        <div class="h-auto bg-slate-100 relative group dark:bg-neutral-800 shadow-xl dark:shadow-neutral-700/40  p-4 text-center flex flex-col justify-center items-center gap-4">
           <div className="flex flex-col items-center justify-center w-20 h-20 p-3 bg-pink-300 rounded-full">
             <SVGSass />
           </div>
 
           <h3 className="font-bold">Sass</h3>
 
-          <div className="hidden transition-all duration-700 ease-out group-hover:flex">
+          <div className="overflow-hidden max-h-0 transition-all duration-700 ease-in-out group-hover:max-h-[500px]">
             <p className="text-base md:text-lg">
               CSS con superpoderes, y yo me encargo de llevarlos al máximo. Uso
               mixins, funciones, anidamiento, variables y estructuras
@@ -70,14 +71,14 @@ const page1 = () => {
           </div>
         </div>
 
-        <div class="bg-slate-100 relative group dark:bg-neutral-800 shadow-xl dark:shadow-neutral-700/40  p-4 text-center flex flex-col justify-center items-center gap-4">
+        <div class="h-auto bg-slate-100 relative group dark:bg-neutral-800 shadow-xl dark:shadow-neutral-700/40  p-4 text-center flex flex-col justify-center items-center gap-4">
           <div className="flex flex-col items-center justify-center w-20 h-20 p-3 bg-yellow-300 rounded-full">
             <SVGJS />
           </div>
 
           <h3 className="font-bold">JavaScript</h3>
 
-          <div className="hidden transition-all duration-700 ease-out group-hover:flex">
+          <div className="overflow-hidden max-h-0 transition-all duration-700 ease-in-out group-hover:max-h-[500px]">
             <p className="text-base md:text-lg">
               La interactividad empieza aquí, y estoy listo para hacer que
               cualquier elemento cobre vida. Me siento cómodo enfrentando
@@ -89,14 +90,14 @@ const page1 = () => {
           </div>
         </div>
 
-        <div class="bg-slate-100 relative group dark:bg-neutral-800 shadow-xl dark:shadow-neutral-700/40  p-4 text-center flex flex-col justify-center items-center gap-4">
+        <div class="h-auto bg-slate-100 relative group dark:bg-neutral-800 shadow-xl dark:shadow-neutral-700/40  p-4 text-center flex flex-col justify-center items-center gap-4">
           <div className="flex flex-col items-center justify-center w-20 h-20 p-3 rounded-full bg-sky-300">
             <SVGTS />
           </div>
 
           <h3 className="font-bold">Typescrip</h3>
 
-          <div className="hidden transition-all duration-700 ease-out group-hover:flex">
+          <div className="overflow-hidden max-h-0 transition-all duration-700 ease-in-out group-hover:max-h-[500px]">
             <p className="text-base md:text-lg">
               Si la interactividad empieza con JavaScript, con TypeScript sé que
               puedo llevarla a otro nivel. Gracias a su tipado estático,
@@ -108,14 +109,14 @@ const page1 = () => {
           </div>
         </div>
 
-        <div class="bg-slate-100 relative group dark:bg-neutral-800 shadow-xl dark:shadow-neutral-700/40  p-4 text-center flex flex-col justify-center items-center gap-4">
+        <div class="h-auto bg-slate-100 relative group dark:bg-neutral-800 shadow-xl dark:shadow-neutral-700/40  p-4 text-center flex flex-col justify-center items-center gap-4">
           <div className="flex flex-col items-center justify-center w-20 h-20 p-3 rounded-full bg-cyan-300">
             <SVGJquery />
           </div>
 
           <h3 className="font-bold">Jquery</h3>
 
-          <div className="hidden transition-all duration-700 ease-out group-hover:flex">
+          <div className="overflow-hidden max-h-0 transition-all duration-700 ease-in-out group-hover:max-h-[500px]">
             <p className="text-base md:text-lg">
               jQuery fue una de las primeras herramientas que me ayudó a
               entender lo poderoso que puede ser JavaScript en el navegador. Hoy
@@ -127,14 +128,14 @@ const page1 = () => {
           </div>
         </div>
 
-        <div class="bg-slate-100 relative group dark:bg-neutral-800 shadow-xl dark:shadow-neutral-700/40  p-4 text-center flex flex-col justify-center items-center gap-4">
+        <div class="h-auto bg-slate-100 relative group dark:bg-neutral-800 shadow-xl dark:shadow-neutral-700/40  p-4 text-center flex flex-col justify-center items-center gap-4">
           <div className="flex flex-col items-center justify-center w-20 h-20 p-3 rounded-full bg-violet-300">
             <SVGBootstrap />
           </div>
 
           <h3 className="font-bold">Bootstrap</h3>
 
-          <div className="hidden transition-all duration-700 ease-out group-hover:flex">
+          <div className="overflow-hidden max-h-0 transition-all duration-700 ease-in-out group-hover:max-h-[500px]">
             <p className="text-base md:text-lg">
               Uno de los primeros frameworks que aprendí, y al día de hoy sigue
               siendo una gran herramienta en mi flujo de trabajo. Con Bootstrap
@@ -145,14 +146,14 @@ const page1 = () => {
           </div>
         </div>
 
-        <div class="bg-slate-100 relative group dark:bg-neutral-800 shadow-xl dark:shadow-neutral-700/40  p-4 text-center flex flex-col justify-center items-center gap-4">
+        <div class="h-auto bg-slate-100 relative group dark:bg-neutral-800 shadow-xl dark:shadow-neutral-700/40  p-4 text-center flex flex-col justify-center items-center gap-4">
           <div className="flex flex-col items-center justify-center w-20 h-20 p-3 bg-purple-300 rounded-full">
             <SVGRedux />
           </div>
 
           <h3 className="font-bold">Redux</h3>
 
-          <div className="hidden transition-all duration-700 ease-out group-hover:flex">
+          <div className="overflow-hidden max-h-0 transition-all duration-700 ease-in-out group-hover:max-h-[500px]">
             <p className="text-base md:text-lg">
               Una librería que uso cuando el estado de una aplicación necesita
               estar bien controlado. Con Redux puedo gestionar flujos de datos
@@ -163,14 +164,14 @@ const page1 = () => {
           </div>
         </div>
 
-        <div class="bg-slate-100 relative group dark:bg-neutral-800 shadow-xl dark:shadow-neutral-700/40  p-4 text-center flex flex-col justify-center items-center gap-4">
+        <div class="h-auto bg-slate-100 relative group dark:bg-neutral-800 shadow-xl dark:shadow-neutral-700/40  p-4 text-center flex flex-col justify-center items-center gap-4">
           <div className="flex flex-col items-center justify-center w-20 h-20 p-3 rounded-full bg-sky-300">
             <SVGReact />
           </div>
 
           <h3 className="font-bold">React</h3>
 
-          <div className="hidden transition-all duration-700 ease-out group-hover:flex">
+          <div className="overflow-hidden max-h-0 transition-all duration-700 ease-in-out group-hover:max-h-[500px]">
             <p className="text-base md:text-lg">
               Si aprendí JavaScript, tenía que dominar uno de sus frameworks más
               populares. Con React puedo construir interfaces modernas y
@@ -182,14 +183,14 @@ const page1 = () => {
           </div>
         </div>
 
-        <div class="bg-slate-100 relative group dark:bg-neutral-800 shadow-xl dark:shadow-neutral-700/40  p-4 text-center flex flex-col justify-center items-center gap-4">
+        <div class="h-auto bg-slate-100 relative group dark:bg-neutral-800 shadow-xl dark:shadow-neutral-700/40  p-4 text-center flex flex-col justify-center items-center gap-4">
           <div className="flex flex-col items-center justify-center w-20 h-20 p-3 rounded-full bg-cyan-300">
             <SVGTailwind />
           </div>
 
           <h3 className="font-bold">Tailwind</h3>
 
-          <div className="hidden transition-all duration-700 ease-out group-hover:flex">
+          <div className="overflow-hidden max-h-0 transition-all duration-700 ease-in-out group-hover:max-h-[500px]">
             <p className="text-base md:text-lg">
               Después de trabajar con CSS y SASS, sabía que tenía que dominar
               Tailwind. Este framework me permite personalizar cada detalle

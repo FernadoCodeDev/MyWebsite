@@ -15,13 +15,13 @@ const page5 = () => {
       </h2>
 
       <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
-        <div class="bg-slate-100 relative group dark:bg-neutral-800 shadow-xl dark:shadow-neutral-700/40 p-4 text-center flex flex-col justify-center items-center gap-4">
+        <div class="h-auto bg-slate-100 relative group dark:bg-neutral-800 shadow-xl dark:shadow-neutral-700/40 p-4 text-center flex flex-col justify-center items-center gap-4">
           <div className="flex flex-col items-center justify-center w-20 h-20 p-3 bg-orange-300 rounded-full">
             <SVGgit />
           </div>
           <h1 className="font-bold">GIT</h1>
 
-          <div className="hidden transition-all duration-700 ease-out group-hover:flex">
+          <div className="overflow-hidden max-h-0 transition-all duration-700 ease-in-out group-hover:max-h-[500px]">
             <p className="text-base md:text-lg">
               Aprender Git fue un cambio total en mi manera de trabajar. Me dio
               el control de cada versión, cada mejora, cada decisión. Trabajo en
@@ -32,13 +32,13 @@ const page5 = () => {
           </div>
         </div>
 
-        <div class="bg-slate-100 relative group dark:bg-neutral-800 shadow-xl dark:shadow-neutral-700/40 p-4 text-center flex flex-col justify-center items-center gap-4">
+        <div class="h-auto bg-slate-100 relative group dark:bg-neutral-800 shadow-xl dark:shadow-neutral-700/40 p-4 text-center flex flex-col justify-center items-center gap-4">
           <div className="flex flex-col items-center justify-center w-20 h-20 p-3 rounded-full bg-neutral-700">
             <SVGgitHub />
           </div>
           <h1 className="font-bold">GitHub</h1>
 
-          <div className="hidden transition-all duration-700 ease-out group-hover:flex">
+          <div className="overflow-hidden max-h-0 transition-all duration-700 ease-in-out group-hover:max-h-[500px]">
             <p className="text-base md:text-lg">
               Si aprendí Git, por supuesto tenía que dominar GitHub. Me encanta
               ver cómo cada commit, cada push, cada proyecto va llenando de
@@ -49,13 +49,13 @@ const page5 = () => {
           </div>
         </div>
 
-        <div class="bg-slate-100 relative group dark:bg-neutral-800 shadow-xl dark:shadow-neutral-700/40 p-4 text-center flex flex-col justify-center items-center gap-4">
+        <div class="h-auto bg-slate-100 relative group dark:bg-neutral-800 shadow-xl dark:shadow-neutral-700/40 p-4 text-center flex flex-col justify-center items-center gap-4">
           <div className="flex flex-col items-center justify-center w-20 h-20 p-4 bg-red-300 rounded-full">
             <SVGnpm />
           </div>
           <h1 className="font-bold">NPM</h1>
 
-          <div className="hidden transition-all duration-700 ease-out group-hover:flex">
+          <div className="overflow-hidden max-h-0 transition-all duration-700 ease-in-out group-hover:max-h-[500px]">
             <p className="text-base md:text-lg">
               NPM es una de esas herramientas que te hace crecer como
               desarrollador. Gracias a su ecosistema, trabajo con librerías,
@@ -67,13 +67,13 @@ const page5 = () => {
           </div>
         </div>
 
-        <div class="bg-slate-100 relative group dark:bg-neutral-800 shadow-xl dark:shadow-neutral-700/40 p-4 text-center flex flex-col justify-center items-center gap-4">
+        <div class="h-auto bg-slate-100 relative group dark:bg-neutral-800 shadow-xl dark:shadow-neutral-700/40 p-4 text-center flex flex-col justify-center items-center gap-4">
           <div className="flex flex-col items-center justify-center w-20 h-20 p-3 rounded-full bg-rose-300">
             <SVGgulp />
           </div>
           <h1 className="font-bold">Gulp</h1>
 
-          <div className="hidden transition-all duration-700 ease-out group-hover:flex">
+          <div className="overflow-hidden max-h-0 transition-all duration-700 ease-in-out group-hover:max-h-[500px]">
             <p className="text-base md:text-lg">
               Gulp es eficiencia. Con esta herramienta automatizo tareas
               repetitivas para que pueda enfocarme en lo que realmente importa:
@@ -84,13 +84,13 @@ const page5 = () => {
           </div>
         </div>
 
-        <div class="bg-slate-100 relative group dark:bg-neutral-800 shadow-xl dark:shadow-neutral-700/40 p-4 text-center flex flex-col justify-center items-center gap-4">
+        <div class="h-auto bg-slate-100 relative group dark:bg-neutral-800 shadow-xl dark:shadow-neutral-700/40 p-4 text-center flex flex-col justify-center items-center gap-4">
           <div className="flex flex-col items-center justify-center w-20 h-20 p-3 bg-orange-300 rounded-full">
             <SVGpostman />
           </div>
           <h1 className="font-bold">Postman</h1>
 
-          <div className="hidden transition-all duration-700 ease-out group-hover:flex">
+          <div className="overflow-hidden max-h-0 transition-all duration-700 ease-in-out group-hover:max-h-[500px]">
             <p className="text-base md:text-lg">
               Postman fue clave cuando comencé a trabajar con APIs. Durante el
               desarrollo de Keys Homes y Cosmic Pizza, aprendí a testear cada
@@ -102,13 +102,13 @@ const page5 = () => {
           </div>
         </div>
 
-        <div class="bg-slate-100 relative group dark:bg-neutral-800 shadow-xl dark:shadow-neutral-700/40 p-4 text-center flex flex-col justify-center items-center gap-4">
+        <div class="h-auto bg-slate-100 relative group dark:bg-neutral-800 shadow-xl dark:shadow-neutral-700/40 p-4 text-center flex flex-col justify-center items-center gap-4">
           <div className="flex flex-col items-center justify-center w-20 h-20 p-3 bg-pink-300 rounded-full">
             <SVGfigma />
           </div>
           <h1 className="font-bold">Figma</h1>
 
-          <div className="hidden transition-all duration-700 ease-out group-hover:flex">
+          <div className="overflow-hidden max-h-0 transition-all duration-700 ease-in-out group-hover:max-h-[500px]">
             <p className="text-base md:text-lg">
               Ver un proyecto nacer desde el diseño es algo que me motiva. Figma
               me permite visualizar, experimentar y pulir la estructura visual
@@ -120,13 +120,13 @@ const page5 = () => {
           </div>
         </div>
 
-        <div class="bg-slate-100 relative group dark:bg-neutral-800 shadow-xl dark:shadow-neutral-700/40 p-4 text-center flex flex-col justify-center items-center gap-4">
+        <div class="h-auto bg-slate-100 relative group dark:bg-neutral-800 shadow-xl dark:shadow-neutral-700/40 p-4 text-center flex flex-col justify-center items-center gap-4">
           <div className="flex flex-col items-center justify-center w-20 h-20 p-3 rounded-full bg-cyan-300">
             <SVGcanva />
           </div>
           <h1 className="font-bold">Canva</h1>
 
-          <div className="hidden transition-all duration-700 ease-out group-hover:flex">
+          <div className="overflow-hidden max-h-0 transition-all duration-700 ease-in-out group-hover:max-h-[500px]">
             <p className="text-base md:text-lg">
               Canva me da flexibilidad y rapidez cuando quiero crear diseños
               visuales para mis proyectos. Lo uso junto con Figma, pero con

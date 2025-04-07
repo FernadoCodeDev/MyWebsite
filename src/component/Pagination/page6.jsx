@@ -13,7 +13,7 @@ const page6 = () => {
       </h2>
 
       <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
-        <div class="bg-slate-100 relative group dark:bg-neutral-800 shadow-xl dark:shadow-neutral-700/40 p-4 text-center flex flex-col justify-center items-center gap-4">
+        <div class="h-auto bg-slate-100 relative group dark:bg-neutral-800 shadow-xl dark:shadow-neutral-700/40 p-4 text-center flex flex-col justify-center items-center gap-4">
           <div className="flex flex-col items-center justify-center w-20 h-20 p-3 bg-teal-300 rounded-full">
             <SVGdatabases />
           </div>
@@ -21,7 +21,7 @@ const page6 = () => {
             Diseño y modelado de bases de datos relacionales
           </h1>
 
-          <div className="hidden transition-all duration-700 ease-out group-hover:flex">
+          <div className="overflow-hidden max-h-0 transition-all duration-700 ease-in-out group-hover:max-h-[500px]">
             <p className="text-base md:text-lg">
               Diseñar una base de datos no es solo crear tablas, es entender
               cómo organizar la información de forma lógica, eficiente y segura.
@@ -33,13 +33,13 @@ const page6 = () => {
           </div>
         </div>
 
-        <div class="bg-slate-100 relative group dark:bg-neutral-800 shadow-xl dark:shadow-neutral-700/40 p-4 text-center flex flex-col justify-center items-center gap-4">
+        <div class="h-auto bg-slate-100 relative group dark:bg-neutral-800 shadow-xl dark:shadow-neutral-700/40 p-4 text-center flex flex-col justify-center items-center gap-4">
           <div className="flex flex-col items-center justify-center w-20 h-20 p-4 rounded-full bg-sky-300">
             <SVGresponsive />
           </div>
           <h1 className="font-bold">Diseño Responsive</h1>
 
-          <div className="hidden transition-all duration-700 ease-out group-hover:flex">
+          <div className="overflow-hidden max-h-0 transition-all duration-700 ease-in-out group-hover:max-h-[500px]">
             <p className="text-base md:text-lg">
               Un buen diseño debe adaptarse a todos. Siempre me aseguro de que
               cada interfaz que creo ya sea con CSS, SASS o Tailwind sea 100%
@@ -51,13 +51,13 @@ const page6 = () => {
           </div>
         </div>
 
-        <div class="bg-slate-100 relative group dark:bg-neutral-800 shadow-xl dark:shadow-neutral-700/40 p-4 text-center flex flex-col justify-center items-center gap-4">
+        <div class="h-auto bg-slate-100 relative group dark:bg-neutral-800 shadow-xl dark:shadow-neutral-700/40 p-4 text-center flex flex-col justify-center items-center gap-4">
           <div className="flex flex-col items-center justify-center w-20 h-20 p-3 rounded-full bg-slate-800">
             <img src={MVC} alt="MVC" className="invert" />
           </div>
           <h1 className="font-bold">MVC (Model-View-Controller)</h1>
 
-          <div className="hidden transition-all duration-700 ease-out group-hover:flex">
+          <div className="overflow-hidden max-h-0 transition-all duration-700 ease-in-out group-hover:max-h-[500px]">
             <p className="text-base md:text-lg">
               Descubrir la arquitectura Modelo-Vista-Controlador (MVC) fue un
               antes y después para mí. La utilicé en Cosmic Pizza y comprobé lo
@@ -69,13 +69,13 @@ const page6 = () => {
           </div>
         </div>
 
-        <div class="bg-slate-100 relative group dark:bg-neutral-800 shadow-xl dark:shadow-neutral-700/40 p-4 text-center flex flex-col justify-center items-center gap-4">
+        <div class="h-auto bg-slate-100 relative group dark:bg-neutral-800 shadow-xl dark:shadow-neutral-700/40 p-4 text-center flex flex-col justify-center items-center gap-4">
           <div className="flex flex-col items-center justify-center w-20 h-20 p-4 bg-blue-300 rounded-full">
             <img src={crud} alt="crud" className="invert" />
           </div>
           <h1 className="font-bold">CRUD (Create, Read, Update, Delete)</h1>
 
-          <div className="hidden transition-all duration-700 ease-out group-hover:flex">
+          <div className="overflow-hidden max-h-0 transition-all duration-700 ease-in-out group-hover:max-h-[500px]">
             <p className="text-base md:text-lg">
               El CRUD (Crear, Leer, Actualizar, Eliminar) es la base del
               funcionamiento de la mayoría de las aplicaciones. Al dominarlo
@@ -87,13 +87,13 @@ const page6 = () => {
           </div>
         </div>
 
-        <div class="bg-slate-100 relative group dark:bg-neutral-800 shadow-xl dark:shadow-neutral-700/40 p-4 text-center flex flex-col justify-center items-center gap-4">
+        <div class="h-auto bg-slate-100 relative group dark:bg-neutral-800 shadow-xl dark:shadow-neutral-700/40 p-4 text-center flex flex-col justify-center items-center gap-4">
           <div className="flex flex-col items-center justify-center w-20 h-20 p-3 rounded-full bg-neutral-700">
             <SVGhttp />
           </div>
           <h1 className="font-bold">RESTful APIs</h1>
 
-          <div className="hidden transition-all duration-700 ease-out group-hover:flex">
+          <div className="overflow-hidden max-h-0 transition-all duration-700 ease-in-out group-hover:max-h-[500px]">
             <p className="text-base md:text-lg">
               Aprender sobre las RESTful APIs y la seguridad en las
               comunicaciones HTTP fue fundamental para proyectos como Keys Homes
