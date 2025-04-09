@@ -22,7 +22,7 @@ const ThirdSection = () => {
   const isVisible = useScrollAnimation("second-section");
   return (
     <div
-      className="relative flex flex-col items-center min-h-screen gap-8 p-4 text-black bg-white 2xl:text-2xl dark:text-white dark:bg-neutral-900"
+      className="relative flex flex-col items-center h-auto gap-8 p-4 text-black bg-white 2xl:text-2xl dark:text-white dark:bg-neutral-900"
       id="second-section"
     >
       <div

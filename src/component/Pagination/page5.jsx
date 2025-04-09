@@ -25,7 +25,7 @@ const page5 = () => {
             <p className="text-base md:text-lg">
               Aprender Git fue un cambio total en mi manera de trabajar. Me dio
               el control de cada versión, cada mejora, cada decisión. Trabajo en
-              mi propia rama con orden, y cada commit que hago no es un parche:
+              mi propia rama con orden, y cada commit que hago no es un parche,
               es un paso hacia algo mejor. Con Git puedo colaborar, organizar y
               asegurar que cada parte del proyecto esté bien gestionada.
             </p>
@@ -76,7 +76,7 @@ const page5 = () => {
           <div className="overflow-hidden max-h-0 transition-all duration-700 ease-in-out group-hover:max-h-[500px]">
             <p className="text-base md:text-lg">
               Gulp es eficiencia. Con esta herramienta automatizo tareas
-              repetitivas para que pueda enfocarme en lo que realmente importa:
+              repetitivas para que pueda enfocarme en lo que realmente importa
               desarrollar. En Keys Homes y Cosmic Pizza usé Gulp para compilar,
               minificar, mover archivos, recargar el navegador... todo sin
               perder tiempo, todo con un flujo de trabajo limpio y automatizado.

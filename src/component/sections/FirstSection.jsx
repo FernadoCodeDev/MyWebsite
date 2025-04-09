@@ -7,7 +7,7 @@ const FirstSection = () => {
   return (
     <div
       id="second-section"
-      className="relative flex flex-col items-center min-h-screen gap-8 p-4 text-black bg-white lg:text-2xl dark:text-white dark:bg-neutral-900"
+      className="relative flex flex-col items-center h-auto gap-8 p-4 text-black bg-white lg:text-2xl dark:text-white dark:bg-neutral-900"
     >
       <div
         className={`m-auto grid grid-cols-1 md:grid-cols-2 gap-4 max-w-[80rem] transition-all duration-1000 ease-in ${
