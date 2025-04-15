@@ -95,7 +95,7 @@ const page1 = () => {
             <SVGTS />
           </div>
 
-          <h3 className="font-bold">Typescrip</h3>
+          <h3 className="font-bold">Typescript</h3>
 
           <div className="overflow-hidden max-h-0 transition-all duration-700 ease-in-out group-hover:max-h-[500px]">
             <p className="text-base md:text-lg">
