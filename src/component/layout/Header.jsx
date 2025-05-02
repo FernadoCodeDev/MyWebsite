@@ -59,7 +59,7 @@ const Header = () => {
 
             <div className="grid items-center justify-center w-full max-w-[60rem] grid-cols-2 gap-4 md:grid-cols-4">
               <a
-                href="https://www.linkedin.com/in/fernando-mejía"
+                href="www.linkedin.com/in/fernando-mejía-866a4b363"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -86,7 +86,7 @@ const Header = () => {
 
               <Modal />
 
-              <a href="mailto:fernando.e.mejia.e@gmail.com">
+              <a href="mailto:fernandomejiadev@gmail.com">
                 <button class="group w-16 hover:w-full h-20 hover:bg-amber-400 relative bg-amber-300 rounded text-neutral-50 duration-700 before:duration-700 before:hover:500 font-bold flex justify-start gap-2 items-center p-2 pr-6 before:absolute before:-z-10 before:left-8 before:hover:left-40 before:w-6 before:h-6  before:rotate-45">
                   <Gmail />
                   <span class="origin-center text-xl md:text-2xl inline-flex duration-100 group-hover:duration-300 group-hover:delay-500 opacity-0 group-hover:opacity-100 border-l-2 px-1 transform scale-x-0 group-hover:scale-x-100 transition-all">
