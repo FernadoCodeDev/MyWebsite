@@ -59,7 +59,7 @@ const Header = () => {
 
             <div className="grid items-center justify-center w-full max-w-[60rem] grid-cols-2 gap-4 md:grid-cols-4">
               <a
-                href="www.linkedin.com/in/fernando-mejía-866a4b363"
+                href="https://www.linkedin.com/in/fernando-mej%C3%ADa-866a4b363/"
                 target="_blank"
                 rel="noopener noreferrer"
               >

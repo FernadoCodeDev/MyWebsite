@@ -86,8 +86,8 @@ const ThirdSection = () => {
               Landing Mine
             </span>
 
-            <div class="grid grid-cols-2 w-full justify-center mt-5">
-              <div class="grid grid-cols-2 gap-4 m-auto items-center justify-center p-4">
+            <div class="grid grid-cols-1 md:grid-cols-2 w-full justify-center mt-5">
+              <div class="order-2 md:order-1 grid grid-cols-3 md:grid-cols-2  gap-4 m-auto items-center justify-center p-4">
                 <div className="flex flex-col items-center justify-center w-12 h-12 p-1 rounded-full md:w-20 md:h-20 bg-sky-300">
                   <SVGRect />
                 </div>
@@ -101,7 +101,7 @@ const ThirdSection = () => {
                 </div>
               </div>
 
-              <div class="flex-1 text-center p-2  border-l border-black dark:border-white">
+              <div class="order-1 md:order-2 flex-1 text-center p-2 border-b md:border-b-0 md:border-l border-black dark:border-white">
                 <h1 class="block text-base md:text-xl">
                   Colección de landing pages con diversas temáticas, diseñadas
                   para crear interfaces modernas, atractivas y altamente
@@ -146,8 +146,17 @@ const ThirdSection = () => {
               Cosmic Pizza
             </span>
 
-            <div class="grid grid-cols-2 w-full justify-center mt-5">
-              <div class="grid grid-cols-2 gap-4 m-auto items-center justify-center p-4 ">
+            <div class="grid grid-cols-1 w-full justify-center mt-5">
+              <div class="flex-1 text-center p-2 border-b border-black dark:border-white">
+                <h1 class="block text-base md:text-xl">
+                  Plataforma web diseñada para una pizzería, integrando un
+                  sistema de reservaciones que mejora la experiencia del usuario
+                  y la gestión del negocio. Un proyecto que combina diseño
+                  intuitivo con funcionalidad práctica.
+                </h1>
+              </div>
+
+              <div class="grid grid-cols-4  gap-4 m-auto items-center justify-center p-4">
                 <div className="flex flex-col items-center justify-center w-12 h-12 p-1 bg-yellow-300 rounded-full md:w-20 md:h-20">
                   <SVGJS />
                 </div>
@@ -163,15 +172,6 @@ const ThirdSection = () => {
                 <div className="flex flex-col items-center justify-center w-12 h-12 p-2 rounded-full md:p-4 md:w-20 md:h-20 bg-slate-800">
                   <img src={MVC} alt="MVC" className="invert" />
                 </div>
-              </div>
-
-              <div class="flex-1 text-center p-2 border-l border-black dark:border-white">
-                <h1 class="block text-base md:text-xl">
-                  Plataforma web diseñada para una pizzería, integrando un
-                  sistema de reservaciones que mejora la experiencia del usuario
-                  y la gestión del negocio. Un proyecto que combina diseño
-                  intuitivo con funcionalidad práctica.
-                </h1>
               </div>
             </div>
           </div>
@@ -219,8 +219,17 @@ const ThirdSection = () => {
               Keys Homes
             </span>
 
-            <div class="grid grid-cols-2 w-full justify-center mt-5">
-              <div class="grid grid-cols-2 gap-4 m-auto items-center justify-center p-4   dark:border-white">
+            <div class="grid grid-cols-1 w-full justify-center mt-5">
+              <div class="flex-1 text-center p-2 border-b border-black dark:border-white">
+                <h1 class="block text-base md:text-xl">
+                  Plataforma web enfocada en bienes raíces, diseñada para
+                  ofrecer una experiencia fluida y organizada en la búsqueda y
+                  gestión de propiedades. Un desafío donde la estructura y la
+                  optimización han sido clave para su desarrollo.
+                </h1>
+              </div>
+
+              <div class="grid grid-cols-4 gap-4 m-auto items-center justify-center p-4">
                 <div className="flex flex-col items-center justify-center w-12 h-12 p-1 bg-yellow-300 rounded-full md:w-20 md:h-20">
                   <SVGJS />
                 </div>
@@ -236,15 +245,6 @@ const ThirdSection = () => {
                 <div className="flex flex-col items-center justify-center w-12 h-12 p-2 bg-orange-300 rounded-full md:p-4 md:w-20 md:h-20">
                   <SVGmysql />
                 </div>
-              </div>
-
-              <div class="flex-1 text-center p-2 border-l border-black dark:border-white">
-                <h1 class="block text-base md:text-xl">
-                  Plataforma web enfocada en bienes raíces, diseñada para
-                  ofrecer una experiencia fluida y organizada en la búsqueda y
-                  gestión de propiedades. Un desafío donde la estructura y la
-                  optimización han sido clave para su desarrollo.
-                </h1>
               </div>
             </div>
           </div>

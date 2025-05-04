@@ -37,7 +37,7 @@ const page2 = () => {
 
           <div className="overflow-hidden max-h-0 transition-all duration-700 ease-in-out group-hover:max-h-[500px]">
             <p className="text-base md:text-lg">
-              Al conocer PHP, tenía claro que debía dominar su mejor aliado:
+              Al conocer PHP, tenía claro que debía dominar su mejor aliado que es
               Laravel. Con este framework optimizo y organizo el Back-End con
               autenticación, enrutamiento, validación, control de sesiones y
               mucho más. Laravel me permite escribir código limpio, escalable y
