@@ -31,20 +31,20 @@ const DownloadCVButton = () => {
       {/* Modal */}
       {isOpen && (
         <div className="fixed inset-0 z-10 flex items-center justify-center bg-black bg-opacity-30">
-          <div className="p-6 bg-white rounded-lg shadow-lg w-96">
+          <div className="w-full p-6 bg-white rounded-lg shadow-lg max-w-[60rem]">
             <h2 className="mb-4 text-xl font-bold">Elige el idioma</h2>
-            <div className="flex justify-between">
+            <div className="flex justify-between gap-4">
               <a
                 href={CVES}
                 download
-                className="px-4 py-2 font-bold text-white bg-blue-600 rounded-lg hover:bg-blue-700"
+                className="w-full px-4 py-2 font-bold text-white bg-blue-600 rounded-lg hover:bg-blue-700"
               >
                 Español
               </a>
               <a
                 href={CVEN}
                 download
-                className="px-4 py-2 font-bold text-white bg-green-600 rounded-lg hover:bg-green-700"
+                className="w-full px-4 py-2 font-bold text-white bg-green-600 rounded-lg hover:bg-green-700"
               >
                 Inglés
               </a>
