@@ -4,6 +4,7 @@ import SVGresponsive from "../../assets/svg/responsive";
 import MVC from "../../assets/img/MVC.webp";
 import crud from "../../assets/img/crud.webp";
 import SVGhttp from "../../assets/svg/http";
+import Clerk from "../../assets/img/Clerk.webp";
 
 const page6 = () => {
   return (
@@ -102,6 +103,18 @@ const page6 = () => {
               robusta y segura. Entiendo la importancia de cada endpoint y cómo
               cada petición es parte vital del sistema.
             </p>
+          </div>
+        </div>
+
+        <div class="h-auto bg-slate-100 relative group dark:bg-neutral-800 shadow-xl dark:shadow-neutral-700/40 p-4 text-center flex flex-col justify-center items-center gap-4">
+          <div className="flex flex-col items-center justify-center w-20 h-20 p-4 bg-purple-300 rounded-full">
+            <img src={Clerk} alt="Clerk" className="invert" />
+          </div>
+
+          <h1 className="font-bold">Clerk SDK</h1>
+
+          <div className="overflow-hidden max-h-0 transition-all duration-700 ease-in-out group-hover:max-h-[500px]">
+            <p className="text-base md:text-lg"></p>
           </div>
         </div>
       </div>
