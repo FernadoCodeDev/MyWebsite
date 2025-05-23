@@ -42,7 +42,7 @@ const ThirdSection = () => {
           Creando, Aprendiendo y Evolucionando
         </h3>
 
-        {/*
+      
         <div class="rounded-2xl bg-slate-100 dark:bg-neutral-800 p-2">
           <div class="mt-10 h-auto rounded-2xl bg-neutral-900 relative flex flex-col">
             <img
@@ -97,7 +97,7 @@ const ThirdSection = () => {
                 </p>
 
                 <p class="block text-base md:text-xl">
-                  Proyecto desarrollado para la{" "}
+                  Proyecto desarrollado y destacado en la{" "}
                   <a
                     href="https://github.com/midudev/hackaton-clerk-2025?tab=readme-ov-file#%EF%B8%8F-c%C3%B3mo-participar-en-la-hackat%C3%B3n"
                     target="_blank"
@@ -140,9 +140,9 @@ const ThirdSection = () => {
             </div>
           </div>
         </div>
-         */}
+         
 
-        <div class="md:col-span-2 rounded-2xl bg-slate-100 dark:bg-neutral-800 p-2">
+        <div class="rounded-2xl bg-slate-100 dark:bg-neutral-800 p-2">
           <div class="mt-10 h-auto rounded-l-2xl rounded-br-2xl rounded-bl-2xl bg-blue-950 relative flex flex-col">
             <img
               src={LandingMine}
