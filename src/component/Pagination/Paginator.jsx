@@ -1,40 +1,57 @@
 import { useState } from "react";
 
-const sectionColors = [
-  "bg-orange-600",
-  "bg-sky-950",
-  "bg-emerald-700",
-  "bg-amber-400",
-  "bg-slate-800",
-  "bg-amber-900",
+import FrontEnd from "../../assets/svg/FrontEnd";
+import BackEnd from "../../assets/svg/BackEnd";
+import Database from "../../assets/svg/Database";
+import Learning from "../../assets/svg/Learning";
+import Tools from "../../assets/svg/Tools";
+import Development from "../../assets/svg/DevelopmentSVG";
+
+const icons = [
+  { icon: <FrontEnd />, label: "Front-End", color: "text-orange-600" },
+  { icon: <BackEnd />, label: "Back-End", color: "text-sky-600" },
+  { icon: <Database />, label: "Database", color: "text-emerald-600" },
+  { icon: <Learning />, label: "Learning", color: "text-amber-600" },
+  { icon: <Tools />, label: "Tools", color: "text-slate-600" },
+  { icon: <Development />, label: "Development", color: "text-amber-600" },
 ];
 
 const Paginator = ({ pages }) => {
   const [currentStep, setCurrentStep] = useState(1);
 
   return (
-    <div id="Paginator" className="flex flex-col gap-4">
-      <nav className="grid grid-cols-3 gap-3 m-auto md:grid-cols-6">
-        {sectionColors.map((color, index) => (
-          <button
-            key={index}
-            className={
-              ` border-2 border-gray-500 hover:border-gray-600 bg-transparent rounded-full w-12 h-12 relative cursor-pointer transition-all duration-700 ease-out ` +
-              (currentStep === index + 1 ? `${color} border-0` : "border-gray-500")
-            }
-            type="button"
-            onClick={() => setCurrentStep(index + 1)}
-          >
-            <span
-              className={`absolute top-1/2 left-1/2 w-8 h-8 rounded-full -translate-x-1/2 -translate-y-1/2 transition-all duration-700 ease-out ${
-                currentStep === index + 1 ? ` ${color} ` : "bg-gray-500 hover:bg-gray-600"
-              }`}
-            ></span>
-          </button>
-        ))}
-      </nav>
+    <div
+      id="Paginator"
+      className="flex flex-col items-center gap-6  "
+    >
+      <div className="grid grid-cols-3 md:grid-cols-6 gap-2 w-full max-w-[80rem] mx-auto p-2 bg-white rounded-xl shadow-lg border border-gray-200/80 hover:shadow-xl transition-all duration-300">
+        {icons.map((item, index) => {
+          const isActive = currentStep === index + 1;
+          const iconColor = isActive
+            ? item.color
+            : "text-black dark:text-white";
 
-      <div>
+          const hoverColor = `group-hover:${item.color}`;
+
+          return (
+            <div key={index} className="group relative px-2 cursor-pointer">
+              <div
+                onClick={() => setCurrentStep(index + 1)}
+                className={`flex h-auto w-10 items-center justify-center rounded-lg p-1 transition-colors duration-300 ${
+                  isActive ? "bg-blue-100" : "hover:bg-blue-50"
+                } ${iconColor} ${hoverColor}`}
+              >
+                {item.icon}
+              </div>
+              <span className="absolute -top-12 left-1/2 -translate-x-1/2 scale-0 group-hover:scale-100 transition-all duration-300 ease-in-out origin-bottom bg-white text-xs px-3 py-1.5 rounded-lg shadow-lg border border-gray-200 before:absolute before:-bottom-[5px] before:left-1/2 before:-translate-x-1/2 before:border-[6px] before:border-transparent before:border-t-white z-20">
+                {item.label}
+              </span>
+            </div>
+          );
+        })}
+      </div>
+
+      <div className="w-full mt-4">
         {pages.map((PageComponent, index) => (
           <div
             key={index}
