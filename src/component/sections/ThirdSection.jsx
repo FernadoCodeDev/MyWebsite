@@ -42,7 +42,6 @@ const ThirdSection = () => {
           Creando, Aprendiendo y Evolucionando
         </h3>
 
-      
         <div class="rounded-2xl bg-slate-100 dark:bg-neutral-800 p-2">
           <div class="mt-10 h-auto rounded-2xl bg-neutral-900 relative flex flex-col">
             <img
@@ -86,7 +85,6 @@ const ThirdSection = () => {
             </span>
 
             <div class="grid grid-cols-1 w-full justify-center mt-5">
-            
               <div class="flex flex-col gap-2 text-center p-2 border-b border-black dark:border-white">
                 <p class="block text-base md:text-xl">
                   Pequeño videojuego web diseñado para ayudarte a aprender y
@@ -118,7 +116,6 @@ const ThirdSection = () => {
                   para la autenticación de usuarios
                 </p>
               </div>
-            
 
               <div class="grid grid-cols-4  gap-4 m-auto items-center justify-center p-4">
                 <div className="flex flex-col items-center justify-center w-12 h-12 p-1 bg-yellow-300 rounded-full md:w-20 md:h-20">
@@ -140,9 +137,8 @@ const ThirdSection = () => {
             </div>
           </div>
         </div>
-         
 
-        <div class="rounded-2xl bg-slate-100 dark:bg-neutral-800 p-2">
+        <div class="rounded-2xl bg-slate-100 dark:bg-neutral-800 flex flex-col p-2">
           <div class="mt-10 h-auto rounded-l-2xl rounded-br-2xl rounded-bl-2xl bg-blue-950 relative flex flex-col">
             <img
               src={LandingMine}
@@ -184,13 +180,21 @@ const ThirdSection = () => {
             </div>
           </div>
 
-          <div class="mt-4 p-2">
-            <span class="block text-center font-extrabold text-2xl tracking-wide">
-              Landing Mine
-            </span>
+          <div class="p-2 mt-2 flex flex-col justify-center items-center flex-1">
+            <h1 class="text-center font-extrabold text-2xl">Landing Mine</h1>
 
-            <div class="grid grid-cols-1 md:grid-cols-2 w-full justify-center mt-5">
-              <div class="order-2 md:order-1 grid grid-cols-4 md:grid-cols-2  gap-4 m-auto items-center justify-center p-4">
+            <div class="flex flex-col justify-center flex-1">
+              <div class="text-center">
+                <h1 class="text-base md:text-xl">
+                  Colección de landing pages con diversas temáticas, diseñadas
+                  para crear interfaces modernas, atractivas y altamente
+                  eficientes. con un total de 19 landing Pages.
+                </h1>
+              </div>
+
+              <div class="w-full h-[1px] bg-black my-4"></div>
+
+              <div class="grid grid-cols-4 gap-4 items-center justify-center p-4 mx-auto">
                 <div className="flex flex-col items-center justify-center w-12 h-12 p-1 bg-yellow-300 rounded-full md:w-20 md:h-20">
                   <SVGJS />
                 </div>
@@ -206,14 +210,6 @@ const ThirdSection = () => {
                 <div className="flex flex-col items-center justify-center w-12 h-12 p-3 rounded-full md:w-20 md:h-20 bg-sky-300">
                   <SVGresponsive />
                 </div>
-              </div>
-
-              <div class="order-1 md:order-2 flex-1 text-center p-2 border-b md:border-b-0 md:border-l border-black dark:border-white">
-                <h1 class="block text-base md:text-xl">
-                  Colección de landing pages con diversas temáticas, diseñadas
-                  para crear interfaces modernas, atractivas y altamente
-                  eficientes. con un total de 18 landing Pages.
-                </h1>
               </div>
             </div>
           </div>
