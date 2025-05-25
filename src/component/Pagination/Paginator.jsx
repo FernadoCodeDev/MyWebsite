@@ -8,22 +8,49 @@ import Tools from "../../assets/svg/Tools";
 import Development from "../../assets/svg/DevelopmentSVG";
 
 const icons = [
-  { icon: <FrontEnd />, label: "Front-End", color: "text-orange-600" },
-  { icon: <BackEnd />, label: "Back-End", color: "text-sky-600" },
-  { icon: <Database />, label: "Database", color: "text-emerald-600" },
-  { icon: <Learning />, label: "Learning", color: "text-amber-600" },
-  { icon: <Tools />, label: "Tools", color: "text-slate-600" },
-  { icon: <Development />, label: "Development", color: "text-amber-600" },
+  {
+    icon: <FrontEnd />,
+    label: "Front-End",
+    color: "text-orange-600",
+    Background: "bg-orange-100",
+  },
+  {
+    icon: <BackEnd />,
+    label: "Back-End",
+    color: "text-sky-600",
+    Background: "bg-sky-100",
+  },
+  {
+    icon: <Database />,
+    label: "Database",
+    color: "text-emerald-600",
+    Background: "bg-emerald-100",
+  },
+  {
+    icon: <Learning />,
+    label: "Learning",
+    color: "text-amber-600",
+    Background: "bg-amber-100",
+  },
+  {
+    icon: <Tools />,
+    label: "Tools",
+    color: "text-blue-600",
+    Background: "bg-blue-100",
+  },
+  {
+    icon: <Development />,
+    label: "Development",
+    color: "text-beige-600",
+    Background: "bg-beige-100",
+  },
 ];
 
 const Paginator = ({ pages }) => {
   const [currentStep, setCurrentStep] = useState(1);
 
   return (
-    <div
-      id="Paginator"
-      className="flex flex-col items-center gap-6  "
-    >
+    <div id="Paginator" className="flex flex-col items-center gap-6">
       <div className="grid grid-cols-3 md:grid-cols-6 gap-2 w-full max-w-[80rem] mx-auto p-2 bg-white rounded-xl shadow-lg border border-gray-200/80 hover:shadow-xl transition-all duration-300">
         {icons.map((item, index) => {
           const isActive = currentStep === index + 1;
@@ -37,8 +64,8 @@ const Paginator = ({ pages }) => {
             <div key={index} className="group relative px-2 cursor-pointer">
               <div
                 onClick={() => setCurrentStep(index + 1)}
-                className={`flex h-auto w-10 items-center justify-center rounded-lg p-1 transition-colors duration-300 ${
-                  isActive ? "bg-blue-100" : "hover:bg-blue-50"
+                className={`flex h-auto w-10 md:w-20 mx-auto items-center justify-center rounded-lg p-1 transition-colors duration-300 ${
+                  isActive ? item.Background : "hover:bg-gray-50"
                 } ${iconColor} ${hoverColor}`}
               >
                 {item.icon}
