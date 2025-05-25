@@ -22,26 +22,26 @@ const icons = [
   },
   {
     icon: <Database />,
-    label: "Database",
+    label: "Base de datos",
     color: "text-emerald-600",
     Background: "bg-emerald-100",
   },
   {
     icon: <Learning />,
-    label: "Learning",
-    color: "text-amber-600",
-    Background: "bg-amber-100",
+    label: "Aprendiendo",
+    color: "text-yellow-600",
+    Background: "bg-yellow-100",
   },
   {
     icon: <Tools />,
-    label: "Tools",
+    label: "Herramientas",
     color: "text-blue-600",
     Background: "bg-blue-100",
   },
   {
     icon: <Development />,
-    label: "Development",
-    color: "text-beige-600",
+    label: "Herramientas de Desarrollo",
+    color: "text-beige-800",
     Background: "bg-beige-100",
   },
 ];
@@ -51,7 +51,7 @@ const Paginator = ({ pages }) => {
 
   return (
     <div id="Paginator" className="flex flex-col items-center gap-6">
-      <div className="grid grid-cols-3 md:grid-cols-6 gap-2 w-full max-w-[80rem] mx-auto p-2 bg-white rounded-xl shadow-lg border border-gray-200/80 hover:shadow-xl transition-all duration-300">
+      <div className="grid grid-cols-3 md:grid-cols-6 gap-2 w-full max-w-[80rem] mx-auto p-2 bg-white dark:bg-neutral-800 rounded-xl shadow-lg  hover:shadow-xl transition-all duration-300">
         {icons.map((item, index) => {
           const isActive = currentStep === index + 1;
           const iconColor = isActive
@@ -65,12 +65,12 @@ const Paginator = ({ pages }) => {
               <div
                 onClick={() => setCurrentStep(index + 1)}
                 className={`flex h-auto w-10 md:w-20 mx-auto items-center justify-center rounded-lg p-1 transition-colors duration-300 ${
-                  isActive ? item.Background : "hover:bg-gray-50"
+                  isActive ? item.Background : "hover:bg-gray-50 dark:hover:bg-neutral-700"
                 } ${iconColor} ${hoverColor}`}
               >
                 {item.icon}
               </div>
-              <span className="absolute -top-12 left-1/2 -translate-x-1/2 scale-0 group-hover:scale-100 transition-all duration-300 ease-in-out origin-bottom bg-white text-xs px-3 py-1.5 rounded-lg shadow-lg border border-gray-200 before:absolute before:-bottom-[5px] before:left-1/2 before:-translate-x-1/2 before:border-[6px] before:border-transparent before:border-t-white z-20">
+              <span className="absolute -top-12 left-1/2 -translate-x-1/2 scale-0 group-hover:scale-100 transition-all duration-300 ease-in-out origin-bottom bg-white dark:bg-neutral-700 text-xs px-3 py-1.5 rounded-lg shadow-lg border border-gray-200 before:absolute before:-bottom-[5px] before:left-1/2 before:-translate-x-1/2 before:border-[6px] before:border-transparent before:border-t-white z-20">
                 {item.label}
               </span>
             </div>
