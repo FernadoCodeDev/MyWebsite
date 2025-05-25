@@ -192,7 +192,7 @@ const ThirdSection = () => {
                 </h1>
               </div>
 
-              <div class="w-full h-[1px] bg-black my-4"></div>
+              <div class="w-full h-[1px] bg-black dark:bg-white my-4"></div>
 
               <div class="grid grid-cols-4 gap-4 items-center justify-center p-4 mx-auto">
                 <div className="flex flex-col items-center justify-center w-12 h-12 p-1 bg-yellow-300 rounded-full md:w-20 md:h-20">
