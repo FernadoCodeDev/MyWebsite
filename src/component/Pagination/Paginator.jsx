@@ -35,12 +35,12 @@ const icons = [
   {
     icon: <Tools />,
     label: "Herramientas",
-    color: "text-blue-600",
-    Background: "bg-blue-100",
+    color: "text-teal-600",
+    Background: "bg-teal-100",
   },
   {
     icon: <Development />,
-    label: "Herramientas de Desarrollo",
+    label: "Prácticas de Desarrollo",
     color: "text-beige-800",
     Background: "bg-beige-100",
   },
@@ -61,7 +61,7 @@ const Paginator = ({ pages }) => {
           const hoverColor = `group-hover:${item.color}`;
 
           return (
-            <div key={index} className="group relative px-2 cursor-pointer">
+            <div key={index} className="relative px-2 cursor-pointer group">
               <div
                 onClick={() => setCurrentStep(index + 1)}
                 className={`flex h-auto w-10 md:w-20 mx-auto items-center justify-center rounded-lg p-1 transition-colors duration-300 ${
@@ -70,7 +70,7 @@ const Paginator = ({ pages }) => {
               >
                 {item.icon}
               </div>
-              <span className="absolute -top-12 left-1/2 -translate-x-1/2 scale-0 group-hover:scale-100 transition-all duration-300 ease-in-out origin-bottom bg-white dark:bg-neutral-700 text-xs px-3 py-1.5 rounded-lg shadow-lg border border-gray-200 before:absolute before:-bottom-[5px] before:left-1/2 before:-translate-x-1/2 before:border-[6px] before:border-transparent before:border-t-white z-20">
+              <span className="absolute -top-12 left-1/2 -translate-x-1/2 text-center scale-0 group-hover:scale-100 transition-all duration-300 ease-in-out origin-bottom bg-white dark:bg-neutral-700 text-xs px-3 py-1.5 rounded-lg shadow-lg border border-gray-200 before:absolute before:-bottom-[5px] before:left-1/2 before:-translate-x-1/2 before:border-[6px] before:border-transparent before:border-t-white z-20">
                 {item.label}
               </span>
             </div>
