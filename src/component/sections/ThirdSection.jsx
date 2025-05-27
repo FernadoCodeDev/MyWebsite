@@ -1,6 +1,6 @@
 import React from "react";
 import useScrollAnimation from "../hooks/ScrollAnimation";
-import Projects from "./Proyects";
+import Projects from "./Projects";
 
 const ThirdSection = () => {
   const isVisible = useScrollAnimation("second-section");

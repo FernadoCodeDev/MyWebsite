@@ -143,17 +143,17 @@ export default function ProjectsModal({ isOpen, onClose, Project }) {
   const currentMedia = mediaItems[currentIndex];
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center text-white bg-black backdrop-blur-[4px] bg-opacity-60">
-      <div className="relative p-2 m-auto overflow-hidden max-w-[70rem] rounded-2xl bg-black">
+    <div className="fixed inset-0 z-50 flex items-center justify-center text-black dark:text-white bg-black backdrop-blur-[4px] bg-opacity-60">
+      <div className="relative p-2 m-auto overflow-hidden max-w-[70rem] rounded-2xl bg-slate-100 dark:bg-neutral-900">
         <button
           onClick={onClose}
-          className="absolute z-20 w-16 h-auto top-4 right-4"
+          className="absolute z-20 w-20 h-20 top-4 right-4"
         >
           <Close />
         </button>
 
-        <div className="relative z-20 grid grid-cols-1 gap-4 p-4 mt-16">
-          <div className="flex items-center justify-center w-full h-auto bg-black ">
+        <div className="relative z-20 grid grid-cols-1 gap-4 p-4 mt-20 md:grid-cols-2">
+          <div className="relative flex items-center justify-center w-full h-auto ">
             {isVideo(currentMedia) ? (
               <video
                 src={currentMedia}
@@ -170,21 +170,33 @@ export default function ProjectsModal({ isOpen, onClose, Project }) {
 
             <button
               onClick={handlePrev}
-              className="absolute px-3 py-1 text-xl text-white bg-black bg-opacity-50 rounded-full left-4"
+              className="absolute flex items-center justify-center w-8 h-12 p-2 text-xl font-bold text-white bg-black bg-opacity-50 rounded-full left-4"
             >
               ‹
             </button>
             <button
               onClick={handleNext}
-              className="absolute px-3 py-1 text-xl text-white bg-black bg-opacity-50 rounded-full right-4"
+              className="absolute flex items-center justify-center w-8 h-12 p-2 text-xl font-bold text-white bg-black bg-opacity-50 rounded-full right-4"
             >
               ›
             </button>
           </div>
 
-          <div className="grid grid-cols-1 gap-4 p-4 mt-6 ">
+          <div className="grid grid-cols-1 gap-2">
             <div className="grid items-center grid-cols-1 gap-4">
-              <div className="grid items-center w-full grid-cols-4 gap-2 mx-auto">
+              <h1 className="text-xl font-bold md:text-2xl">{Project.name}</h1>
+              <p className="text-base md:text-xl m-auto max-w-[40rem]">
+                {Project.Paragraph}
+              </p>
+              <p className="text-base md:text-xl m-auto max-w-[40rem]">
+                {Project.Paragraph2}
+              </p>
+            </div>
+
+            <div className="w-full h-[1px] bg-black dark:bg-white my-4"></div>
+
+            <div className="grid items-center grid-cols-1 gap-4 m-auto">
+              <div className="grid items-center w-full grid-cols-4 gap-4 mx-auto">
                 {Project.icons?.map((item, i) => (
                   <div
                     key={i}
@@ -202,18 +214,6 @@ export default function ProjectsModal({ isOpen, onClose, Project }) {
                   </div>
                 ))}
               </div>
-            </div>
-
-            <div className="grid items-center grid-cols-1 gap-4">
-              <h1 className="text-xl font-bold md:text-2xl">
-                {Project.name}
-              </h1>
-              <p className="text-base md:text-xl m-auto max-w-[40rem]">
-                {Project.Paragraph}
-              </p>
-              <p className="text-base md:text-xl m-auto max-w-[40rem]">
-                {Project.Paragraph2}
-              </p>
             </div>
           </div>
         </div>

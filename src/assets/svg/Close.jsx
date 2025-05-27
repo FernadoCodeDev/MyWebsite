@@ -2,7 +2,7 @@ import React from "react";
 const Close = (props) => {
   return (
     <svg
-      fill="#fff"
+      fill="currentcolor"
       id="Capa_1"
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 294.843 294.843"
