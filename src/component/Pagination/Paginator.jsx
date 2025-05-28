@@ -35,8 +35,8 @@ const icons = [
   {
     icon: <Tools />,
     label: "Herramientas",
-    color: "text-indigo-700",
-    Background: "bg-indigo-100",
+    color: "text-violet-700",
+    Background: "bg-violet-100",
   },
   {
     icon: <Development />,
