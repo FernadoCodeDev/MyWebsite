@@ -38,11 +38,10 @@ export const ProjectsInfos = [
     id: 1,
     name: "CódiGol",
     Paragraph:
-      "Pequeño videojuego web diseñado para ayudarte a aprender y practicar Tailwind CSS de forma divertida y diferente. Inspirado en la emoción del fútbol, este juego te reta a anotar goles completando desafíos de diseño utilizando Tailwind.",
+      "Pequeño videojuego web que combina la emoción del fútbol con el aprendizaje de Tailwind CSS. Cada gol que anotas lo haces resolviendo desafíos de diseño, convirtiendo el aprendizaje en una experiencia divertida y diferente.",
     Paragraph2:
-      "Proyecto desarrollado y destacado en la Hackathon de MiduDev 2025, Donde se integro Clerk SDK para la autenticación de usuarios",
-    Paragraph3:
-      "😅 Sí, el entrenador hablaba un poquito de más en la introducción (¡gracias por ese feedback, Midu!), pero ya lo solucioné: ahora los diálogos son más cortos y directos al grano, para que la experiencia sea más ágil y divertida.",
+      "Este proyecto fue desarrollado y presentado en la Hackathon de MiduDev 2025, donde también integré Clerk SDK para la autenticación de usuarios. Gracias al feedback recibido (¡gracias, Midu!), los diálogos ahora son más breves y directos, haciendo que el juego sea más ágil sin perder su esencia.",
+
     BackgroundDiv: "bg-neutral-900",
     web: "https://codigol-demo.netlify.app/",
     github: "https://github.com/FernadoCodeDev/CodiGol-Demo",
@@ -154,7 +153,7 @@ export default function ProjectsModal({ isOpen, onClose, Project }) {
           <Close />
         </button>
 
-        <div className="relative z-20 grid grid-cols-1 gap-4 p-4 mt-20 md:grid-cols-2">
+        <div className="relative z-20 grid grid-cols-1 gap-2 px-4 mt-20 md:grid-cols-2">
           <div className="relative flex items-center justify-center w-full h-auto ">
             {isVideo(currentMedia) ? (
               <video
@@ -185,17 +184,13 @@ export default function ProjectsModal({ isOpen, onClose, Project }) {
           </div>
 
           <div className="grid grid-cols-1 gap-2">
-            <div className="grid items-center grid-cols-1 gap-4">
+            <div className="grid items-center grid-cols-1 gap-2">
               <h1 className="text-xl font-bold md:text-2xl">{Project.name}</h1>
               <p className="text-sm md:text-base m-auto max-w-[40rem]">
                 {Project.Paragraph}
               </p>
               <p className="text-sm md:text-base m-auto max-w-[40rem]">
                 {Project.Paragraph2}
-              </p>
-
-              <p className="text-sm md:text-base m-auto max-w-[40rem]">
-                {Project.Paragraph3}
               </p>
             </div>
 
