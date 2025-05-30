@@ -41,6 +41,8 @@ export const ProjectsInfos = [
       "Pequeño videojuego web diseñado para ayudarte a aprender y practicar Tailwind CSS de forma divertida y diferente. Inspirado en la emoción del fútbol, este juego te reta a anotar goles completando desafíos de diseño utilizando Tailwind.",
     Paragraph2:
       "Proyecto desarrollado y destacado en la Hackathon de MiduDev 2025, Donde se integro Clerk SDK para la autenticación de usuarios",
+    Paragraph3:
+      "😅 Sí, el entrenador hablaba un poquito de más en la introducción (¡gracias por ese feedback, Midu!), pero ya lo solucioné: ahora los diálogos son más cortos y directos al grano, para que la experiencia sea más ágil y divertida.",
     BackgroundDiv: "bg-neutral-900",
     web: "https://codigol-demo.netlify.app/",
     github: "https://github.com/FernadoCodeDev/CodiGol-Demo",
@@ -185,17 +187,21 @@ export default function ProjectsModal({ isOpen, onClose, Project }) {
           <div className="grid grid-cols-1 gap-2">
             <div className="grid items-center grid-cols-1 gap-4">
               <h1 className="text-xl font-bold md:text-2xl">{Project.name}</h1>
-              <p className="text-base md:text-xl m-auto max-w-[40rem]">
+              <p className="text-sm md:text-base m-auto max-w-[40rem]">
                 {Project.Paragraph}
               </p>
-              <p className="text-base md:text-xl m-auto max-w-[40rem]">
+              <p className="text-sm md:text-base m-auto max-w-[40rem]">
                 {Project.Paragraph2}
+              </p>
+
+              <p className="text-sm md:text-base m-auto max-w-[40rem]">
+                {Project.Paragraph3}
               </p>
             </div>
 
-            <div className="w-full h-[1px] bg-black dark:bg-white my-4"></div>
+            <div className="md:hidden w-full h-[1px] bg-black dark:bg-white my-4"></div>
 
-            <div className="grid items-center grid-cols-1 gap-4 m-auto">
+            <div className="grid items-center grid-cols-1 gap-4 m-auto md:hidden">
               <div className="grid items-center w-full grid-cols-4 gap-4 mx-auto">
                 {Project.icons?.map((item, i) => (
                   <div
@@ -214,6 +220,29 @@ export default function ProjectsModal({ isOpen, onClose, Project }) {
                   </div>
                 ))}
               </div>
+            </div>
+          </div>
+
+          <div className="hidden md:block md:col-span-2 w-full h-[1px] bg-black dark:bg-white my-4"></div>
+
+          <div className="items-center hidden grid-cols-1 gap-4 m-auto md:col-span-2 md:grid">
+            <div className="grid items-center w-full grid-cols-4 gap-4 mx-auto">
+              {Project.icons?.map((item, i) => (
+                <div
+                  key={i}
+                  className={`flex flex-col items-center justify-center w-12 h-12 p-2 ${item.Background} rounded-full md:w-20 md:h-20 md:p-4`}
+                >
+                  {item.isImage ? (
+                    <img
+                      src={item.icon}
+                      alt="Icono"
+                      className="object-contain w-8 h-8 md:w-20 md:h-20 invert"
+                    />
+                  ) : (
+                    item.icon
+                  )}
+                </div>
+              ))}
             </div>
           </div>
         </div>

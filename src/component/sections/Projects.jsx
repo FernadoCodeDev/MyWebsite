@@ -109,11 +109,11 @@ const Projects = () => {
 
             <div className="flex flex-col justify-center flex-1">
               <div className="text-center">
-                <h1 className="text-base md:text-xl">{project.Paragraph}</h1>
+                <p className="text-sm md:text-base">{project.Paragraph}</p>
                 {project.Paragraph2 && (
-                  <h2 className="mt-2 text-sm md:text-base">
+                  <p className="mt-2 text-sm md:text-base">
                     {project.Paragraph2}
-                  </h2>
+                  </p>
                 )}
               </div>
 
