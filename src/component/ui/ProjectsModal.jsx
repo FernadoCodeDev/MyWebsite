@@ -148,7 +148,7 @@ export default function ProjectsModal({ isOpen, onClose, Project }) {
       <div className="relative p-2 m-auto overflow-hidden max-w-[70rem] rounded-2xl bg-slate-100 dark:bg-neutral-900">
         <button
           onClick={onClose}
-          className="absolute z-20 w-20 h-20 top-4 right-4"
+          className="absolute z-20 w-16 h-16 sm:w-20 sm:h-20 top-4 right-4"
         >
           <Close />
         </button>
@@ -194,7 +194,7 @@ export default function ProjectsModal({ isOpen, onClose, Project }) {
               </p>
             </div>
 
-            <div className="md:hidden w-full h-[1px] bg-black dark:bg-white my-4"></div>
+            <div className="md:hidden w-full h-[1px] bg-black dark:bg-white my-2"></div>
 
             <div className="grid items-center grid-cols-1 gap-4 m-auto md:hidden">
               <div className="grid items-center w-full grid-cols-4 gap-4 mx-auto">
@@ -218,7 +218,7 @@ export default function ProjectsModal({ isOpen, onClose, Project }) {
             </div>
           </div>
 
-          <div className="hidden md:block md:col-span-2 w-full h-[1px] bg-black dark:bg-white my-4"></div>
+          <div className="hidden md:block md:col-span-2 w-full h-[1px] bg-black dark:bg-white my-2"></div>
 
           <div className="items-center hidden grid-cols-1 gap-4 m-auto md:col-span-2 md:grid">
             <div className="grid items-center w-full grid-cols-4 gap-4 mx-auto">
