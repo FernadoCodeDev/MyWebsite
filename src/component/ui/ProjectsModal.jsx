@@ -4,7 +4,7 @@ import WebSVG from "../../assets/svg/web";
 import Close from "../../assets/svg/Close";
 import SVGRect from "../../assets/svg/svgreact";
 import SVGTailwind from "../../assets/svg/Tailwind";
-import SVGresponsive from "../../assets/svg/responsive";
+import SVGVite from "../../assets/svg/Vite";
 import SVGJS from "../../assets/svg/js";
 import SVGSass from "../../assets/svg/sass";
 import SVGphp from "../../assets/svg/php";
@@ -72,7 +72,7 @@ export const ProjectsInfos = [
       { icon: <SVGJS />, Background: "bg-yellow-300", isImage: false },
       { icon: <SVGRect />, Background: "bg-sky-300", isImage: false },
       { icon: <SVGTailwind />, Background: "bg-cyan-300", isImage: false },
-      { icon: <SVGresponsive />, Background: "bg-sky-300", isImage: false },
+      { icon: <SVGVite />, Background: "bg-violet-300", isImage: false },
     ],
   },
   {
