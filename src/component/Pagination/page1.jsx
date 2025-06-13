@@ -9,6 +9,7 @@ import SVGBootstrap from "../../assets/svg/Bootstrap";
 import SVGRedux from "../../assets/svg/Redux";
 import SVGReact from "../../assets/svg/svgreact";
 import SVGTailwind from "../../assets/svg/Tailwind";
+import SVGVite from "../../assets/svg/Vite"
 
 const page1 = () => {
   return (
@@ -94,6 +95,14 @@ const page1 = () => {
           </div>
 
           <h3 className="font-bold">Tailwind</h3>
+        </div>
+
+         <div class="h-auto bg-slate-100 dark:bg-neutral-800 shadow-xl dark:shadow-neutral-700/40  p-4 text-center flex flex-col justify-center items-center gap-4">
+          <div className="flex flex-col items-center justify-center w-20 h-20 p-3 rounded-full bg-violet-300">
+            <SVGVite />
+          </div>
+
+          <h3 className="font-bold">Vite</h3>
         </div>
       </div>
     </div>
