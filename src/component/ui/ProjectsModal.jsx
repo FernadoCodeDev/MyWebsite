@@ -38,9 +38,9 @@ export const ProjectsInfos = [
     id: 1,
     name: "CódiGol",
     Paragraph:
-      "Pequeño videojuego web que combina la emoción del fútbol con el aprendizaje de Tailwind CSS. Cada gol que anotas lo haces resolviendo desafíos de diseño, convirtiendo el aprendizaje en una experiencia divertida y diferente.",
+      "Videojuego web para aprender Tailwind CSS enfrentando partidos de fútbol. En cada encuentro, debes aplicar un nuevo método de Tailwind para anotar goles. Ideal para quienes quieren aprender y mejorar en Tailwind CSS de forma práctica y entretenida.",
     Paragraph2:
-      "Este proyecto fue desarrollado y presentado en la Hackathon de MiduDev 2025, donde también integré Clerk SDK para la autenticación de usuarios. Gracias al feedback recibido (¡gracias, Midu!), los diálogos ahora son más breves y directos, haciendo que el juego sea más ágil sin perder su esencia.",
+      "Proyecto desarrollado y destacado en la Hackathon de MiduDev 2025.",
 
     BackgroundDiv: "bg-neutral-900",
     web: "https://codigol-demo.netlify.app/",
@@ -61,8 +61,9 @@ export const ProjectsInfos = [
     id: 2,
     name: "Landing Mine",
     Paragraph:
-      "Colección de landing pages con diversas temáticas, diseñadas para crear interfaces modernas, atractivas y altamente eficientes. con un total de 19 landing Pages.",
-    Paragraph2: "",
+      "Catálogo de 19 landing pages con temáticas variadas, diseñado para mostrar interfaces modernas y adaptadas a distintos tipos de negocio.",
+    Paragraph2:
+      "Ideal para reclutadores o clientes que buscan ver ejemplos reales de diseño profesional aplicado a distintos sectores.",
     web: "https://landingmine.netlify.app/",
     github: "https://github.com/FernadoCodeDev/LandingMine",
     logo: LandingMine,
@@ -79,8 +80,9 @@ export const ProjectsInfos = [
     id: 3,
     name: "Cosmic Pizza",
     Paragraph:
-      "Plataforma web diseñada para una pizzería, integrando un sistema de reservaciones que mejora la experiencia del usuario y la gestión del negocio. Un proyecto que combina diseño intuitivo con funcionalidad práctica.",
-    Paragraph2: "",
+      "Plataforma web con sistema de reservaciones, diseñada inicialmente para una pizzería pero adaptable a cualquier negocio que requiera agendar espacios. Incluye funciones como gestión de menú, número de mesas, inicio de sesión y reservas en línea.",
+    Paragraph2:
+      "Ideal para negocios que buscan mejorar su eficiencia y ofrecer una experiencia más práctica a sus clientes.",
     github: "https://github.com/FernadoCodeDev/Cosmic-Pizza",
     logo: CosmicPizza,
     image1: CosmicPizzaB,
@@ -99,8 +101,9 @@ export const ProjectsInfos = [
     id: 4,
     name: "Keys Homes",
     Paragraph:
-      "Plataforma web enfocada en bienes raíces, diseñada para ofrecer una experiencia fluida y organizada en la búsqueda y gestión de propiedades. Un desafío donde la estructura y la optimización han sido clave para su desarrollo.",
-    Paragraph2: "",
+      "Sitio web enfocado en bienes raíces en su fase inicial que busca una presencia digital funcional sin complicaciones. permitiendo mostrar propiedades, simular formularios de contacto y facilitar la comunicación directa con el cliente mediante canales como WhatsApp o redes sociales.",
+    Paragraph2:
+      "Ideal para emprendimientos que desean organizar su oferta y facilitar el contacto, sin necesidad de plataformas complejas.",
     BackgroundDiv: "bg-[#0f2925] ",
     web: "http://keyshome.atwebpages.com/",
     github: "https://github.com/FernadoCodeDev/KeysHomes",
