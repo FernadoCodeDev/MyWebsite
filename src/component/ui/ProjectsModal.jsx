@@ -80,7 +80,7 @@ export const ProjectsInfos = [
     id: 3,
     name: "Cosmic Pizza",
     Paragraph:
-      "Plataforma web con sistema de reservaciones, diseñada inicialmente para una pizzería pero adaptable a cualquier negocio que requiera agendar espacios. Incluye funciones como gestión de menú, número de mesas, inicio de sesión y reservas en línea.",
+      "Plataforma web con sistema de reservaciones, diseñada para una pizzería pero adaptable a cualquier negocio que requiera agendar espacios. Incluye funciones como gestión de menú, número de mesas, inicio de sesión y reservas en línea.",
     Paragraph2:
       "Ideal para negocios que buscan mejorar su eficiencia y ofrecer una experiencia más práctica a sus clientes.",
     github: "https://github.com/FernadoCodeDev/Cosmic-Pizza",
