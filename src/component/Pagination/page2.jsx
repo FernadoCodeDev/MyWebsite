@@ -1,7 +1,6 @@
 import React from "react";
 import SVGphp from "../../assets/svg/php";
 import SVGlaravel from "../../assets/svg/laravel";
-import SVGpython from "../../assets/svg/python";
 import SVGnode from "../../assets/svg/node";
 
 const page2 = () => {
@@ -22,13 +21,6 @@ const page2 = () => {
             <SVGlaravel />
           </div>
           <h1 className="font-bold">Laravel</h1>
-        </div>
-
-        <div class="h-auto bg-slate-100 dark:bg-neutral-800 shadow-xl dark:shadow-neutral-700/40 p-4 text-center flex flex-col justify-center items-center gap-4">
-          <div className="flex flex-col items-center justify-center w-20 h-20 p-3 bg-yellow-300 rounded-full">
-            <SVGpython />
-          </div>
-          <h1 className="font-bold">Python</h1>
         </div>
 
         <div class="h-auto bg-slate-100 dark:bg-neutral-800 shadow-xl dark:shadow-neutral-700/40 p-4 text-center flex flex-col justify-center items-center gap-4">

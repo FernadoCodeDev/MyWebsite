@@ -44,12 +44,6 @@ const Header = () => {
             <TypingEffect />
 
             <div className="p-4 bg-white rounded-3xl max-w-[60rem]">
-              <h1 className="text-base text-center md:text-xl">
-                Soy un desarrollador apasionado por la tecnología y el código
-                limpio. Mi compromiso es crear soluciones innovadoras,
-                optimizadas y escalables, siempre enfocado en mejorar y superar
-                expectativas
-              </h1>
               <img
                 src={ContributionSnake}
                 alt="Contribution animation"
