@@ -6,6 +6,7 @@ import SVGgulp from "../../assets/svg/gulp";
 import SVGpostman from "../../assets/svg/postman";
 import SVGfigma from "../../assets/svg/figma";
 import SVGcanva from "../../assets/svg/canva";
+import Clerk from "../../assets/img/Clerk.webp";
 
 const page5 = () => {
   return (
@@ -62,6 +63,14 @@ const page5 = () => {
             <SVGcanva />
           </div>
           <h1 className="font-bold">Canva</h1>
+        </div>
+
+         <div class="h-auto bg-slate-100 dark:bg-neutral-800 shadow-xl dark:shadow-neutral-700/40 p-4 text-center flex flex-col justify-center items-center gap-4">
+          <div className="flex flex-col items-center justify-center w-20 h-20 p-4 bg-purple-300 rounded-full">
+            <img src={Clerk} alt="Clerk" className="mr-2 invert" />
+          </div>
+
+          <h1 className="font-bold">Clerk SDK</h1>
         </div>
       </div>
     </div>

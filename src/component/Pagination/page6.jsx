@@ -4,7 +4,6 @@ import SVGresponsive from "../../assets/svg/responsive";
 import MVC from "../../assets/img/MVC.webp";
 import crud from "../../assets/img/crud.webp";
 import SVGhttp from "../../assets/svg/http";
-import Clerk from "../../assets/img/Clerk.webp";
 
 const page6 = () => {
   return (
@@ -49,14 +48,6 @@ const page6 = () => {
             <SVGhttp />
           </div>
           <h1 className="font-bold">RESTful APIs</h1>
-        </div>
-
-        <div class="h-auto bg-slate-100 dark:bg-neutral-800 shadow-xl dark:shadow-neutral-700/40 p-4 text-center flex flex-col justify-center items-center gap-4">
-          <div className="flex flex-col items-center justify-center w-20 h-20 p-4 bg-purple-300 rounded-full">
-            <img src={Clerk} alt="Clerk" className="mr-2 invert" />
-          </div>
-
-          <h1 className="font-bold">Clerk SDK</h1>
         </div>
       </div>
     </div>
