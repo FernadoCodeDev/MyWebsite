@@ -4,6 +4,8 @@ import WebSVG from "../../assets/svg/web";
 import Close from "../../assets/svg/Close";
 import SVGRect from "../../assets/svg/svgreact";
 import SVGTailwind from "../../assets/svg/Tailwind";
+import SVGastro from "../../assets/svg/astro";
+import SVGts from "../../assets/svg/ts";
 import SVGVite from "../../assets/svg/Vite";
 import SVGJS from "../../assets/svg/js";
 import SVGSass from "../../assets/svg/sass";
@@ -11,6 +13,11 @@ import SVGphp from "../../assets/svg/php";
 import SVGmysql from "../../assets/svg/mysql";
 import MVC from "../../assets/img/MVC.webp";
 import Clerk from "../../assets/img/Clerk.webp";
+
+import Prisma from "../../assets/img/Prisma.webp";
+import Prisma2 from "../../assets/img/Prisma2.webp";
+import Prisma3 from "../../assets/img/Prisma3.webp";
+import Prisma4 from "../../assets/img/Prisma4.webp";
 
 import CodiGolLogo from "../../assets/img/CódiGolLogo2.webp";
 import CodiGol from "../../assets/img/CodiGolLogo.webp";
@@ -34,8 +41,32 @@ import KeysHomes3 from "../../assets/img/KeysHomes3.webp";
 import KeysHomes4 from "../../assets/img/KeysHomes4.webp";
 
 export const ProjectsInfos = [
-  {
+
+{
     id: 1,
+    name: "Prisma",
+    Paragraph:
+      "Agente conversacional impulsado por IA, diseñado con la API de OpenAI. Una plataforma visual y funcional para configurar agentes de inteligencia artificial conversacional.",
+    Paragraph2:
+      "Ideal para equipos, negocios o profesionales que buscan integrar un agente conversacional en sus plataformas.",
+
+    BackgroundDiv: "bg-slate-950",
+    web: "https://prisma-ia.netlify.app/",
+    github: "https://github.com/FernadoCodeDev/prisma",
+    logo: Prisma2,
+    image1: Prisma,
+    image2: Prisma3,
+    image3: Prisma4,
+    icons: [
+      { icon: <SVGastro />, Background: "bg-orange-300", isImage: false },
+      { icon: <SVGRect />, Background: "bg-sky-300", isImage: false },
+      { icon: <SVGts />, Background: "bg-sky-300", isImage: false },
+      { icon: <SVGTailwind />, Background: "bg-cyan-300", isImage: false },
+    ],
+  },
+
+  {
+    id: 2,
     name: "CódiGol",
     Paragraph:
       "Videojuego web para aprender Tailwind CSS enfrentando partidos de fútbol. En cada encuentro, debes aplicar un nuevo método de Tailwind para anotar goles. Ideal para quienes quieren aprender y mejorar en Tailwind CSS de forma práctica y entretenida.",
@@ -58,7 +89,7 @@ export const ProjectsInfos = [
     ],
   },
   {
-    id: 2,
+    id: 3,
     name: "Landing Mine",
     Paragraph:
       "Catálogo de 19 landing pages con temáticas variadas, diseñado para mostrar interfaces modernas y adaptadas a distintos tipos de negocio.",
@@ -77,7 +108,7 @@ export const ProjectsInfos = [
     ],
   },
   {
-    id: 3,
+    id: 4,
     name: "Cosmic Pizza",
     Paragraph:
       "Plataforma web con sistema de reservaciones, diseñada para una pizzería pero adaptable a cualquier negocio que requiera agendar espacios. Incluye funciones como gestión de menú, número de mesas, inicio de sesión y reservas en línea.",
@@ -98,7 +129,7 @@ export const ProjectsInfos = [
     ],
   },
   {
-    id: 4,
+    id: 5,
     name: "Keys Homes",
     Paragraph:
       "Sitio web enfocado en bienes raíces en su fase inicial que busca una presencia digital funcional sin complicaciones. permitiendo mostrar propiedades, simular formularios de contacto y facilitar la comunicación directa con el cliente mediante canales como WhatsApp o redes sociales.",

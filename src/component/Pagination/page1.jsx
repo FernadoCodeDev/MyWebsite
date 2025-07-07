@@ -8,6 +8,7 @@ import SVGJquery from "../../assets/svg/Jquery";
 import SVGBootstrap from "../../assets/svg/Bootstrap";
 import SVGRedux from "../../assets/svg/Redux";
 import SVGReact from "../../assets/svg/svgreact";
+import SVGastro from "../../assets/svg/astro";
 import SVGTailwind from "../../assets/svg/Tailwind";
 import SVGVite from "../../assets/svg/Vite"
 
@@ -87,6 +88,13 @@ const page1 = () => {
           </div>
 
           <h3 className="font-bold">React</h3>
+        </div>
+
+        <div class="h-auto bg-slate-100 dark:bg-neutral-800 shadow-xl dark:shadow-neutral-700/40 p-4 text-center flex flex-col justify-center items-center gap-4">
+          <div className="flex flex-col items-center justify-center w-20 h-20 p-3 bg-orange-300 rounded-full">
+            <SVGastro />
+          </div>
+          <h1 className="font-bold">Astro</h1>
         </div>
 
         <div class="h-auto bg-slate-100 dark:bg-neutral-800 shadow-xl dark:shadow-neutral-700/40  p-4 text-center flex flex-col justify-center items-center gap-4">
