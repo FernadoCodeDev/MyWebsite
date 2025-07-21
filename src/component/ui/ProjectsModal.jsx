@@ -14,10 +14,10 @@ import SVGmysql from "../../assets/svg/mysql";
 import MVC from "../../assets/img/MVC.webp";
 import Clerk from "../../assets/img/Clerk.webp";
 
-import Prisma from "../../assets/img/Prisma.webp";
-import Prisma2 from "../../assets/img/Prisma2.webp";
-import Prisma3 from "../../assets/img/Prisma3.webp";
-import Prisma4 from "../../assets/img/Prisma4.webp";
+import StarIA from "../../assets/img/StarIA.webp";
+import StarIA2 from "../../assets/img/StarIA2.webp";
+import StarIA3 from "../../assets/img/StarIA3.webp";
+import StarIA4 from "../../assets/img/StarIA4.webp";
 
 import CodiGolLogo from "../../assets/img/CódiGolLogo2.webp";
 import CodiGol from "../../assets/img/CodiGolLogo.webp";
@@ -44,19 +44,19 @@ export const ProjectsInfos = [
 
 {
     id: 1,
-    name: "Prisma",
+    name: "StarIA",
     Paragraph:
       "Agente conversacional impulsado por IA, diseñado con la API de OpenAI. Una plataforma visual y funcional para configurar agentes de inteligencia artificial conversacional.",
     Paragraph2:
       "Ideal para equipos, negocios o profesionales que buscan integrar un agente conversacional en sus plataformas.",
 
     BackgroundDiv: "bg-slate-950",
-    web: "https://prisma-ia.netlify.app/",
-    github: "https://github.com/FernadoCodeDev/prisma",
-    logo: Prisma2,
-    image1: Prisma,
-    image2: Prisma3,
-    image3: Prisma4,
+    web: "https://staria.netlify.app/",
+    github: "https://github.com/FernadoCodeDev/StarIA",
+    logo: StarIA2,
+    image1: StarIA,
+    image2: StarIA3,
+    image3: StarIA4,
     icons: [
       { icon: <SVGastro />, Background: "bg-orange-300", isImage: false },
       { icon: <SVGRect />, Background: "bg-sky-300", isImage: false },
