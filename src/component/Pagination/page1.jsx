@@ -55,7 +55,7 @@ const page1 = () => {
             <SVGTS />
           </div>
 
-          <h3 className="font-bold">Typescript</h3>
+          <h3 className="font-bold">TypeScript</h3>
         </div>
 
         <div class="h-auto bg-slate-100 dark:bg-neutral-800 shadow-xl dark:shadow-neutral-700/40  p-4 text-center flex flex-col justify-center items-center gap-4">
