@@ -9,10 +9,7 @@ const Footer = () => {
         </h1>
 
         <p className="mb-4 text-lg leading-relaxed">
-          Soy un desarrollador apasionado por la creación de soluciones web
-          modernas y eficientes. Si deseas conocer más sobre mis proyectos,
-          habilidades o colaborar en algún reto, no dudes en echar un vistazo a
-          los repositorios y versiones desplegadas de mis proyectos.
+          Función bloqueo de deploy
         </p>
       </div>
 
