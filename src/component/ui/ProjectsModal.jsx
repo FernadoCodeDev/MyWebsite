@@ -11,34 +11,34 @@ import SVGJS from "../../assets/svg/js";
 import SVGSass from "../../assets/svg/sass";
 import SVGphp from "../../assets/svg/php";
 import SVGmysql from "../../assets/svg/mysql";
-import MVC from "../../assets/img/MVC.webp";
-import Clerk from "../../assets/img/Clerk.webp";
+import MVC from "../../../public/img/MVC.webp";
+import Clerk from "../../../public/img/Clerk.webp";
 
-import StarIA from "../../assets/img/StarIA.webp";
-import StarIA2 from "../../assets/img/StarIA2.webp";
-import StarIA3 from "../../assets/img/StarIA3.webp";
-import StarIA4 from "../../assets/img/StarIA4.webp";
+import StarIA from "../../../public/img/StarIA.webp";
+import StarIA2 from "../../../public/img/StarIA2.webp";
+import StarIA3 from "../../../public/img/StarIA3.webp";
+import StarIA4 from "../../../public/img/StarIA4.webp";
 
-import CodiGolLogo from "../../assets/img/CódiGolLogo2.webp";
-import CodiGol from "../../assets/img/CodiGolLogo.webp";
-import CodiGol2 from "../../assets/img/CodiGol2.webp";
-import CodiGol3 from "../../assets/img/CodiGol3.webp";
+import CodiGolLogo from "../../../public/img/CódiGolLogo2.webp";
+import CodiGol from "../../../public/img/CodiGolLogo.webp";
+import CodiGol2 from "../../../public/img/CodiGol2.webp";
+import CodiGol3 from "../../../public/img/CodiGol3.webp";
 import CodiGol4 from "../../assets/video/CódiGolClip.mp4";
 
-import LandingMine from "../../assets/img/LandingMine.webp";
+import LandingMine from "../../../public/img/LandingMine.webp";
 import LandingMineVideo from "../../assets/video/LandingMineVideo.mp4";
 
-import CosmicPizza from "../../assets/img/CosmicPizza.webp";
-import CosmicPizzaB from "../../assets/img/CosmicPizzaB.webp";
-import CosmicPizza2 from "../../assets/img/CosmicPizza2.webp";
-import CosmicPizza3 from "../../assets/img/CosmicPizza3.webp";
-import CosmicPizza4 from "../../assets/img/CosmicPizza4.webp";
+import CosmicPizza from "../../../public/img/CosmicPizza.webp";
+import CosmicPizzaB from "../../../public/img/CosmicPizzaB.webp";
+import CosmicPizza2 from "../../../public/img/CosmicPizza2.webp";
+import CosmicPizza3 from "../../../public/img/CosmicPizza3.webp";
+import CosmicPizza4 from "../../../public/img/CosmicPizza4.webp";
 
-import KeysHomes from "../../assets/img/KeysHomes.webp";
-import KeysHomesB from "../../assets/img/KeysHomesB.webp";
-import KeysHomes2 from "../../assets/img/KeysHomes2.webp";
-import KeysHomes3 from "../../assets/img/KeysHomes3.webp";
-import KeysHomes4 from "../../assets/img/KeysHomes4.webp";
+import KeysHomes from "../../../public/img/KeysHomes.webp";
+import KeysHomesB from "../../../public/img/KeysHomesB.webp";
+import KeysHomes2 from "../../../public/img/KeysHomes2.webp";
+import KeysHomes3 from "../../../public/img/KeysHomes3.webp";
+import KeysHomes4 from "../../../public/img/KeysHomes4.webp";
 
 export const ProjectsInfos = [
 

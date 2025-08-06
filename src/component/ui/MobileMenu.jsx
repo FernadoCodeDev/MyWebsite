@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import MobileMenuIcon from "../../assets/img/MobileMenu.webp";
+import MobileMenuIcon from "../../../public/img/MobileMenu.webp";
 
 const MobileMenu = ({
   textColor = "text-gray-500",

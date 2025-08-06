@@ -6,7 +6,7 @@ import SVGgulp from "../../assets/svg/gulp";
 import SVGpostman from "../../assets/svg/postman";
 import SVGfigma from "../../assets/svg/figma";
 import SVGcanva from "../../assets/svg/canva";
-import Clerk from "../../assets/img/Clerk.webp";
+import Clerk from "../../../public/img/Clerk.webp";
 
 const page5 = () => {
   return (

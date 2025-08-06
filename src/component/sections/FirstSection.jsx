@@ -1,5 +1,5 @@
 import React from "react";
-import ImgFirstSection from "../../assets/img/ImgFirstSection.webp";
+import ImgFirstSection from "../../../public/img/ImgFirstSection.webp";
 import useScrollAnimation from "../hooks/ScrollAnimation";
 
 const FirstSection = () => {

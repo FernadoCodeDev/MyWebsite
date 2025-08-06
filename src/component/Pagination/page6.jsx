@@ -1,8 +1,8 @@
 import React from "react";
 import SVGdatabases from "../../assets/svg/databases";
 import SVGresponsive from "../../assets/svg/responsive";
-import MVC from "../../assets/img/MVC.webp";
-import crud from "../../assets/img/crud.webp";
+import MVC from "../../../public/img/MVC.webp";
+import crud from "../../../public/img/crud.webp";
 import SVGhttp from "../../assets/svg/http";
 
 const page6 = () => {
