@@ -9,16 +9,17 @@ import Footer from "../layout/Footer";
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" type="image" href="/public/img/Logo.webp"/>
+    <link rel="icon" type="image" href="/img/Logo.webp"/>
     <meta name="viewport" content="width=device-width" />
     <meta name="generator" content={Astro.generator} />
 
     <title>Fercode</title>
   </head>
-  <body class="text-black bg-white dark:text-white dark:bg-neutral-800">
-    <div class="flex flex-row min-h-screen">
+  <body class="text-black dark:text-white bg-slate-100 dark:bg-gray-950">
      
       <main class="flex flex-col flex-1 w-full min-h-screen">
+
+       <Header client:load />
 
         <div class="flex items-center justify-center flex-1">
           <section
@@ -29,6 +30,5 @@ import Footer from "../layout/Footer";
         </div>
       </main>
 
-    </div>
   </body>
 </html>
