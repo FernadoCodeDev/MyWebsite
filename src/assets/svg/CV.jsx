@@ -7,7 +7,7 @@ const CV = (props) => (
     y={0}
     x={0}
     preserveAspectRatio="xMidYMid meet"
-    className="w-12 h-12 shrink-0"
+    className="w-4 h-auto shrink-0 fill-current"
     {...props}
   >
     <g id="SVGRepo_bgCarrier" strokeWidth={0} />

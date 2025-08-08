@@ -1,13 +1,13 @@
 import React from "react";
 const GitHub = (props) => (
     <svg
-    fill="#ffffff"
+    fill="current"
     viewBox="0 0 1920 1920"
     xmlns="http://www.w3.org/2000/svg"
     y={0}
     x={0}
     preserveAspectRatio="xMidYMid meet"
-    className="w-12 h-12 shrink-0 fill-neutral-50"
+    className="w-4 h-auto shrink-0 fill-current"
     {...props}
   >
     <g id="SVGRepo_bgCarrier" strokeWidth={0} />
