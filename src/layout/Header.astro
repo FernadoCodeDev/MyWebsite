@@ -1,0 +1,28 @@
+---
+
+import DarkMode from '../component/ui/DarkMode.jsx';
+import IconsContact from "../component/ui/IconsContact"
+import Link from '../assets/svg/Link.jsx';
+
+---
+
+<div class="flex flex-col items-start justify-between w-full h-auto gap-4 p-4 pb-4 border-b-2 border-gray-400">
+  <div class="flex flex-row items-center w-full justify-between max-w-[80rem] m-auto gap-4">
+    <div class="flex flex-row items-center justify-center gap-2">
+      <img src="/img/ImgFirstSection.webp" alt="ImgFirstSection" class="w-16 h-auto" />
+      <h1 class="text-2xl font-bold text-blue-500">Fernando Mejía</h1>
+    </div>
+    <DarkMode client:load />
+  </div>
+
+  <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, sequi deserunt ipsum provident minus cumque quisquam vitae perspiciatis eveniet commodi nostrum animi, error necessitatibus molestiae nesciunt harum exercitationem numquam mollitia.
+  </p>
+
+  <div class="flex flex-row gap-2">
+    <Link />
+    <p class="font-bold text-blue-400">fercode.netlify.app/</p>
+  </div>
+
+  <IconsContact client:load />
+</div>
