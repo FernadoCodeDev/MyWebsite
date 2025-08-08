@@ -4,7 +4,6 @@ const database = (props) => (
     viewBox="0 0 16 16"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
-    className="w-4 h-auto fill-current shrink-0"
     {...props}
   >
     <g id="SVGRepo_bgCarrier" strokeWidth={0} />
