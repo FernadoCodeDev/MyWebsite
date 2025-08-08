@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
-import CV from "../../assets/svg/CV";
 import CVES from "../../assets/cv/CV - Fernando Mejía Español.pdf";
 import CVEN from "../../assets/cv/CV - Fernando Mejía English.pdf";
+import Cv from "../../assets/svg/CV";
 
 const DownloadCVButton = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -18,21 +18,21 @@ const DownloadCVButton = () => {
 
   return (
     <div className="relative">
-      <button
-        onClick={toggleModal}
-        className="relative flex items-center justify-start w-16 h-20 gap-2 p-2 pr-6 font-bold duration-700 bg-blue-600 rounded group hover:w-full hover:bg-blue-700 text-neutral-50 before:duration-700 before:hover:500 before:absolute before:-z-10 before:left-8 before:hover:left-40 before:w-6 before:h-6 before:bg-sky-700 before:hover:bg-sky-600 before:rotate-45"
+  
+      <button 
+      className="flex flex-row gap-2 p-2 transition-all duration-700 ease-out bg-transparent rounded-lg cursor-pointer cursor hover:bg-slate-300 dark:hover:bg-slate-800"
+       onClick={toggleModal}
       >
-        <CV />
-        <span className="inline-flex px-1 text-lg transition-all duration-100 origin-center transform scale-x-0 border-l-2 opacity-0 md:text-xl group-hover:duration-300 group-hover:delay-500 group-hover:opacity-100 group-hover:scale-x-100">
-          Descargar CV
-        </span>
+        <Cv />
+        <p className="">CV</p>
+
       </button>
 
       {/* Modal */}
       {isOpen && (
-        <div className="fixed inset-0 z-10 flex items-center justify-center bg-black bg-opacity-30">
-          <div className="w-full p-6 bg-white rounded-lg shadow-lg max-w-[60rem]">
-            <h2 className="mb-4 text-xl font-bold">Elige el idioma</h2>
+        <div className="fixed inset-0 z-10 flex items-center justify-center bg-black bg-opacity-40 p-4">
+          <div className="w-full p-6 bg-white rounded-lg shadow-lg max-w-[50rem]">
+            <h2 className="mb-4 text-xl font-bold text-gray-950">Elige el idioma</h2>
             <div className="flex justify-between gap-4">
               <a
                 href={CVES}
