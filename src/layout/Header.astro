@@ -6,6 +6,7 @@ import GitHub from "../assets/svg/GitHub";
 import Gmail from "../assets/svg/Gmail";
 import FrontEnd from "../assets/svg/FrontEnd";
 import BackEnd from "../assets/svg/BackEnd";
+import FullStack from "../assets/svg/FullStack";
 import Modal from "../component/ui/Modal";
 ---
 
@@ -39,7 +40,7 @@ import Modal from "../component/ui/Modal";
   </div>
 
   <div
-    class="flex flex-row gap-4 items-start justify-between text-gray-500 max-w-[60rem] md:hidden"
+    class="flex flex-wrap gap-4 items-start justify-between text-gray-500 max-w-[60rem] md:hidden"
   >
     <div
       class="flex flex-row gap-2 transition-all duration-700 ease-out cursor-pointer hover:text-blue-400"
@@ -52,6 +53,12 @@ import Modal from "../component/ui/Modal";
     >
       <BackEnd />
       <p class="">BackEnd</p>
+    </div>
+    <div
+      class="flex flex-row gap-2 transition-all duration-700 ease-out cursor-pointer hover:text-blue-400"
+    >
+      <FullStack />
+      <p class="">Full-Stack</p>
     </div>
   </div>
 

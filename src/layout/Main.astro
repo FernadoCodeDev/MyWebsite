@@ -4,6 +4,7 @@ import "../styles/global.css";
 import Link from "../assets/svg/Link.jsx";
 import FrontEnd from "../assets/svg/FrontEnd";
 import BackEnd from "../assets/svg/BackEnd";
+import FullStack from "../assets/svg/FullStack";
 import Recent from "../assets/svg/recent";
 ---
 
@@ -12,12 +13,12 @@ import Recent from "../assets/svg/recent";
     class="mx-auto grid grid-cols-1 md:grid-cols-3 justify-center items-center gap-4 w-full max-w-[80rem] p-4"
   >
     <div
-      class="col-span-1 md:col-span-2 w-full flex flex-col h-auto border-2 border-gray-500 rounded-md"
+      class="flex flex-col w-full h-auto col-span-1 border-2 border-gray-500 rounded-md md:col-span-2"
     >
       <div
         class="flex flex-wrap items-center justify-between gap-2 p-2 bg-slate-200 dark:bg-gray-900"
       >
-        <div class="flex flex-row items-center  gap-2">
+        <div class="flex flex-row items-center gap-2">
           <img
             src="/img/ImgFirstSection.webp"
             alt="ImgFirstSection"
@@ -25,7 +26,7 @@ import Recent from "../assets/svg/recent";
           />
           <h1 class="text-xl font-bold text-blue-500">
             FernandoCodeDev
-            <span class="text-gray-500 text-base font-normal">
+            <span class="text-base font-normal text-gray-500">
               First Commit
             </span>
           </h1>
@@ -40,7 +41,7 @@ import Recent from "../assets/svg/recent";
       </div>
     </div>
 
-    <div class="hidden col-span-1 md:flex flex-col">
+    <div class="flex-col hidden col-span-1 md:flex">
       <div class="flex flex-col pb-2 border-b border-gray-400">
         <p class="flex">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, sequi
@@ -69,6 +70,13 @@ import Recent from "../assets/svg/recent";
             <BackEnd />
             <p class="">BackEnd</p>
           </div>
+
+           <div
+      class="flex flex-row gap-2 transition-all duration-700 ease-out cursor-pointer hover:text-blue-400"
+    >
+      <FullStack />
+      <p class="">Full-Stack</p>
+    </div>
         </div>
       </div>
     </div>
