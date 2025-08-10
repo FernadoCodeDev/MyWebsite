@@ -1,11 +1,11 @@
 import * as React from "react";
-const SVGComponent = (props) => (
+const CV = (props) => (
   <svg
     viewBox="0 0 24 24"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
     {...props}
-     class="w-4 h-auto fill-current shrink-0"
+     className="w-4 h-auto fill-current shrink-0"
   >
     <g id="SVGRepo_bgCarrier" strokeWidth={0} />
     <g
@@ -25,4 +25,4 @@ const SVGComponent = (props) => (
     </g>
   </svg>
 );
-export default SVGComponent;
+export default CV;
