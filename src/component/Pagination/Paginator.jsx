@@ -1,11 +1,14 @@
 import { useState } from "react";
 import Folder from "../../assets/svg/Folder";
 import File from "../../assets/svg/File";
+import Page1 from "./page1";
+import Page2 from "./page2";
+import Page3 from "./page3";
 
 const pages = [
-  { id: "sobre-mi", title: "Sobre Mí", content: "Este es el contenido de Sobre Mí" },
-  { id: "tecnologias", title: "Tecnologías", content: "Aquí van las tecnologías" },
-  { id: "proyectos", title: "Proyectos", content: "Lista de proyectos" },
+  { id: "page-1", title: "Sobre Mí", content: Page1 },
+  { id: "page-2", title: "Tecnologías", content: Page2 },
+  { id: "page-3", title: "Proyectos", content: Page3 }, 
 ];
 
 export default function Paginator({ pages, activePage, setActivePage }) {
@@ -24,7 +27,7 @@ export default function Paginator({ pages, activePage, setActivePage }) {
               <Folder />
               <h1>{page.title}</h1>
             </div>
-            <div className="hidden text-gray-500  md:flex">First Commit</div>
+            <div className="hidden text-gray-500 md:flex">First Commit</div>
             <div className="flex text-gray-500">1 Day ago</div>
           </button>
         ))}
