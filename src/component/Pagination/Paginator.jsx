@@ -24,7 +24,7 @@ export default function Paginator({ pages, activePage, setActivePage }) {
               <Folder />
               <h1>{page.title}</h1>
             </div>
-            <div className="flex text-gray-500">First Commit</div>
+            <div className="hidden text-gray-500  md:flex">First Commit</div>
             <div className="flex text-gray-500">1 Day ago</div>
           </button>
         ))}
@@ -35,7 +35,7 @@ export default function Paginator({ pages, activePage, setActivePage }) {
             <File />
             <h1>.gitignore</h1>
           </div>
-          <div className="flex text-gray-500">First Commit</div>
+          <div className="hidden text-gray-500 md:flex">First Commit</div>
           <div className="flex text-gray-500">1 Day ago</div>
         </div>
 
@@ -44,7 +44,7 @@ export default function Paginator({ pages, activePage, setActivePage }) {
             <File />
             <h1>README.md</h1>
           </div>
-          <div className="flex text-gray-500">First Commit</div>
+          <div className="hidden text-gray-500 md:flex">First Commit</div>
           <div className="flex text-gray-500">1 Day ago</div>
         </div>
       </div>
