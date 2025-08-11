@@ -1,95 +1,54 @@
+// Paginator.jsx
 import { useState } from "react";
+import Folder from "../../assets/svg/Folder";
+import File from "../../assets/svg/File";
 
-import FrontEnd from "../../assets/svg/FrontEnd";
-import BackEnd from "../../assets/svg/BackEnd";
-import Database from "../../assets/svg/Database";
-import Learning from "../../assets/svg/Learning";
-import Tools from "../../assets/svg/Tools";
-import Development from "../../assets/svg/DevelopmentSVG";
-
-const icons = [
-  {
-    icon: <FrontEnd />,
-    label: "Front-End",
-    color: "text-orange-700",
-    Background: "bg-orange-100",
-  },
-  {
-    icon: <BackEnd />,
-    label: "Back-End",
-    color: "text-blue-700",
-    Background: "bg-blue-100",
-  },
-  {
-    icon: <Database />,
-    label: "Base de datos",
-    color: "text-emerald-700",
-    Background: "bg-emerald-100",
-  },
-  {
-    icon: <Learning />,
-    label: "Aprendiendo",
-    color: "text-yellow-700",
-    Background: "bg-yellow-100",
-  },
-  {
-    icon: <Tools />,
-    label: "Herramientas",
-    color: "text-violet-700",
-    Background: "bg-violet-100",
-  },
-  {
-    icon: <Development />,
-    label: "Prácticas de Desarrollo",
-    color: "text-beige-700",
-    Background: "bg-beige-100",
-  },
+const pages = [
+  { id: "sobre-mi", title: "Sobre Mí", content: "Este es el contenido de Sobre Mí" },
+  { id: "tecnologias", title: "Tecnologías", content: "Aquí van las tecnologías" },
+  { id: "proyectos", title: "Proyectos", content: "Lista de proyectos" },
 ];
 
-const Paginator = ({ pages }) => {
-  const [currentStep, setCurrentStep] = useState(1);
-
+export default function Paginator({ pages, activePage, setActivePage }) {
   return (
-    <div id="Paginator" className="flex flex-col items-center gap-6">
-      <div className="grid grid-cols-3 md:grid-cols-6 gap-2 w-full max-w-[80rem] mx-auto p-2 bg-white dark:bg-neutral-800 rounded-xl shadow-lg  hover:shadow-xl transition-all duration-300">
-        {icons.map((item, index) => {
-          const isActive = currentStep === index + 1;
-          const iconColor = isActive
-            ? item.color
-            : "text-black dark:text-white";
-
-          const hoverColor = `group-hover:${item.color}`;
-
-          return (
-            <div key={index} className="relative px-2 cursor-pointer group">
-              <div
-                onClick={() => setCurrentStep(index + 1)}
-                className={`flex h-auto w-10 md:w-20 mx-auto items-center justify-center rounded-lg p-1 transition-colors duration-300 ${
-                  isActive ? item.Background : "hover:bg-gray-50 dark:hover:bg-neutral-700"
-                } ${iconColor} ${hoverColor}`}
-              >
-                {item.icon}
-              </div>
-              <span className="absolute -top-12 left-1/2 -translate-x-1/2 text-center scale-0 group-hover:scale-100 transition-all duration-300 ease-in-out origin-bottom bg-white dark:bg-neutral-700 text-xs px-3 py-1.5 rounded-lg shadow-lg border border-gray-200 before:absolute before:-bottom-[5px] before:left-1/2 before:-translate-x-1/2 before:border-[6px] before:border-transparent before:border-t-white z-20">
-                {item.label}
-              </span>
-            </div>
-          );
-        })}
-      </div>
-
-      <div className="w-full mt-4">
-        {pages.map((PageComponent, index) => (
-          <div
-            key={index}
-            className={currentStep === index + 1 ? "block" : "hidden"}
+    <div className="w-full">
+      <div className="flex flex-col items-center justify-between w-full border-t border-gray-500 bg-slate-100 dark:bg-slate-950">
+        {pages.map((page, index) => (
+          <button
+            key={page.id}
+            onClick={() => setActivePage(page.id === activePage ? null : page.id)}
+            className={`flex flex-row items-center justify-between w-full gap-2 p-2 transition-all duration-300 bg-transparent cursor-pointer hover:bg-slate-300 dark:hover:bg-slate-800 ${
+              index > 0 ? "border-t border-gray-500" : ""
+            }`}
           >
-            <PageComponent />
-          </div>
+            <div className="flex gap-2">
+              <Folder />
+              <h1>{page.title}</h1>
+            </div>
+            <div className="flex text-gray-500">First Commit</div>
+            <div className="flex text-gray-500">1 Day ago</div>
+          </button>
         ))}
+
+        {/* Elementos estáticos */}
+        <div className="flex flex-row items-center justify-between w-full gap-2 p-2 bg-transparent border-t border-gray-500">
+          <div className="flex gap-2">
+            <File />
+            <h1>.gitignore</h1>
+          </div>
+          <div className="flex text-gray-500">First Commit</div>
+          <div className="flex text-gray-500">1 Day ago</div>
+        </div>
+
+        <div className="flex flex-row items-center justify-between w-full gap-2 p-2 bg-transparent border-t border-gray-500">
+          <div className="flex gap-2">
+            <File />
+            <h1>README.md</h1>
+          </div>
+          <div className="flex text-gray-500">First Commit</div>
+          <div className="flex text-gray-500">1 Day ago</div>
+        </div>
       </div>
     </div>
   );
-};
-
-export default Paginator;
+}
