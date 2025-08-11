@@ -6,7 +6,7 @@ import ContentPagination from "../sections/ContentPagination";
 const pages = [
   { id: "sobre-mi", title: "Sobre Mí", content: "Este es el contenido de Sobre Mí" },
   { id: "tecnologias", title: "Tecnologías", content: "Aquí van las tecnologías" },
-  { id: "proyectos", title: "Proyectos", content: "Lista de proyectos" }, //Content esta eso pero luego se cambiaran por archivos astro, aqui solo es como prueba pero luego cambiara a las pagina reales
+  { id: "proyectos", title: "Proyectos", content: "Lista de proyectos" },
 ];
 
 

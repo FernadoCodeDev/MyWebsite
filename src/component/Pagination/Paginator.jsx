@@ -1,4 +1,3 @@
-// Paginator.jsx
 import { useState } from "react";
 import Folder from "../../assets/svg/Folder";
 import File from "../../assets/svg/File";
@@ -12,7 +11,7 @@ const pages = [
 export default function Paginator({ pages, activePage, setActivePage }) {
   return (
     <div className="w-full">
-      <div className="flex flex-col items-center justify-between w-full border-t border-gray-500 bg-slate-100 dark:bg-slate-950">
+      <div className="flex flex-col items-center justify-between w-full border-b border-l border-r border-gray-500 bg-slate-100 dark:bg-slate-950 rounded-b-md">
         {pages.map((page, index) => (
           <button
             key={page.id}
@@ -30,7 +29,7 @@ export default function Paginator({ pages, activePage, setActivePage }) {
           </button>
         ))}
 
-        {/* Elementos estáticos */}
+        {/* Static elements, they are just decoration. */}
         <div className="flex flex-row items-center justify-between w-full gap-2 p-2 bg-transparent border-t border-gray-500">
           <div className="flex gap-2">
             <File />
