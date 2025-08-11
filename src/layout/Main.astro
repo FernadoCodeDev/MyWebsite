@@ -9,6 +9,9 @@ import Recent from "../assets/svg/recent.astro";
 
 import PageWrapper from "../component/Pagination/PageWrapper";
 
+import Achievements from "../component/sections/Achievements.astro";
+import Creations from "../component/sections/Creations.astro";
+
 import ProgressBar from "../component/ui/ProgressBar.astro";
 ---
 
@@ -89,17 +92,9 @@ import ProgressBar from "../component/ui/ProgressBar.astro";
         </div>
       </div>
 
-      <div class="flex flex-col pb-2 border-b border-gray-400">
-        <h5 class="font-bold">Lorem</h5>
+      <Achievements />
 
-        <p class="text-gray-500">Lorem ipsum dolor sit</p>
-      </div>
-
-      <div class="flex flex-col pb-2 border-b border-gray-400">
-        <h5 class="font-bold">Lorem</h5>
-
-        <p class="text-gray-500">Lorem ipsum dolor sit</p>
-      </div>
+      <Creations />
 
       <ProgressBar />
     </div>
