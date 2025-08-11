@@ -46,7 +46,7 @@ const vite = (props) => (
         >
           <stop stopColor="#fff" id="stop43" />
           <stop offset={0.0833} stopColor="#fff" id="stop45" />
-          <stop offset={1} stopColor="#c4b4ff" id="stop47" />
+          <stop offset={1} stopColor="currentColor" id="stop47" />
         </linearGradient>
       </defs>
     </g>
