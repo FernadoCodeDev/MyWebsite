@@ -38,6 +38,7 @@ import SVGpostman from "../../assets/svg/postman";
 import SVGfigma from "../../assets/svg/figma";
 import SVGcanva from "../../assets/svg/canva";
 
+import Development from "../../assets/svg/DevelopmentSVG";
 import SVGdatabases from "../../assets/svg/Database";
 import SVGresponsive from "../../assets/svg/responsive";
 import SVGhttp from "../../assets/svg/http";
@@ -52,11 +53,11 @@ const page2 = () => {
 
       <div className="flex flex-row items-center gap-2">
         <div className="w-8 h-auto">
-        <FrontEnd />
+          <FrontEnd />
         </div>
         <h5 className="font-bold">Front-End</h5>
       </div>
-      
+
       <div className="flex flex-wrap items-center justify-start gap-1 text-white">
         <div
           className="flex flex-row items-center justify-center h-auto gap-2 p-2 text-center text-orange-500 bg-orange-500 shadow-xl"
@@ -202,9 +203,9 @@ const page2 = () => {
         </div>
       </div>
 
-     <div className="flex flex-row items-center gap-2">
+      <div className="flex flex-row items-center gap-2">
         <div className="w-8 h-auto">
-        <BackEnd />
+          <BackEnd />
         </div>
         <h5 className="font-bold">Back-end</h5>
       </div>
@@ -244,9 +245,9 @@ const page2 = () => {
         </div>
       </div>
 
-     <div className="flex flex-row items-center gap-2">
+      <div className="flex flex-row items-center gap-2">
         <div className="w-8 h-auto">
-        <DataBase />
+          <DataBase />
         </div>
         <h5 className="font-bold">Base de datos</h5>
       </div>
@@ -288,7 +289,7 @@ const page2 = () => {
 
       <div className="flex flex-row items-center gap-2">
         <div className="w-8 h-auto">
-        <Learning />
+          <Learning />
         </div>
         <h5 className="font-bold">Aprendiendo</h5>
       </div>
@@ -317,27 +318,27 @@ const page2 = () => {
         </div>
       </div>
 
-  <div className="flex flex-row items-center gap-2">
+      <div className="flex flex-row items-center gap-2">
         <div className="w-8 h-auto">
-        <Tools />
+          <Tools />
         </div>
         <h5 className="font-bold">Herramientas</h5>
       </div>
 
       <div className="flex flex-wrap items-center justify-start gap-1 text-white">
         <div
-          className="flex flex-row items-center justify-center h-auto gap-2 p-2 text-center bg-orange-500"
+          className="flex flex-row items-center justify-center h-auto gap-2 p-2 text-center text-orange-500 bg-orange-500"
         >
           <div
             className="flex flex-col items-center justify-center w-12 h-auto"
           >
             <SVGgit />
           </div>
-          <h1 className="font-bold">GIT</h1>
+          <h1 className="font-bold text-white">GIT</h1>
         </div>
 
         <div
-          className="flex flex-row items-center justify-center h-auto gap-2 p-2 text-center bg-neutral-500 "
+          className="flex flex-row items-center justify-center h-auto gap-2 p-2 text-center bg-neutral-900 "
         >
           <div
             className="flex flex-col items-center justify-center w-12 h-auto"
@@ -348,14 +349,14 @@ const page2 = () => {
         </div>
 
         <div
-          className="flex flex-row items-center justify-center h-auto gap-2 p-2 text-center bg-red-500"
+          className="flex flex-row items-center justify-center h-auto gap-2 p-2 text-center text-red-500 bg-red-500"
         >
           <div
             className="flex flex-col items-center justify-center w-12 h-auto"
           >
             <SVGnpm />
           </div>
-          <h1 className="font-bold">NPM</h1>
+          <h1 className="font-bold text-white">NPM</h1>
         </div>
 
         <div
@@ -370,14 +371,14 @@ const page2 = () => {
         </div>
 
         <div
-          className="flex flex-row items-center justify-center h-auto gap-2 p-2 text-center bg-orange-500"
+          className="flex flex-row items-center justify-center h-auto gap-2 p-2 text-center text-orange-500 bg-orange-500"
         >
           <div
             className="flex flex-col items-center justify-center w-12 h-auto"
           >
             <SVGpostman />
           </div>
-          <h1 className="font-bold">Postman</h1>
+          <h1 className="font-bold text-white">Postman</h1>
         </div>
 
         <div
@@ -415,13 +416,19 @@ const page2 = () => {
         </div>
       </div>
 
- { /* 
-      <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
+      <div className="flex flex-row items-center gap-2">
+        <div className="w-8 h-auto">
+          <Development />
+        </div>
+        <h5 className="font-bold">Prácticas de Desarrollo</h5>
+      </div>
+
+      <div className="flex flex-wrap items-center justify-start gap-1 text-white">
         <div
-          className="flex flex-row items-center justify-center h-auto gap-2 p-2 text-center bg-indigo-300 shadow-xl"
+          className="flex flex-row items-center justify-center h-auto gap-2 p-2 text-center bg-teal-500"
         >
           <div
-            className="flex flex-col items-center justify-center w-20 h-20 p-3 bg-teal-300 rounded-full"
+            className="flex flex-col items-center justify-center w-12 h-auto"
           >
             <SVGdatabases />
           </div>
@@ -431,10 +438,10 @@ const page2 = () => {
         </div>
 
         <div
-          className="flex flex-row items-center justify-center h-auto gap-2 p-2 text-center bg-indigo-300 shadow-xl"
+          className="flex flex-row items-center justify-center h-auto gap-2 p-2 text-center bg-sky-500"
         >
           <div
-            className="flex flex-col items-center justify-center w-20 h-20 p-4 rounded-full bg-sky-300"
+            className="flex flex-col items-center justify-center w-12 h-auto"
           >
             <SVGresponsive />
           </div>
@@ -442,10 +449,10 @@ const page2 = () => {
         </div>
 
         <div
-          className="flex flex-row items-center justify-center h-auto gap-2 p-2 text-center bg-indigo-300 shadow-xl"
+          className="flex flex-row items-center justify-center h-auto gap-2 p-2 text-center bg-slate-800 "
         >
           <div
-            className="flex flex-col items-center justify-center w-20 h-20 p-3 rounded-full bg-slate-800"
+            className="flex flex-col items-center justify-center w-[3.25rem] h-auto"
           >
             <img src="/public/img/MVC.webp" alt="MVC" className="invert" />
           </div>
@@ -453,10 +460,10 @@ const page2 = () => {
         </div>
 
         <div
-          className="flex flex-row items-center justify-center h-auto gap-2 p-2 text-center bg-indigo-300 shadow-xl"
+          className="flex flex-row items-center justify-center h-auto gap-2 p-2 text-center bg-blue-500 "
         >
           <div
-            className="flex flex-col items-center justify-center w-20 h-20 p-4 bg-blue-300 rounded-full"
+            className="flex flex-col items-center justify-center w-12 h-auto"
           >
             <img src="/public/img/crud.webp" alt="crud" className="invert" />
           </div>
@@ -464,17 +471,17 @@ const page2 = () => {
         </div>
 
         <div
-          className="flex flex-row items-center justify-center h-auto gap-2 p-2 text-center bg-indigo-300 shadow-xl"
+          className="flex flex-row items-center justify-center h-auto gap-2 p-2 text-center bg-neutral-700"
         >
           <div
-            className="flex flex-col items-center justify-center w-20 h-20 p-3 rounded-full bg-neutral-700"
+            className="flex flex-col items-center justify-center w-12 h-auto"
           >
             <SVGhttp />
           </div>
           <h1 className="font-bold">RESTful APIs</h1>
         </div>
       </div>
-      */}
+
     </div>
 
   );

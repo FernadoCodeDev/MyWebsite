@@ -45,13 +45,17 @@ import Modal from "../component/ui/Modal";
     <div
       class="flex flex-row gap-2 transition-all duration-700 ease-out cursor-pointer hover:text-blue-400"
     >
-      <FrontEnd />
+      <div class="w-5 h-auto">
+        <FrontEnd />
+      </div>
       <p class="">FrontEnd</p>
     </div>
     <div
       class="flex flex-row gap-2 transition-all duration-700 ease-out cursor-pointer hover:text-blue-400"
     >
-      <BackEnd />
+      <div class="w-5 h-auto">
+        <BackEnd client:load />
+      </div>
       <p class="">BackEnd</p>
     </div>
     <div

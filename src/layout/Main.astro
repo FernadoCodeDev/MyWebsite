@@ -7,16 +7,16 @@ import BackEnd from "../assets/svg/BackEnd";
 import FullStack from "../assets/svg/FullStack.astro";
 import Recent from "../assets/svg/recent.astro";
 
-import PageWrapper from "../component/Pagination/PageWrapper"
+import PageWrapper from "../component/Pagination/PageWrapper";
+
+import ProgressBar from "../component/ui/ProgressBar.astro";
 ---
 
 <main class="flex flex-col flex-1 w-full">
   <section
     class="mx-auto grid grid-cols-1 md:grid-cols-3 justify-center items-start gap-4 w-full max-w-[80rem] p-4"
   >
-    <div
-      class="flex flex-col w-full h-auto col-span-1 md:col-span-2"
-    >
+    <div class="flex flex-col w-full h-auto col-span-1 md:col-span-2">
       <div
         class="flex flex-wrap items-center justify-between border-2 border-gray-500 rounded-t-md bg-slate-200 dark:bg-gray-900"
       >
@@ -28,26 +28,26 @@ import PageWrapper from "../component/Pagination/PageWrapper"
           />
           <h1 class="text-xl font-bold text-blue-500">
             FernandoCodeDev
-            <span class="text-base font-normal text-gray-500">
+            <span class="hidden text-base font-normal text-gray-500 md:flex">
               First Commit
             </span>
           </h1>
         </div>
 
-        <div class="flex flex-row items-center justify-end gap-2 p-2 text-gray-500">
+        <div
+          class="flex flex-row items-center justify-end gap-2 p-2 text-gray-500"
+        >
           <p class="">f2025</p>
           <p class="">1 day ago</p>
           <Recent />
         </div>
-
-      </div> 
+      </div>
 
       <PageWrapper client:load />
     </div>
 
-
-    <div class="flex-col hidden col-span-1 md:flex">
-      <div class="flex flex-col pb-2 border-b border-gray-400">
+    <div class="flex flex-col col-span-1 gap-4">
+      <div class="flex-col hidden pb-2 border-b border-gray-400 md:flex">
         <p class="flex">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, sequi
           deserunt ipsum provident minus cumque quisquam vitae perspiciatis
@@ -66,13 +66,17 @@ import PageWrapper from "../component/Pagination/PageWrapper"
           <div
             class="flex flex-row gap-2 transition-all duration-700 ease-out cursor-pointer hover:text-blue-400"
           >
-            <FrontEnd />
+            <div class="w-5 h-auto">
+              <FrontEnd />
+            </div>
             <p class="">FrontEnd</p>
           </div>
           <div
             class="flex flex-row gap-2 transition-all duration-700 ease-out cursor-pointer hover:text-blue-400"
           >
-            <BackEnd />
+            <div class="w-5 h-auto">
+              <BackEnd />
+            </div>
             <p class="">BackEnd</p>
           </div>
 
@@ -84,6 +88,20 @@ import PageWrapper from "../component/Pagination/PageWrapper"
           </div>
         </div>
       </div>
+
+      <div class="flex flex-col pb-2 border-b border-gray-400">
+        <h5 class="font-bold">Lorem</h5>
+
+        <p class="text-gray-500">Lorem ipsum dolor sit</p>
+      </div>
+
+      <div class="flex flex-col pb-2 border-b border-gray-400">
+        <h5 class="font-bold">Lorem</h5>
+
+        <p class="text-gray-500">Lorem ipsum dolor sit</p>
+      </div>
+
+      <ProgressBar />
     </div>
   </section>
 </main>

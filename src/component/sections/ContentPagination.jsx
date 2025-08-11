@@ -14,7 +14,7 @@ export default function ContentPagination({ activePage, pages }) {
       </div>
 
       <div className="flex flex-row items-start justify-between w-full gap-2 p-4 bg-transparent border-t border-gray-500">
-     {current ? current.content : "contenido"}
+     {current ? current.content : ""}
       </div>
     </div>
   );
