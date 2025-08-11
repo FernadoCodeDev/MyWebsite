@@ -1,15 +1,6 @@
 import { useState } from "react";
 import Folder from "../../assets/svg/Folder";
 import File from "../../assets/svg/File";
-import Page1 from "./page1";
-import Page2 from "./page2";
-import Page3 from "./page3";
-
-const pages = [
-  { id: "page-1", title: "Sobre Mí", content: Page1 },
-  { id: "page-2", title: "Tecnologías", content: Page2 },
-  { id: "page-3", title: "Proyectos", content: Page3 }, 
-];
 
 export default function Paginator({ pages, activePage, setActivePage }) {
   return (

@@ -4,7 +4,6 @@ import React from "react"; const DataBase = (props) => (
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
     {...props}
-    className="w-4 h-auto fill-current shrink-0"
   >
     <g id="SVGRepo_bgCarrier" strokeWidth={0}></g>
     <g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"

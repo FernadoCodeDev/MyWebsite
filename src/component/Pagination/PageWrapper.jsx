@@ -7,10 +7,11 @@ import Page2 from "./page2";
 import Page3 from "./page3";
 
 const pages = [
-  { id: "page-1", title: "Sobre Mí", content: Page1 },
-  { id: "page-2", title: "Tecnologías", content: Page2 },
-  { id: "page-3", title: "Proyectos", content: Page3 }, 
+  { id: "page-1", title: "Sobre Mí", content: <Page1 /> },
+  { id: "page-2", title: "Tecnologías", content: <Page2 /> },
+  { id: "page-3", title: "Proyectos", content: <Page3 /> }, 
 ];
+
 
 
 export default function PageWrapper() {
