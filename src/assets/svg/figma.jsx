@@ -1,7 +1,8 @@
 import React from "react";
 const figma = (props) => (
   <svg
-    viewBox="0 0 32 32"
+    viewBox="-4 0 23 23"
+    id="meteor-icon-kit__solid-figma"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
     {...props}
@@ -14,34 +15,24 @@ const figma = (props) => (
     />
     <g id="SVGRepo_iconCarrier">
       <path
-        fillRule="evenodd"
-        clipRule="evenodd"
-        d="M16 16C16 13.7909 17.7909 12 20 12C22.2091 12 24 13.7909 24 16C24 18.2091 22.2091 20 20 20C17.7909 20 16 18.2091 16 16Z"
-        fill="#fff"
+        d="M7 0H3.5C1.567 0 0 1.567 0 3.5C0 5.433 1.567 7 3.5 7H7V0z"
+        fill="currentColor"
       />
       <path
-        fillRule="evenodd"
-        clipRule="evenodd"
-        d="M8 24C8 21.7909 9.79086 20 12 20H16V24C16 26.2091 14.2091 28 12 28C9.79086 28 8 26.2091 8 24Z"
-        fill="#fff"
+        d="M8 0H11.5C13.433 0 15 1.567 15 3.5C15 5.433 13.433 7 11.5 7H8V0z"
+        fill="currentColor"
       />
       <path
-        fillRule="evenodd"
-        clipRule="evenodd"
-        d="M16 4V12H20C22.2091 12 24 10.2091 24 8C24 5.79086 22.2091 4 20 4H16Z"
-        fill="#fff"
+        d="M7 8H3.5C1.567 8 0 9.567 0 11.5C0 13.433 1.567 15 3.5 15H7V8z"
+        fill="currentColor"
       />
       <path
-        fillRule="evenodd"
-        clipRule="evenodd"
-        d="M8 8C8 10.2091 9.79086 12 12 12H16V4H12C9.79086 4 8 5.79086 8 8Z"
-        fill="#fff"
+        d="M7 16H3.5C1.567 16 0 17.567 0 19.5C0 21.433 1.567 23 3.5 23C5.433 23 7 21.433 7 19.5V16z"
+        fill="currentColor"
       />
       <path
-        fillRule="evenodd"
-        clipRule="evenodd"
-        d="M8 16C8 18.2091 9.79086 20 12 20H16V12H12C9.79086 12 8 13.7909 8 16Z"
-        fill="#fff"
+        d="M11.5 15C13.433 15 15 13.433 15 11.5C15 9.567 13.433 8 11.5 8C9.567 8 8 9.567 8 11.5C8 13.433 9.567 15 11.5 15z"
+        fill="currentColor"
       />
     </g>
   </svg>
