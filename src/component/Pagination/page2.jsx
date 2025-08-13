@@ -409,7 +409,7 @@ const page2 = () => {
           <div
             className="flex flex-col items-center justify-center h-auto w-9"
           >
-            <img src="/public/img/Clerk.webp" alt="Clerk" className="mr-2 invert" />
+            <img src="/img/Clerk.webp" alt="Clerk" className="mr-2 invert" />
           </div>
 
           <h1 className="font-bold">Clerk SDK</h1>
@@ -454,7 +454,7 @@ const page2 = () => {
           <div
             className="flex flex-col items-center justify-center w-[3.25rem] h-auto"
           >
-            <img src="/public/img/MVC.webp" alt="MVC" className="invert" />
+            <img src="/img/MVC.webp" alt="MVC" className="invert" />
           </div>
           <h1 className="font-bold">MVC (Model-View-Controller)</h1>
         </div>
@@ -465,7 +465,7 @@ const page2 = () => {
           <div
             className="flex flex-col items-center justify-center w-12 h-auto"
           >
-            <img src="/public/img/crud.webp" alt="crud" className="invert" />
+            <img src="/img/crud.webp" alt="crud" className="invert" />
           </div>
           <h1 className="font-bold">CRUD (Create, Read, Update, Delete)</h1>
         </div>
