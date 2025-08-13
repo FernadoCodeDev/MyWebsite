@@ -108,7 +108,7 @@ const page2 = () => {
         </div>
 
         <div
-          className="flex flex-row items-center justify-center h-auto gap-2 p-2 text-center bg-sky-500 "
+          className="flex flex-row items-center justify-center h-auto gap-2 p-2 text-center bg-blue-500 "
         >
           <div
             className="flex flex-col items-center justify-center w-12 h-auto "
