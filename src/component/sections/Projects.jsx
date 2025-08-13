@@ -73,9 +73,9 @@ export default function ProjectsDetails() {
               {/* Image or video with buttons */}
               <div className="relative flex justify-center w-full">
                 {isVideo(currentMedia) ? (
-                  <video src={currentMedia} controls className="w-full max-w-md rounded-lg" />
+                  <video src={currentMedia} controls className="w-full rounded-lg" />
                 ) : (
-                  <img src={currentMedia} alt={project.name} className="w-full max-w-md rounded-lg" />
+                  <img src={currentMedia} alt={project.name} className="w-full rounded-lg" />
                 )}
 
                 {mediaItems.length > 1 && (
@@ -98,6 +98,7 @@ export default function ProjectsDetails() {
 
               <p className="text-base">{project.Paragraph}</p>
               <p className="text-base">{project.Paragraph2}</p>
+              <p className="text-base">{project.Paragraph3}</p>
 
               {/* Stack */}
               <div className="flex flex-wrap gap-1 mt-2">

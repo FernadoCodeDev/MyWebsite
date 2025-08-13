@@ -12,12 +12,16 @@ import SVGSass from "../../assets/svg/sass";
 import SVGphp from "../../assets/svg/php";
 import SVGmysql from "../../assets/svg/mysql";
 import AIsvg from "../../assets/svg/AI";
+import NodeSVG from "../../assets/svg/node";
+import SqliteSVG from "../../assets/svg/sqlite";
+import ExpressSVG from "../../assets/svg/Express";
+import WordPress from "../../assets/svg/wordpressSVG";
 
 import CodiGol4 from "../../assets/video/CódiGolClip.mp4";
 
 import LandingMineVideo from "../../assets/video/LandingMineVideo.mp4";
 
-  {/* 
+{/* 
 
   The way to bring an image is different with Astro and React. 
   What is imported here is the React way, but in the Array you 
@@ -29,6 +33,32 @@ export const ProjectsInfos = [
 
   {
     id: 1,
+    name: "Survey Container",
+    Paragraph:
+      "Survey Container es un SDK de encuestas internas desarrollado en React y TypeScript, acompañado de un backend modular en Node.js, Express y TypeScript, diseñado para gestionar encuestas, procesar respuestas y ofrecer métricas agrupadas por pregunta. El SDK expone un componente reutilizable, listo para integrarse en múltiples aplicaciones, y cuenta con un tipado fuerte en todo el stack para garantizar robustez y escalabilidad.",
+    Paragraph2:
+      "Este proyecto incluye también una API completamente funcional, con endpoints optimizados para consultas eficientes a la base de datos, así como una arquitectura clara que separa responsabilidades y facilita su mantenimiento a largo plazo. Para su desarrollo, se creó un paquete NPM público, una demo interactiva que permite probar la dependencia y detectar posibles mejoras, y una implementación real en un sitio de WordPress, demostrando su flexibilidad de integración en diferentes entornos.",
+    Paragraph3:
+      "Ideal para empresas, equipos de desarrollo o plataformas que necesiten un sistema de encuestas internas rápido de integrar, altamente personalizable y con métricas listas para análisis, sin sacrificar buenas prácticas de diseño de SDKs y arquitectura backend.",
+
+    web: "https://surveycontainer.wordpress.com/",
+    github: "https://github.com/FernadoCodeDev/demo-survey-container",
+    image1: "/public/img/SurveyContainer.webp",
+    image2: "/public/img/SurveyContainer1.webp",
+    image3: "/public/img/SurveyContainer2.webp",
+    icons: [
+      { icon: <SVGts />, Background: "bg-blue-500", textSvg: "TypeScript", isImage: false },
+      { icon: <SVGRect />, Background: "bg-sky-500", textSvg: "React", isImage: false },
+      { icon: <NodeSVG />, Background: "bg-lime-500", textSvg: "Node", isImage: false },
+      { icon: <ExpressSVG />, Background: "bg-neutral-800", textSvg: "Express", isImage: false },
+      { icon: <SqliteSVG />, Background: "bg-sky-800", textSvg: "SQLite", isImage: false },
+      { icon: <WordPress />, Background: "bg-sky-500", textSvg: "WordPress", isImage: false }
+
+    ],
+  },
+
+  {
+    id: 2,
     name: "StarIA",
     Paragraph:
       "Agente conversacional impulsado por IA, diseñado con la API de OpenAI. Una plataforma visual y funcional para configurar agentes de inteligencia artificial conversacional.",
@@ -50,7 +80,7 @@ export const ProjectsInfos = [
   },
 
   {
-    id: 2,
+    id: 3,
     name: "CódiGol",
     Paragraph:
       "Videojuego web para aprender Tailwind CSS enfrentando partidos de fútbol. En cada encuentro, debes aplicar un nuevo método de Tailwind para anotar goles. Ideal para quienes quieren aprender y mejorar en Tailwind CSS de forma práctica y entretenida.",
@@ -70,7 +100,7 @@ export const ProjectsInfos = [
     ],
   },
   {
-    id: 3,
+    id: 4,
     name: "Landing Mine",
     Paragraph:
       "Catálogo de 19 landing pages con temáticas variadas, diseñado para mostrar interfaces modernas y adaptadas a distintos tipos de negocio.",
@@ -88,7 +118,7 @@ export const ProjectsInfos = [
   },
 
   {
-    id: 4,
+    id: 5,
     name: "Cosmic Pizza",
     Paragraph:
       "Plataforma web con sistema de reservaciones, diseñada para una pizzería pero adaptable a cualquier negocio que requiera agendar espacios. Incluye funciones como gestión de menú, número de mesas, inicio de sesión y reservas en línea.",
@@ -107,7 +137,7 @@ export const ProjectsInfos = [
     ],
   },
   {
-    id: 5,
+    id: 6,
     name: "Keys Homes",
     Paragraph:
       "Sitio web enfocado en bienes raíces en su fase inicial que busca una presencia digital funcional sin complicaciones. permitiendo mostrar propiedades, simular formularios de contacto y facilitar la comunicación directa con el cliente mediante canales como WhatsApp o redes sociales.",
