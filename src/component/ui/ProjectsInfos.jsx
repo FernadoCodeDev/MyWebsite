@@ -35,11 +35,11 @@ export const ProjectsInfos = [
     id: 1,
     name: "Survey Container",
     Paragraph:
-      "Survey Container es un SDK de encuestas internas desarrollado en React y TypeScript, acompañado de un backend modular en Node.js, Express y TypeScript, diseñado para gestionar encuestas, procesar respuestas y ofrecer métricas agrupadas por pregunta. El SDK expone un componente reutilizable, listo para integrarse en múltiples aplicaciones, y cuenta con un tipado fuerte en todo el stack para garantizar robustez y escalabilidad.",
+    "Survey Container es una dependencia NPM creada como ejercicio de una prueba técnica, cuyo objetivo era desarrollar un sistema completo de encuestas internas. La solución incluye un SDK reutilizable que facilita la integración de encuestas en distintas aplicaciones, junto con las funciones necesarias para gestionar preguntas, recopilar respuestas y mostrar métricas de manera clara.",
     Paragraph2:
-      "Este proyecto incluye también una API completamente funcional, con endpoints optimizados para consultas eficientes a la base de datos, así como una arquitectura clara que separa responsabilidades y facilita su mantenimiento a largo plazo. Para su desarrollo, se creó un paquete NPM público, una demo interactiva que permite probar la dependencia y detectar posibles mejoras, y una implementación real en un sitio de WordPress, demostrando su flexibilidad de integración en diferentes entornos.",
+    "Además del desarrollo del paquete, se creó una pequeña demo interactiva para probar su funcionamiento y detectar posibles mejoras, así como una página en WordPress utilizada como documentación y presentación del proyecto.",
     Paragraph3:
-      "Ideal para empresas, equipos de desarrollo o plataformas que necesiten un sistema de encuestas internas rápido de integrar, altamente personalizable y con métricas listas para análisis, sin sacrificar buenas prácticas de diseño de SDKs y arquitectura backend.",
+    "Ideal para empresas, equipos de desarrollo o plataformas que necesiten integrar encuestas internas de forma rápida y personalizable, manteniendo una estructura clara y preparada para escalar.",
 
     web: "https://surveycontainer.wordpress.com/",
     github: "https://github.com/FernadoCodeDev/demo-survey-container",
