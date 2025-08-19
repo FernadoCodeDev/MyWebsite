@@ -28,6 +28,7 @@ import SVGpostgresql from "../../assets/svg/postgresql";
 import Learning from "../../assets/svg/Learning"
 import SVGdocker from "../../assets/svg/docker";
 import SVGWordPress from "../../assets/svg/wordpressSVG";
+import SVGVue from "../../assets/svg/Vue";
 
 import Tools from "../../assets/svg/Tools";
 import SVGgit from "../../assets/svg/git";
@@ -315,6 +316,17 @@ const page2 = () => {
             <SVGdocker />
           </div>
           <h1 className="font-bold">Docker</h1>
+        </div>
+
+        <div
+          className="flex flex-row items-center justify-center h-auto gap-2 p-2 text-center bg-emerald-500"
+        >
+          <div
+            className="flex flex-col items-center justify-center w-12 h-auto"
+          >
+            <SVGVue />
+          </div>
+          <h1 className="font-bold">Vue</h1>
         </div>
       </div>
 
