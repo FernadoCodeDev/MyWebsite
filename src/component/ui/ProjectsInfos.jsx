@@ -16,30 +16,57 @@ import NodeSVG from "../../assets/svg/node";
 import SqliteSVG from "../../assets/svg/sqlite";
 import ExpressSVG from "../../assets/svg/Express";
 import WordPress from "../../assets/svg/wordpressSVG";
+import SVGLaravel from "../../assets/svg/laravel"
+import SVGVue from "../../assets/svg/Vue";
 
 import CodiGol4 from "../../assets/video/CódiGolClip.mp4";
 
 import LandingMineVideo from "../../assets/video/LandingMineVideo.mp4";
 
 {/* 
-
   The way to bring an image is different with Astro and React. 
   What is imported here is the React way, but in the Array you 
   can place the address to display the images. 
   
-  */ }
+  */
+}
 
 export const ProjectsInfos = [
 
   {
     id: 1,
+    name: "Cooktopia",
+    Paragraph:
+      "COOKTOPIA SHOP es un E-commerce especializado en artículos de cocina, desarrollado como parte de una prueba técnica con el objetivo de construir una tienda en línea funcional inspirada en la experiencia de WooCommerce.",
+
+    web: "cooktopiashop.netlify.app/",
+    github: "https://github.com/FernadoCodeDev/Cooktopia-Backend",
+    image1: "/img/Cooktopia.webp",
+    image2: "/img/Cooktopia2.webp",
+    image3: "/img/Cooktopia3.webp",
+    image34: "/img/Cooktopia4.webp",
+    icons: [
+      { icon: <SVGJS />, Background: "bg-yellow-500", textSvg: "JavaScript", isImage: false },
+      { icon: <SVGRect />, Background: "bg-sky-500", textSvg: "React", isImage: false },
+      { icon: <SVGTailwind />, Background: "bg-cyan-500", textSvg: "Tailwind", isImage: false },
+      { icon: <SVGVite />, Background: "bg-violet-500", textSvg: "Vite", isImage: false },
+      { icon: <SVGphp />, Background: "bg-indigo-500", textSvg: "PHP", isImage: false },
+      { icon: <SVGLaravel />, Background: "bg-red-500", textSvg: "Laravel", isImage: false },
+      { icon: <SVGmysql />, Background: "bg-orange-500", textSvg: "MySQL", isImage: false },
+      { icon: "/img/MVC.webp", Background: "bg-slate-800", textSvg: "MVC (Model-View-Controller)", isImage: true }
+
+    ],
+  },
+
+  {
+    id: 2,
     name: "Survey Container",
     Paragraph:
-    "Survey Container es una dependencia NPM creada como ejercicio de una prueba técnica, cuyo objetivo era desarrollar un sistema completo de encuestas internas. La solución incluye un SDK reutilizable que facilita la integración de encuestas en distintas aplicaciones, junto con las funciones necesarias para gestionar preguntas, recopilar respuestas y mostrar métricas de manera clara.",
+      "Survey Container es una dependencia NPM creada como ejercicio de una prueba técnica, cuyo objetivo era desarrollar un sistema completo de encuestas internas. La solución incluye un SDK reutilizable que facilita la integración de encuestas en distintas aplicaciones, junto con las funciones necesarias para gestionar preguntas, recopilar respuestas y mostrar métricas de manera clara.",
     Paragraph2:
-    "Además del desarrollo del paquete, se creó una pequeña demo interactiva para probar su funcionamiento y detectar posibles mejoras, así como una página en WordPress utilizada como documentación y presentación del proyecto.",
+      "Además del desarrollo del paquete, se creó una pequeña demo interactiva para probar su funcionamiento y detectar posibles mejoras, así como una página en WordPress utilizada como documentación y presentación del proyecto.",
     Paragraph3:
-    "Ideal para empresas, equipos de desarrollo o plataformas que necesiten integrar encuestas internas de forma rápida y personalizable, manteniendo una estructura clara y preparada para escalar.",
+      "Ideal para empresas, equipos de desarrollo o plataformas que necesiten integrar encuestas internas de forma rápida y personalizable, manteniendo una estructura clara y preparada para escalar.",
 
     web: "https://surveycontainer.wordpress.com/",
     github: "https://github.com/FernadoCodeDev/demo-survey-container",
@@ -58,7 +85,7 @@ export const ProjectsInfos = [
   },
 
   {
-    id: 2,
+    id: 3,
     name: "StarIA",
     Paragraph:
       "Agente conversacional impulsado por IA, diseñado con la API de OpenAI. Una plataforma visual y funcional para configurar agentes de inteligencia artificial conversacional.",
@@ -80,7 +107,7 @@ export const ProjectsInfos = [
   },
 
   {
-    id: 3,
+    id: 4,
     name: "CódiGol",
     Paragraph:
       "Videojuego web para aprender Tailwind CSS enfrentando partidos de fútbol. En cada encuentro, debes aplicar un nuevo método de Tailwind para anotar goles. Ideal para quienes quieren aprender y mejorar en Tailwind CSS de forma práctica y entretenida.",
@@ -100,7 +127,7 @@ export const ProjectsInfos = [
     ],
   },
   {
-    id: 4,
+    id: 5,
     name: "Landing Mine",
     Paragraph:
       "Catálogo de 19 landing pages con temáticas variadas, diseñado para mostrar interfaces modernas y adaptadas a distintos tipos de negocio.",
@@ -118,7 +145,7 @@ export const ProjectsInfos = [
   },
 
   {
-    id: 5,
+    id: 6,
     name: "Cosmic Pizza",
     Paragraph:
       "Plataforma web con sistema de reservaciones, diseñada para una pizzería pero adaptable a cualquier negocio que requiera agendar espacios. Incluye funciones como gestión de menú, número de mesas, inicio de sesión y reservas en línea.",
@@ -130,14 +157,19 @@ export const ProjectsInfos = [
     image3: "/img/CosmicPizza3.webp",
     image4: "/img/CosmicPizza4.webp",
     icons: [
-      { icon: <SVGJS />, Background: "bg-yellow-500", textSvg: "JavaScript", isImage: false },
+      { icon: <SVGts />, Background: "bg-blue-500", textSvg: "TypeScript", isImage: false },
+      { icon: <SVGVue />, Background: "bg-emerald-500", textSvg: "Vue", isImage: false },
+
+   { icon: <SVGTailwind />, Background: "bg-cyan-500", textSvg: "Tailwind", isImage: false },
+      { icon: <SVGVite />, Background: "bg-violet-500", textSvg: "Vite", isImage: false },
       { icon: <SVGphp />, Background: "bg-indigo-500", textSvg: "PHP", isImage: false },
+      { icon: <SVGLaravel />, Background: "bg-red-500", textSvg: "Laravel", isImage: false },
       { icon: <SVGmysql />, Background: "bg-orange-500", textSvg: "MySQL", isImage: false },
-      { icon: "/img/MVC.webp", Background: "bg-slate-800", textSvg: "MVC (Model-View-Controller)", isImage: true },
+      { icon: "/img/MVC.webp", Background: "bg-slate-800", textSvg: "MVC (Model-View-Controller)", isImage: true }
     ],
   },
   {
-    id: 6,
+    id: 7,
     name: "Keys Homes",
     Paragraph:
       "Sitio web enfocado en bienes raíces en su fase inicial que busca una presencia digital funcional sin complicaciones. permitiendo mostrar propiedades, simular formularios de contacto y facilitar la comunicación directa con el cliente mediante canales como WhatsApp o redes sociales.",

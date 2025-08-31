@@ -5,7 +5,6 @@ import GitHub2 from "../../assets/svg/Github2";
 
 export default function ProjectsDetails() {
 
-
   const [currentImages, setCurrentImages] = useState(
     ProjectsInfos.map(() => 0)
   );
