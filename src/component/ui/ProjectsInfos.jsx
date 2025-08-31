@@ -39,7 +39,7 @@ export const ProjectsInfos = [
     Paragraph:
       "COOKTOPIA SHOP es un E-commerce especializado en artículos de cocina, desarrollado como parte de una prueba técnica con el objetivo de construir una tienda en línea funcional inspirada en la experiencia de WooCommerce.",
 
-    web: "cooktopiashop.netlify.app/",
+    web: "https://cooktopiashop.netlify.app/",
     github: "https://github.com/FernadoCodeDev/Cooktopia-Backend",
     image1: "/img/Cooktopia.webp",
     image2: "/img/Cooktopia2.webp",
