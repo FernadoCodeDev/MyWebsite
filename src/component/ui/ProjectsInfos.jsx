@@ -44,7 +44,7 @@ export const ProjectsInfos = [
     image1: "/img/Cooktopia.webp",
     image2: "/img/Cooktopia2.webp",
     image3: "/img/Cooktopia3.webp",
-    image34: "/img/Cooktopia4.webp",
+    image4: "/img/Cooktopia4.webp",
     icons: [
       { icon: <SVGJS />, Background: "bg-yellow-500", textSvg: "JavaScript", isImage: false },
       { icon: <SVGRect />, Background: "bg-sky-500", textSvg: "React", isImage: false },
@@ -159,8 +159,7 @@ export const ProjectsInfos = [
     icons: [
       { icon: <SVGts />, Background: "bg-blue-500", textSvg: "TypeScript", isImage: false },
       { icon: <SVGVue />, Background: "bg-emerald-500", textSvg: "Vue", isImage: false },
-
-   { icon: <SVGTailwind />, Background: "bg-cyan-500", textSvg: "Tailwind", isImage: false },
+      { icon: <SVGTailwind />, Background: "bg-cyan-500", textSvg: "Tailwind", isImage: false },
       { icon: <SVGVite />, Background: "bg-violet-500", textSvg: "Vite", isImage: false },
       { icon: <SVGphp />, Background: "bg-indigo-500", textSvg: "PHP", isImage: false },
       { icon: <SVGLaravel />, Background: "bg-red-500", textSvg: "Laravel", isImage: false },
