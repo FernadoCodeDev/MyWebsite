@@ -130,13 +130,14 @@ export const ProjectsInfos = [
     id: 5,
     name: "Landing Mine",
     Paragraph:
-      "Catálogo de 19 landing pages con temáticas variadas, diseñado para mostrar interfaces modernas y adaptadas a distintos tipos de negocio.",
+      "Catálogo de 13 landing pages con temáticas variadas, diseñado para mostrar interfaces modernas y adaptadas a distintos tipos de negocio.",
     Paragraph2:
       "Ideal para reclutadores o clientes que buscan ver ejemplos reales de diseño profesional aplicado a distintos sectores.",
     web: "https://landingmine.netlify.app/",
     github: "https://github.com/FernadoCodeDev/LandingMine",
     image1: LandingMineVideo,
     icons: [
+      { icon: <SVGastro />, Background: "bg-orange-500", textSvg: "Astro", isImage: false },
       { icon: <SVGJS />, Background: "bg-yellow-500", textSvg: "JavaScript", isImage: false },
       { icon: <SVGRect />, Background: "bg-sky-500", textSvg: "React", isImage: false },
       { icon: <SVGTailwind />, Background: "bg-cyan-500", textSvg: "Tailwind", isImage: false },
