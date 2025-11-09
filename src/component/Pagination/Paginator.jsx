@@ -10,36 +10,35 @@ export default function Paginator({ pages, activePage, setActivePage }) {
           <button
             key={page.id}
             onClick={() => setActivePage(page.id === activePage ? null : page.id)}
-            className={`flex flex-row items-center justify-between w-full gap-2 p-2 transition-all duration-300 bg-transparent cursor-pointer hover:bg-slate-300 dark:hover:bg-slate-800 ${
-              index > 0 ? "border-t border-gray-500" : ""
-            }`}
+            className={`grid grid-cols-2 md:grid-cols-3 items-center justify-center w-full gap-2 p-2 transition-all duration-300 bg-transparent cursor-pointer hover:bg-slate-300 dark:hover:bg-slate-800 ${index > 0 ? "border-t border-gray-500" : ""
+              }`}
           >
-            <div className="flex gap-2">
+            <div className="flex justify-start gap-2">
               <Folder />
               <h1>{page.title}</h1>
             </div>
-            <div className="hidden text-gray-500 md:flex">First Commit</div>
-            <div className="flex text-gray-500">1 Day ago</div>
+            <div className="justify-center hidden text-gray-500 md:flex">First Commit</div>
+            <div className="flex justify-end text-gray-500">1 Day ago</div>
           </button>
         ))}
 
         {/* Static elements, they are just decoration. */}
-        <div className="flex flex-row items-center justify-between w-full gap-2 p-2 bg-transparent border-t border-gray-500">
-          <div className="flex gap-2">
+        <div className="grid items-center justify-center w-full grid-cols-2 gap-2 p-2 bg-transparent border-t border-gray-500 md:grid-cols-3">
+          <div className="flex justify-start gap-2">
             <File />
             <h1>.gitignore</h1>
           </div>
-          <div className="hidden text-gray-500 md:flex">First Commit</div>
-          <div className="flex text-gray-500">1 Day ago</div>
+          <div className="justify-center hidden text-gray-500 md:flex">First Commit</div>
+          <div className="flex justify-end text-gray-500">1 Day ago</div>
         </div>
 
-        <div className="flex flex-row items-center justify-between w-full gap-2 p-2 bg-transparent border-t border-gray-500">
-          <div className="flex gap-2">
+        <div className="grid items-center justify-center w-full grid-cols-2 gap-2 p-2 bg-transparent border-t border-gray-500 md:grid-cols-3">
+          <div className="flex justify-start gap-2">
             <File />
             <h1>README.md</h1>
           </div>
-          <div className="hidden text-gray-500 md:flex">First Commit</div>
-          <div className="flex text-gray-500">1 Day ago</div>
+          <div className="justify-center hidden text-gray-500 md:flex">First Commit</div>
+          <div className="flex justify-end text-gray-500">1 Day ago</div>
         </div>
       </div>
     </div>
