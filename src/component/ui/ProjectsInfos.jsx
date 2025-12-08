@@ -40,11 +40,12 @@ export const ProjectsInfos = [
       "COOKTOPIA SHOP es un E-commerce especializado en artículos de cocina, desarrollado como parte de una prueba técnica con el objetivo de construir una tienda en línea funcional inspirada en la experiencia de WooCommerce.",
 
     web: "https://cooktopiashop.netlify.app/",
-    github: "https://github.com/FernadoCodeDev/Cooktopia-Backend",
+    github: "https://github.com/FernandoMejiaDev/Cooktopia-Backend",
     image1: "/img/Cooktopia.webp",
     image2: "/img/Cooktopia2.webp",
     image3: "/img/Cooktopia3.webp",
     image4: "/img/Cooktopia4.webp",
+
     icons: [
       { icon: <SVGJS />, Background: "bg-yellow-500", textSvg: "JavaScript", isImage: false },
       { icon: <SVGRect />, Background: "bg-sky-500", textSvg: "React", isImage: false },
@@ -69,7 +70,7 @@ export const ProjectsInfos = [
       "Ideal para empresas, equipos de desarrollo o plataformas que necesiten integrar encuestas internas de forma rápida y personalizable, manteniendo una estructura clara y preparada para escalar.",
 
     web: "https://surveycontainer.wordpress.com/",
-    github: "https://github.com/FernadoCodeDev/demo-survey-container",
+    github: "https://github.com/FernandoMejiaDev/demo-survey-container",
     image1: "/img/SurveyContainer.webp",
     image2: "/img/SurveyContainer1.webp",
     image3: "/img/SurveyContainer2.webp",
@@ -93,7 +94,7 @@ export const ProjectsInfos = [
       "Ideal para equipos, negocios o profesionales que buscan integrar un agente conversacional en sus plataformas.",
 
     web: "https://staria.netlify.app/",
-    github: "https://github.com/FernadoCodeDev/StarIA",
+    github: "https://github.com/FernandoMejiaDev/StarIA",
     image1: "/img/StarIA.webp",
     image2: "/img/StarIA3.webp",
     image3: "/img/StarIA4.webp",
@@ -114,7 +115,7 @@ export const ProjectsInfos = [
     Paragraph2:
       "Proyecto desarrollado y destacado en la Hackathon de MiduDev 2025.",
     web: "https://codigol-demo.netlify.app/",
-    github: "https://github.com/FernadoCodeDev/CodiGol-Demo",
+    github: "https://github.com/FernandoMejiaDev/CodiGol-Demo",
     image1: "/img/CodiGolLogo.webp",
     image2: "/img/CodiGol2.webp",
     image3: "/img/CodiGol3.webp",
@@ -134,7 +135,7 @@ export const ProjectsInfos = [
     Paragraph2:
       "Ideal para reclutadores o clientes que buscan ver ejemplos reales de diseño profesional aplicado a distintos sectores.",
     web: "https://landingmine.netlify.app/",
-    github: "https://github.com/FernadoCodeDev/LandingMine",
+    github: "https://github.com/FernandoMejiaDev/LandingMine",
     image1: LandingMineVideo,
     icons: [
       { icon: <SVGastro />, Background: "bg-orange-500", textSvg: "Astro", isImage: false },
@@ -152,7 +153,7 @@ export const ProjectsInfos = [
       "Plataforma web con sistema de reservaciones, diseñada para una pizzería pero adaptable a cualquier negocio que requiera agendar espacios. Incluye funciones como gestión de menú, número de mesas, inicio de sesión y reservas en línea.",
     Paragraph2:
       "Ideal para negocios que buscan mejorar su eficiencia y ofrecer una experiencia más práctica a sus clientes.",
-    github: "https://github.com/FernadoCodeDev/Cosmic-Pizza",
+    github: "https://github.com/FernandoMejiaDev/Cosmic-Pizza",
     image1: "/img/CosmicPizzaB.webp",
     image2: "/img/CosmicPizza2.webp",
     image3: "/img/CosmicPizza3.webp",
@@ -176,7 +177,7 @@ export const ProjectsInfos = [
     Paragraph2:
       "Ideal para emprendimientos que desean organizar su oferta y facilitar el contacto, sin necesidad de plataformas complejas.",
     web: "http://keyshome.atwebpages.com/",
-    github: "https://github.com/FernadoCodeDev/KeysHomes",
+    github: "https://github.com/FernandoMejiaDev/KeysHomes",
     image1: "/img/KeysHomesB.webp",
     image2: "/img/KeysHomes2.webp",
     image3: "/img/KeysHomes3.webp",
