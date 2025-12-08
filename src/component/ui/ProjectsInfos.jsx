@@ -115,7 +115,7 @@ export const ProjectsInfos = [
     Paragraph2:
       "Proyecto desarrollado y destacado en la Hackathon de MiduDev 2025.",
     web: "https://codigol-demo.netlify.app/",
-    github: "https://github.com/FernandoMejiaDev/CodiGol-Demo",
+    github: "https://github.com/FernandoMejiaDev/CodiGol-remastered",
     image1: "/img/CodiGolLogo.webp",
     image2: "/img/CodiGol2.webp",
     image3: "/img/CodiGol3.webp",
@@ -135,7 +135,7 @@ export const ProjectsInfos = [
     Paragraph2:
       "Ideal para reclutadores o clientes que buscan ver ejemplos reales de diseño profesional aplicado a distintos sectores.",
     web: "https://landingmine.netlify.app/",
-    github: "https://github.com/FernandoMejiaDev/LandingMine",
+    github: "https://github.com/FernandoMejiaDev/LandingMine-remastered",
     image1: LandingMineVideo,
     icons: [
       { icon: <SVGastro />, Background: "bg-orange-500", textSvg: "Astro", isImage: false },
