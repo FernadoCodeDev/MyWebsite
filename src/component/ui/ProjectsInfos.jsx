@@ -155,9 +155,6 @@ export const ProjectsInfos = [
       "Ideal para negocios que buscan mejorar su eficiencia y ofrecer una experiencia más práctica a sus clientes.",
     github: "https://github.com/FernandoMejiaDev/Cosmic-Pizza",
     image1: "/img/CosmicPizzaB.webp",
-    image2: "/img/CosmicPizza2.webp",
-    image3: "/img/CosmicPizza3.webp",
-    image4: "/img/CosmicPizza4.webp",
     icons: [
       { icon: <SVGts />, Background: "bg-blue-500", textSvg: "TypeScript", isImage: false },
       { icon: <SVGVue />, Background: "bg-emerald-500", textSvg: "Vue", isImage: false },
