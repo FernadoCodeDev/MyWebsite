@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import Moon from "../../assets/svg/Moon";
 
 const DarkMode = () => {
   const [darkMode, setDarkMode] = useState(false);
@@ -23,12 +24,13 @@ const DarkMode = () => {
   }, [darkMode]);
 
   return (
-    <img
-      src="/img/DarkMode.webp"
-      alt="DarkModeIcon"
-      className="w-20 h-auto cursor-pointer invert dark:invert-0 md:w-24"
+    <div
+
       onClick={() => setDarkMode(!darkMode)}
-    />
+    >
+      <Moon className="w-20 h-20 cursor-pointer" />
+
+    </div>
   );
 };
 

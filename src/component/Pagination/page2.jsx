@@ -34,6 +34,7 @@ import Tools from "../../assets/svg/Tools";
 import SVGgit from "../../assets/svg/git";
 import SVGgitHub from "../../assets/svg/Github2";
 import SVGnpm from "../../assets/svg/npm";
+import SVGpnpm from "../../assets/svg/pnpm";
 import SVGgulp from "../../assets/svg/gulp";
 import SVGpostman from "../../assets/svg/postman";
 import SVGfigma from "../../assets/svg/figma";
@@ -369,6 +370,17 @@ const page2 = () => {
             <SVGnpm />
           </div>
           <h1 className="font-bold text-white">NPM</h1>
+        </div>
+
+        <div
+          className="flex flex-row items-center justify-center h-auto gap-2 p-2 text-center text-white bg-amber-500"
+        >
+          <div
+            className="flex flex-col items-center justify-center w-12 h-auto"
+          >
+            <SVGpnpm />
+          </div>
+          <h1 className="font-bold text-white">PNPM</h1>
         </div>
 
         <div

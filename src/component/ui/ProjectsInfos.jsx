@@ -18,6 +18,7 @@ import ExpressSVG from "../../assets/svg/Express";
 import WordPress from "../../assets/svg/wordpressSVG";
 import SVGLaravel from "../../assets/svg/laravel"
 import SVGVue from "../../assets/svg/Vue";
+import SVGpnpm from "../../assets/svg/pnpm";
 
 import CodiGol4 from "../../assets/video/CódiGolClip.mp4";
 
@@ -50,10 +51,11 @@ export const ProjectsInfos = [
       { icon: <SVGJS />, Background: "bg-yellow-500", textSvg: "JavaScript", isImage: false },
       { icon: <SVGRect />, Background: "bg-sky-500", textSvg: "React", isImage: false },
       { icon: <SVGTailwind />, Background: "bg-cyan-500", textSvg: "Tailwind", isImage: false },
-      { icon: <SVGVite />, Background: "bg-violet-500", textSvg: "Vite", isImage: false },
       { icon: <SVGphp />, Background: "bg-indigo-500", textSvg: "PHP", isImage: false },
       { icon: <SVGLaravel />, Background: "bg-red-500", textSvg: "Laravel", isImage: false },
       { icon: <SVGmysql />, Background: "bg-orange-500", textSvg: "MySQL", isImage: false },
+      { icon: <SVGVite />, Background: "bg-violet-500", textSvg: "Vite", isImage: false },
+      { icon: <SVGpnpm />, Background: "bg-amber-500", textSvg: "PNPM", isImage: false },
       { icon: "/img/MVC.webp", Background: "bg-slate-800", textSvg: "MVC (Model-View-Controller)", isImage: true }
 
     ],
@@ -103,6 +105,7 @@ export const ProjectsInfos = [
       { icon: <SVGRect />, Background: "bg-sky-500", textSvg: "React", isImage: false },
       { icon: <SVGts />, Background: "bg-blue-500", textSvg: "TypeScript", isImage: false },
       { icon: <SVGTailwind />, Background: "bg-cyan-500", textSvg: "Tailwind", isImage: false },
+      { icon: <SVGpnpm />, Background: "bg-amber-500", textSvg: "PNPM", isImage: false },
       { icon: <AIsvg />, Background: "bg-emerald-500", textSvg: "API-DE-OPENAI", isImage: false }
     ],
   },
@@ -124,6 +127,7 @@ export const ProjectsInfos = [
       { icon: <SVGJS />, Background: "bg-yellow-500", textSvg: "JavaScript", isImage: false },
       { icon: <SVGRect />, Background: "bg-sky-500", textSvg: "React", isImage: false },
       { icon: <SVGTailwind />, Background: "bg-cyan-500", textSvg: "Tailwind", isImage: false },
+      { icon: <SVGpnpm />, Background: "bg-amber-500", textSvg: "PNPM", isImage: false },
       { icon: "/img/Clerk.webp", Background: "bg-purple-500", textSvg: "Clerk", isImage: true },
     ],
   },
@@ -143,6 +147,8 @@ export const ProjectsInfos = [
       { icon: <SVGRect />, Background: "bg-sky-500", textSvg: "React", isImage: false },
       { icon: <SVGTailwind />, Background: "bg-cyan-500", textSvg: "Tailwind", isImage: false },
       { icon: <SVGVite />, Background: "bg-violet-500", textSvg: "Vite", isImage: false },
+      { icon: <SVGpnpm />, Background: "bg-amber-500", textSvg: "PNPM", isImage: false },
+
     ],
   },
 
@@ -159,10 +165,11 @@ export const ProjectsInfos = [
       { icon: <SVGts />, Background: "bg-blue-500", textSvg: "TypeScript", isImage: false },
       { icon: <SVGVue />, Background: "bg-emerald-500", textSvg: "Vue", isImage: false },
       { icon: <SVGTailwind />, Background: "bg-cyan-500", textSvg: "Tailwind", isImage: false },
-      { icon: <SVGVite />, Background: "bg-violet-500", textSvg: "Vite", isImage: false },
       { icon: <SVGphp />, Background: "bg-indigo-500", textSvg: "PHP", isImage: false },
       { icon: <SVGLaravel />, Background: "bg-red-500", textSvg: "Laravel", isImage: false },
       { icon: <SVGmysql />, Background: "bg-orange-500", textSvg: "MySQL", isImage: false },
+      { icon: <SVGVite />, Background: "bg-violet-500", textSvg: "Vite", isImage: false },
+      { icon: <SVGpnpm />, Background: "bg-amber-500", textSvg: "PNPM", isImage: false },
       { icon: "/img/MVC.webp", Background: "bg-slate-800", textSvg: "MVC (Model-View-Controller)", isImage: true }
     ],
   },
