@@ -22,8 +22,8 @@
 
 <div align="left">
 
-  <img src="https://github.com/FernandoMejiaDev/MyWebsite/blob/master/readme/img3.webp" alt="alt" width="70%">
-  <img src="https://github.com/FernandoMejiaDev/MyWebsite/blob/master/readme/img4.webp" alt="alt" width="18%">
+  <img src="https://github.com/FernandoMejiaDev/MyWebsite/blob/master/readme/img3.webp" alt="alt" width="74%">
+  <img src="https://github.com/FernandoMejiaDev/MyWebsite/blob/master/readme/img4.webp" alt="alt" width="19%">
 
 </div>
 
@@ -31,8 +31,8 @@
 
 <div align="left">
 
-  <img src="https://github.com/FernandoMejiaDev/MyWebsite/blob/master/readme/img5.webp" alt="alt" width="70%">
-  <img src="https://github.com/FernandoMejiaDev/MyWebsite/blob/master/readme/img6.webp" alt="alt" width="19%">
+  <img src="https://github.com/FernandoMejiaDev/MyWebsite/blob/master/readme/img5.webp" alt="alt" width="74%">
+  <img src="https://github.com/FernandoMejiaDev/MyWebsite/blob/master/readme/img6.webp" alt="alt" width="20%">
 
 </div>
 
@@ -40,7 +40,8 @@
 
 <div align="left">
 
-  <img src="https://github.com/FernandoMejiaDev/MyWebsite/blob/master/readme/img7.webp" alt="alt" width="61%">
-  <img src="https://github.com/FernandoMejiaDev/MyWebsite/blob/master/readme/img8.webp" alt="alt" width="25%">
+  <img src="https://github.com/FernandoMejiaDev/MyWebsite/blob/master/readme/img7.webp" alt="alt" width="68%">
+  <img src="https://github.com/FernandoMejiaDev/MyWebsite/blob/master/readme/img8.webp" alt="alt" width="28%">
 
 </div>
+
