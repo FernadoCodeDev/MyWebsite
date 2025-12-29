@@ -45,3 +45,13 @@
 
 </div>
 
+---
+
+<div align="left">
+
+[![LinkedIn](https://img.shields.io/static/v1?message=LinkedIn&logo=readdotcv&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge)](https://www.linkedin.com/in/fernando-mejía-866a4b363)
+[![GITHUB](https://img.shields.io/static/v1?message=GITHUB&logo=Github&label=&color=22262A&logoColor=white&labelColor=&style=for-the-badge)](https://github.com/FernadoCodeDev)
+[![portafolio](https://img.shields.io/static/v1?message=portafolio&logo=devbox&label=&color=071D49&logoColor=white&labelColor=&style=for-the-badge)](https://fercode.netlify.app/)
+[![GMAIL](https://img.shields.io/static/v1?message=GMAIL&logo=gmail&label=&color=EA4335&logoColor=white&labelColor=&style=for-the-badge)](mailto:fernandomejiadev@gmail.com)
+
+</div>
