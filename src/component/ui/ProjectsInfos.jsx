@@ -106,7 +106,9 @@ export const ProjectsInfos = [
       { icon: <SVGts />, Background: "bg-blue-500", textSvg: "TypeScript", isImage: false },
       { icon: <SVGTailwind />, Background: "bg-cyan-500", textSvg: "Tailwind", isImage: false },
       { icon: <SVGpnpm />, Background: "bg-amber-500", textSvg: "PNPM", isImage: false },
-      { icon: <AIsvg />, Background: "bg-emerald-500", textSvg: "API-DE-OPENAI", isImage: false }
+      { Background: "bg-orange-600", textSvg: "Modelo-de-IA-con-GROQ"},
+      { icon: <AIsvg />, Background: "bg-emerald-500", textSvg: "modelo-openai-gpt-oss-20b", isImage: false }
+
     ],
   },
 
