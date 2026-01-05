@@ -50,8 +50,8 @@ const page2 = () => {
   return (
 
     <div id="page-2" className="grid grid-cols-1 gap-4">
-      <h1 className="text-xl font-bold text-center md:text-2xl">Tecnologías que domino y sigo perfeccionandoACK</h1>
-      <p className="text-lg text-center f md:text-xl">Mi experiencia y enfoque trabajando con Front-end, Back-end, bases de datos, herramientas, prácticas de desarrollo y tecnologías que actualmente estoy aprendiendo.</p>
+      <h1 className="text-xl font-bold text-start md:text-2xl">Tecnologías que domino y sigo perfeccionando</h1>
+      <p className="text-lg text-start f md:text-xl">Mi experiencia y enfoque trabajando con Front-end, Back-end, bases de datos, herramientas, prácticas de desarrollo y tecnologías que actualmente estoy aprendiendo.</p>
 
       <div className="flex flex-row items-center gap-2">
         <div className="w-8 h-auto">
@@ -62,7 +62,7 @@ const page2 = () => {
 
       <div className="flex flex-wrap items-center justify-start gap-1 text-white">
         <div
-          className="flex flex-row items-center justify-center h-auto gap-2 p-2 text-center text-orange-500 bg-orange-500 shadow-xl"
+          className="flex flex-row items-center justify-center h-auto gap-2 p-2 text-start text-orange-500 bg-orange-500 shadow-xl"
         >
           <div
             className="flex items-center justify-center w-12 h-auto"
@@ -74,7 +74,7 @@ const page2 = () => {
         </div>
 
         <div
-          className="flex flex-row items-center justify-center h-auto gap-2 p-2 text-center text-indigo-500 bg-indigo-500 shadow-xl "
+          className="flex flex-row items-center justify-center h-auto gap-2 p-2 text-start text-indigo-500 bg-indigo-500 shadow-xl "
         >
           <div
             className="flex flex-row items-center justify-center w-12 h-auto"
@@ -274,7 +274,7 @@ const page2 = () => {
           >
             <SVGsqlite />
           </div>
-          <h1 className="font-bold">SQlite</h1>
+          <h1 className="font-bold">SQLite</h1>
         </div>
 
         <div
